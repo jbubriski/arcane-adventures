@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "A Magic Box with a Putrid Egg"
-date: 2023-10-32 10:00:00
+title:  "A Magic Box with a Putrid Egg"
+date:   2023-10-32 10:00:00 -0400
 categories: magic-item multi-use tier-1 tier-2 tier-3 tier-4
 ---
 
