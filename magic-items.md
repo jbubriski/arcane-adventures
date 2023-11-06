@@ -1,5 +1,7 @@
 ---
 layout: home
+title: Magic Items for your DND 5e or tabletop game
+permalink: /magic-items/
 ---
 
 Magic Items
