@@ -27,6 +27,8 @@ url: "thearcanearcade.com" # the base hostname & protocol for your site, e.g. ht
 twitter_username: JohnBubriski
 github_username:  jbubriski
 
+permalink: /:categories/:title:output_ext
+
 # Build settings
 theme: jekyll-theme-cayman
 #remote_theme: pages-themes/cayman@v0.2.0

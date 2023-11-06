@@ -1,8 +1,9 @@
 ---
-layout: post
-title:  "A Magic Box with a Putrid Egg"
-date:   2023-10-31 10:00:00 -0400
-categories: dnd dnd-5e magic-item multi-use tier-1 tier-2 tier-3 tier-4
+layout:     post
+title:      "A Magic Box with a Putrid Egg"
+date:       2023-10-31 10:00:00 -0400
+categories: magic-item
+tags:       dnd dnd-5e magic-item multi-use tier-1 tier-2 tier-3 tier-4
 ---
 
 The box is a nondescript but well-made wooden box. The surface has no carvings or embellishments except for a maker's mark "A.D." on the bottom.  The edges have a slim rounded bevel, and the box shows no signs of wear. The box has a magical enchantment placed on it making it extremely durable.  The hinge and clasp appear to be made of a brass colored metal. The clasp closes and stays shut with a satisfying snap. Shaking the box does not cause it to open, but the clasp can be easily undone by hand.
