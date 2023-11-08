@@ -6,11 +6,35 @@ categories: magic-item
 tags:       dnd dnd-5e magic-item multi-use tier-1 tier-2 tier-3 tier-4
 ---
 
+<style>
+    .image-left {
+        display: block;
+        float: left;
+        width: 400px;
+        padding-right: 20px
+    }
+
+    .image-right {
+        display: block;
+        float: right;
+        width: 400px;
+        padding-left: 20px
+    }
+</style>
+
+<a href="/assets/magic-box-with-putrid-egg/box-01.png" class="image-right">
+    <img src="/assets/magic-box-with-putrid-egg/box-01.png" alt="The Magic Box with a Putrid Egg inside" />
+</a>
+
 The box is a nondescript but well-made wooden box. The surface has no carvings or embellishments except for a maker's mark "A.D." on the bottom.  The edges have a slim rounded bevel, and the box shows no signs of wear. The box has a magical enchantment placed on it making it extremely durable.  The hinge and clasp appear to be made of a brass colored metal. The clasp closes and stays shut with a satisfying snap. Shaking the box does not cause it to open, but the clasp can be easily undone by hand.
 
 The interior of the box is well padded with fabric and contains a single Putrid Egg. The egg is a yellowish brown color with a leathery shell. It is about 2 times the size of a large chicken egg but the species is unknown. The egg is slightly squishy, but too much force will cause the egg shell to rupture. While closed, the box protects the egg from damage and no smell escapes.
 
 When the box is opened the egg gives off a foul odor that instantly permeates throughout a 15 ft radius circle. The odor cloud is invisible and is only detectable by smell. Closing the box will instantly and completely contain the smell, removing the odor cloud.
+
+<a href="/assets/magic-box-with-putrid-egg/box-02.png" class="image-right">
+    <img src="/assets/magic-box-with-putrid-egg/box-02.png" alt="Alternate image of the Magic Box with a Putrid Egg inside" />
+</a>
 
 The odor is so foul that all living creatures with any sense of smell within range are forced to make a DC 15 Constitution saving throw. On a failed save the creature is forced to use their next reaction to vomit. They also receive a -2 AC penalty while trying to block the odor. Concentration checks must also be made on a failed save. A successful save causes no adverse effects but the odor is still terrible.
 
@@ -21,3 +45,12 @@ When porous surfaces like cloth or fur (not on a living creature) are splattered
 Creatures splattered will stink for 30 days. Bathing will reduce the stink bit by bit, requiring 7 full baths to fully remove the stink. Prestidigitation does not work on the stink, but can remove the stains.
 
 Without the egg, the box can be used to completely mask the smell of an item, as long as it fits fully in the box and the box is completely closed.
+
+## Additional Images
+
+All images were generate with Chat GPT 4. The images above were color adjusted by me to look more... putrid...
+
+![Source image for the Magic Box with a Putrid Egg inside](/assets/magic-box-with-putrid-egg/box-source-01.png)
+![Source image for the Magic Box with a Putrid Egg inside](/assets/magic-box-with-putrid-egg/box-source-02.png)
+![Source image for the Magic Box with a Putrid Egg inside](/assets/magic-box-with-putrid-egg/box-source-03.png)
+![Source image for the Magic Box with a Putrid Egg inside](/assets/magic-box-with-putrid-egg/box-source-04.png)
