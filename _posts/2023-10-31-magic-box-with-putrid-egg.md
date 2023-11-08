@@ -32,7 +32,7 @@ The interior of the box is well padded with fabric and contains a single Putrid 
 
 When the box is opened the egg gives off a foul odor that instantly permeates throughout a 15 ft radius circle. The odor cloud is invisible and is only detectable by smell. Closing the box will instantly and completely contain the smell, removing the odor cloud.
 
-<a href="/assets/images/magic-box-with-putrid-egg/box-02.png" class="image-right">
+<a href="/assets/images/magic-box-with-putrid-egg/box-02.png" class="image-left">
     <img src="/assets/images/magic-box-with-putrid-egg/box-02.png" alt="Alternate image of the Magic Box with a Putrid Egg inside" />
 </a>
 
