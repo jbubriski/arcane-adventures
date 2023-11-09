@@ -8,7 +8,7 @@ image:      /assets/images/magic-box-with-putrid-egg/box-01.png
 images:
     - url: /assets/images/magic-box-with-putrid-egg/box-01.png
       alt: The Magic Box with a Putrid Egg inside
-    - urL: /assets/images/magic-box-with-putrid-egg/box-02.png
+    - url: /assets/images/magic-box-with-putrid-egg/box-02.png
       alt: Alternate image of the Magic Box with a Putrid Egg inside
 imagesExtra:
     - url: /assets/images/magic-box-with-putrid-egg/box-source-01.png
