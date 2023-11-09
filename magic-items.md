@@ -13,7 +13,7 @@ Here is a collection of magic items I've created for your enjoyment in your DND 
     <a href="{{ post.url }}">{{ post.title }}</a>
     <div class="tags">
     {% for tag in post.tags %}
-      <span class="btn btn-small">{{ tag }}</span>
+      <span class="tag">{{ tag }}</span>
     {% endfor %}
     </div>
   </div>
