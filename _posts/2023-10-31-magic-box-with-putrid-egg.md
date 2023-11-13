@@ -1,6 +1,7 @@
 ---
 layout:     post
 title:      "A Magic Box with a Putrid Egg - Magic Item for DnD"
+title_simple:      "A Magic Box with a Putrid Egg"
 date:       2023-10-31 10:00:00 -0400
 categories: magic-item
 tags:       dnd dnd-5e magic-item multi-use tier-1 tier-2 tier-3 tier-4
@@ -31,11 +32,11 @@ The interior of the box is well padded with fabric and contains a single Putrid 
 
 When the box is opened the egg gives off a foul odor that instantly permeates throughout a 15 ft radius circle. The odor cloud is invisible and is only detectable by smell. Closing the box will instantly and completely contain the smell, removing the odor cloud.
 
+The odor is so foul that all living creatures with any sense of smell within range are forced to make a DC 15 Constitution saving throw. On a failed save the creature is forced to use their next reaction to vomit. They also receive a -2 AC penalty while trying to block the odor. Concentration checks must also be made on a failed save. A successful save causes no adverse effects but the odor is still terrible.
+
 <a href="{{ page.images[1].url }}" class="image-left" title="{{ page.images[1].alt }}">
     <img src="{{ page.images[1].url }}" alt="{{ page.images[1].alt }}" />
 </a>
-
-The odor is so foul that all living creatures with any sense of smell within range are forced to make a DC 15 Constitution saving throw. On a failed save the creature is forced to use their next reaction to vomit. They also receive a -2 AC penalty while trying to block the odor. Concentration checks must also be made on a failed save. A successful save causes no adverse effects but the odor is still terrible.
 
 Dropping, throwing, or puncturing the egg causes it to burst on impact. The impacted surface, roughly in a 5 ft square, is splattered with the translucent yellow-green fluid, but chunky, contents of the egg, and gives off the same odor cloud with the same effects, but the radius is increased to a 25 ft circle. The odor cloud cannot be dispelled or blown away by wind. The only recourse is to remove the affected surface, bury it under 6 feet of dirt or submerge it completely in water. For example, a wooden floor would need to be torn up and buried in the ground or sunk to the bottom of a body of water.
 
@@ -47,6 +48,6 @@ Without the egg, the box can be used to completely mask the smell of an item, as
 
 ## Additional Images
 
-All images were generate with Chat GPT 4. The images above were color adjusted by me to look more... putrid... The images below were some other results that you might find interesting.
+All images were generated with Chat GPT 4. The images above were color adjusted by me to look more... putrid... The images below are some other results you might find interesting.
 
 {% include additional-images.html %}

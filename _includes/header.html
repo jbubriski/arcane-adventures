@@ -9,7 +9,7 @@
 </style>
 
 <header class="page-header" role="banner">
-    <h2 class="project-name"><a href="/">{{ page.title | default: site.title | default: site.github.repository_name }}</a></h1>
+    <h2 class="project-name"><a href="/">{{ site.title | default: site.github.repository_name }}</a></h1>
     <h3 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
 
 {% include menu.html %}

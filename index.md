@@ -5,7 +5,11 @@
 layout: home
 ---
 
-Latest Posts
+
+<h1>Welcome to the {{ site.title }}</h1>
+
+Check out the latest posts below, or use the menu to find more specfic types of posts.
+## Latest Posts
 
 <ul>
   {% for post in site.posts %}
