@@ -19,6 +19,16 @@
 
     <main id="content" class="main-content" role="main">
       <h1 class="project-name">{{ page.title_simple }}</h1>
+      {% assign image = page.images[0] %}
+      {% include post-image.html side="right" url=image.url alt=image.alt %}
+
+      <em>{{ page.date | date: "%B %-d, %Y" }}</em>
+
+      {% include tags.html %}
+
+      {% if page.requires_attunement %}
+      Requires attunement
+      {% endif %}
 
       {{ content }}
     </main>

@@ -23,10 +23,6 @@ imagesExtra:
 ---
 
 
-{% assign image = page.images[0] %}
-{% include post-image.html side="right" url=image.url alt=image.alt %}
-
-
 This Stupid Doll was gifted to a great wizard by his annoying aunt. The Wizard felt it was beneath him to play with stupid dolls, so he aimed to mold it into something useful. He cast a powerful spell to bring it to life, but the doll was so stupid it couldn’t even receive the enchantment correctly. The result was a magical servant more useless than a paladin with no oath.
 
 The Stupid Doll is a simple golem made from cloth and stuffing. It has rounded stumps for hands so its carrying ability/capactiy is limited. It can speak and understand common and will attempt to follow verbal commands. Its responses will usually be 1-3 words. 
@@ -47,11 +43,12 @@ A thorough investigation of the doll reveals that there is a solid object inside
 The creature holding the doll when the vial bursts is soaked in poison and takes 2d8 poison damage.
 
 
+## DM Notes
+
+
 {% assign image = page.images[1] %}
 {% include post-image.html side="right" url=image.url alt=image.alt %}
 
-
-## DM Notes
 
 Example responses/actions include:
 

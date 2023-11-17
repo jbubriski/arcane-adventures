@@ -1,6 +1,6 @@
 <div class="additional-images">
     {% for image in page.imagesExtra %}
-    <a href="{{ image.url }}" title="{{ image.alt }}">
+    <a href="{{ image.url }}" target="_blank" title="{{ image.alt }}">
         <img src="{{ image.url }}" alt="{{ image.alt }}" />
     </a>
     {% endfor %}

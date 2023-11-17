@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Welcome to The Arcane Arcade"
+title_simple:      "Welcome to The Arcane Arcade"
 date:   2023-10-26 10:06:54 -0400
 categories: site update
 ---
