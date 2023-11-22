@@ -68,3 +68,7 @@ Since the Living Eye can fuse with creatures that don't have eyes it could make 
 All images were generated with Chat GPT 4. The images below are some other results you might find interesting.
 
 {% include additional-images.html %}
+
+## Attribution
+
+{% include srd_attribution.html %}

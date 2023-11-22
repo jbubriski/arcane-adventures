@@ -26,18 +26,32 @@ imagesExtra:
       alt: Source image for Jasine's Ring of Restraining
 ---
 
-Rings of Restraining have existed throughout history as dastardly devices employed by only the most evil creatures. Jasine's Ring of Restrainging isn't much different, but became famous for it's diabolical usage.
+<p class="read-aloud">
+    "Oh, this? Just a little trinket. Made by a little elven child in a village I once visited. Oh yes, it's quite rustic. You should take it! Try it on! It fits you perfectly, how wonderful. Oh, it's becoming too tight? Oh dear..."
+</p>
 
-Jasine, commonly known as Jasine the Spook, was a spy mascarading as a witch, or maybe a bored witch finding new and interesting uses for her spells. No matter your opinion, Jasine did in fact operate as a spy and used her magical abilities and sundry to execute her missions perfectly.
+Magical restraining devices have existed throughout history, and combined with gentle coercion to outright torture, they're dastardly devices in the hands of spies. Jasine's Ring of Restraining was designed for this exact purpose and she became famous for employing it effectively, and liberally.
 
-The ring of restraining can be used to forcefully restrain a creature large or smaller. In order to activate it's abilities, the ring must be placed on the finger or appendage of a creature.
+Jasine the Spook was a witch masquerading as a spy, or maybe she was simply looking for new and interesting uses for her spells. No matter your opinion she was employed as a spy and used her magical abilities and sundry to execute her missions with brutal precision. Few were able to give any specifics about her, much less about her motivations.
+
+The ring of restraining can be used to completely restrain a creature of size large or smaller. When someone utters the command word "astringo", magical twine sprouts from the ring and grows to tightly bind a creature all over. In order to activate its abilities, the ring must be placed on the finger or appendage of a creature. A willing creature can choose to place the ring on their finger.
+
+{% include rules/restrained.html %}
+
+An attack roll can be used to attempt to force the ring onto an unsuspecting creature's finger. The creature can also make a dexterity saving throw at advantage to prevent the attack from succeeding. On a successful attack and failed save, the ring's effect occurs.
 
 {% assign image = page.images[1] %}
-{% include post-image.html side="left" url=image.url alt=image.alt %}
+{% include post-image.html side="right" url=image.url alt=image.alt %}
 
-The creature is restrained for 8 hours, at which point the ring disintegrates, leaving no trace.
+Grappled, incapacitated and restrained creatures have disadvantage on their dexterity saving throw.
 
-Creatures with less than 20 strength are unable to break free. Creatures with strength 20 are able to automatically break free.
+Unconscious and paralyzed creatures automatically fail their saving throw.
+
+The ring's restraints are active for 8 hours, after which the ring disintegrates, leaving no trace.
+
+Creatures with less than 20 strength are unable to break free. Creatures with 20 or more strength can automatically break free.
+
+The command word "dimittis" can be used to deactivate the ring, at which point it disintegrates.
 
 <div style="clear: both;"></div>
 
@@ -46,3 +60,7 @@ Creatures with less than 20 strength are unable to break free. Creatures with st
 All images were generated with Chat GPT 4. The images below are some other results that you might find interesting.
 
 {% include additional-images.html %}
+
+## Attribution
+
+{% include srd_attribution.html %}
