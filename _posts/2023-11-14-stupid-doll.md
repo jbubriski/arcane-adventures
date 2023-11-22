@@ -25,7 +25,7 @@ imagesExtra:
 
 This Stupid Doll was gifted to a great wizard by his annoying aunt. The Wizard felt it was beneath him to play with stupid dolls, so he aimed to mold it into something useful. He cast a powerful spell to bring it to life, but the doll was so stupid it couldn’t even receive the enchantment correctly. The result was a magical servant more useless than a paladin with no oath.
 
-The Stupid Doll is a simple golem made from cloth and stuffing. It has rounded stumps for hands so its carrying ability/capactiy is limited. It can speak and understand common and will attempt to follow verbal commands. Its responses will usually be 1-3 words. 
+The Stupid Doll is a simple golem made from cloth and stuffing. It has rounded stumps for hands so its carrying ability/capactiy is limited. It can speak and understand common and will attempt to follow verbal commands. Its responses will usually be 1-3 words.
 
 When attempting to follow instructions, the Stupid Doll will invariably screw up, though not intentionally. It generally won't put people in harm's way, like causing a fire while trying to cook, but may injure/destroy itself, like setting itself on fire.
 
@@ -75,3 +75,7 @@ Just when the adventurers think the Stupid Doll is completely useless, it may co
 All images were generated with Chat GPT 4. The images below are some other results you might find interesting.
 
 {% include additional-images.html %}
+
+## Attribution
+
+{% include srd_attribution.html %}

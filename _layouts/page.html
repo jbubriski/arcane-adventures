@@ -18,7 +18,11 @@
 {% include header.html %}
 
     <main id="content" class="main-content" role="main">
-      {{ content }}
+        {% if page.title %}
+            <h1>{{  page.title }}</h1>
+        {% endif %}
+
+        {{ content }}
     </main>
 
 {% include footer.html %}

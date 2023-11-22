@@ -1,6 +1,11 @@
 <header class="page-header" role="banner">
-    <h2 class="project-name"><a href="/">{{ site.title | default: site.github.repository_name }}</a></h1>
-    <h3 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
+{% if page.title %}
+    <h2 class="project-name"><a href="/">{{ site.title }}</a></h2>
+    <h3 class="project-tagline">{{ site.description }}</h3>
+{% else %}
+    <h1 class="project-name"><a href="/">{{ site.title }}</a></h1>
+    <h2 class="project-tagline">{{ site.description }}</h2>
+{% endif %}
 
 {% include menu.html %}
 </header>

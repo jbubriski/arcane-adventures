@@ -5,21 +5,21 @@ title_simple:      "A Magic Box with a Putrid Egg"
 date:       2023-10-31 10:00:00 -0400
 categories: magic-item
 tags:       dnd dnd-5e magic-item multi-use tier-1 tier-2 tier-3 tier-4
-image:      /assets/images/magic-box-with-putrid-egg/box-01.png
+image:      /assets/images/magic-box-with-putrid-egg/magic-box-with-putrid-egg-01.png
 images:
-    - url: /assets/images/magic-box-with-putrid-egg/box-01.png
+    - url: /assets/images/magic-box-with-putrid-egg/magic-box-with-putrid-egg-01.png
       alt: The Magic Box with a Putrid Egg inside
-    - url: /assets/images/magic-box-with-putrid-egg/box-02.png
+    - url: /assets/images/magic-box-with-putrid-egg/magic-box-with-putrid-egg-02.png
       alt: Alternate image of the Magic Box with a Putrid Egg inside
 imagesExtra:
-    - url: /assets/images/magic-box-with-putrid-egg/box-source-01.png
-      alt: Source image for the Magic Box with a Putrid Egg inside
-    - url: /assets/images/magic-box-with-putrid-egg/box-source-02.png
-      alt: Source image for the Magic Box with a Putrid Egg inside
-    - url: /assets/images/magic-box-with-putrid-egg/box-source-03.png
-      alt: Source image for the Magic Box with a Putrid Egg inside
-    - url: /assets/images/magic-box-with-putrid-egg/box-source-04.png
-      alt: Source image for the Magic Box with a Putrid Egg inside
+    - url: /assets/images/magic-box-with-putrid-egg/magic-box-with-putrid-egg-extra-01.png
+      alt: Extra image for the Magic Box with a Putrid Egg inside
+    - url: /assets/images/magic-box-with-putrid-egg/magic-box-with-putrid-egg-extra-02.png
+      alt: Extra image for the Magic Box with a Putrid Egg inside
+    - url: /assets/images/magic-box-with-putrid-egg/magic-box-with-putrid-egg-extra-03.png
+      alt: Extra image for the Magic Box with a Putrid Egg inside
+    - url: /assets/images/magic-box-with-putrid-egg/magic-box-with-putrid-egg-extra-04.png
+      alt: Extra image for the Magic Box with a Putrid Egg inside
 ---
 
 The box is a nondescript but well-made wooden box. The surface has no carvings or embellishments except for a maker's mark "A.D." on the bottom.  The edges have a slim rounded bevel, and the box shows no signs of wear. The box has a magical enchantment placed on it making it extremely durable.  The hinge and clasp appear to be made of a brass colored metal. The clasp closes and stays shut with a satisfying snap. Shaking the box does not cause it to open, but the clasp can be easily undone by hand.
@@ -46,3 +46,7 @@ Without the egg, the box can be used to completely mask the smell of an item, as
 All images were generated with Chat GPT 4. The images above were color adjusted by me to look more... putrid... The images below are some other results you might find interesting.
 
 {% include additional-images.html %}
+
+## Attribution
+
+{% include srd_attribution.html %}
