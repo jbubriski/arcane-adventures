@@ -42,9 +42,9 @@ If a creature does not have eyes, the fusion can happen in other... places...
 {% assign image = page.images[1] %}
 {% include post-image.html side="right" url=image.url alt=image.alt %}
 
-1 day after fusion the host will be able to use the eye to see rough shapes and outlines. Perception checks that require vision are done with disadvantage. After 1 week, vision is mostly restored and the host doesn't suffer any penalties. After 1 month, vision is completely restored and the host has 20/20 vision with the eye which also compensates for vision impairment in any other eyes. If the host did not have eyes or vision to begin with, the process is similar but takes longer. 1 month for basic vision, 6 months for unimpaired vision, 1 year for perfect vision.
+1 day after fusion the host will be able to use the eye to see rough shapes and outlines. Perception checks that require vision are done with disadvantage. After 1 week, vision is mostly restored and the host doesn't suffer any penalties. After 1 month, vision is completely restored and the host has 20/20 vision with the eye which also compensates for vision impairment in any other eyes. If the host did not have eyes or vision to begin with, the process is similar but takes longer. 1 week to see rough shapes and outlines, 1 month for basic vision, 6 months for unimpaired vision, 1 year for perfect vision.
 
-While the Living Eye does not prefere to "move", it can be coaxed out of a host if a suitable (or better) host is available, and assurances are made.
+While the Living Eye does not prefer to "move", it can be coaxed out of a host if a suitable (or better) host is available, and assurances are made.
 
 It has a movement speed of 5 ft.
 

@@ -12,12 +12,12 @@ Here is a collection of magic items I've created for your enjoyment in your DND 
 {% for post in site.categories.magic-item %}
     <div class="post-list-post">
         {% if post.image %}
-        <a href="{{ post.url }}" class="image-left" title="{{ post.title }}">
-            <img src="{{ post.image }}" alt="{{ post.title }}" />
+        <a href="{{ post.url }}" class="image-left" title="{{ post.title_simple }}">
+            <img src="{{ post.image }}" alt="{{ post.title_simple }}" />
         </a>
         {% endif %}
 
-        <a href="{{ post.url }}">{{ post.title }}</a>
+        <a href="{{ post.url }}">{{ post.title_simple }}</a>
 
         <div>
             <em>{{ post.date | date: "%B %-d, %Y" }}</em>
