@@ -24,13 +24,13 @@
         {% assign image = page.images[0] %}
         {% include post-image.html side="right" url=image.url alt=image.alt %}
 
+        <em>{{ page.date | date: "%B %-d, %Y" }}</em>
+
         {% include magic_item_meta.html %}
 
         {% include tags.html %}
 
         {{ content }}
-
-        <em>Posted {{ page.date | date: "%B %-d, %Y" }}</em>
     </main>
 
     {% include footer.html %}
