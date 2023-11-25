@@ -1,10 +1,12 @@
 ---
 layout:     post
 title:      "Living Eye - Magic Item for DnD"
-title_simple:      "Living Eye"
+title_simple: "Living Eye"
 date:       2023-11-07 10:00:00 -0400
 categories: magic-item
-tags:       dnd dnd-5e magic-item multi-use tier-1 tier-2 tier-3 tier-4 sentient attunement
+tags:       dnd dnd-5e magic-item multi-use tier-2 tier-3 tier-4 sentient attunement
+magicItemType: wondrous item
+rarity:     very-rare
 requires_attunement: true
 image:      /assets/images/living-eye/living-eye-01.png
 images:

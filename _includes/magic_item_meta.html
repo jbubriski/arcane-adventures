@@ -1,0 +1,7 @@
+{% if page.magicItemType %}
+<p>
+    <em>
+        {% if page.magicItemType %}{{ page.magicItemType | capitalize }}{% endif %}{% if page.rarity %}, {{ page.rarity }}{% endif %}{% if page.requires_attunement %}, requires attunement{% endif %}
+    </em>
+</p>
+{% endif %}

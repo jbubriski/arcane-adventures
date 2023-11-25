@@ -5,6 +5,9 @@ title_simple:      "A Stupid Doll"
 date:       2023-10-31 10:00:00 -0400
 categories: magic-item
 tags:       dnd dnd-5e magic-item multi-use tier-1 tier-2 tier-3 tier-4 sentient npc
+magicItemType: wondrous item
+rarity:     common
+requires_attunement: false
 image:      /assets/images/stupid-doll/stupid-doll-01.png
 images:
     - url: /assets/images/stupid-doll/stupid-doll-01.png
@@ -21,7 +24,6 @@ imagesExtra:
     - url: /assets/images/stupid-doll/stupid-doll-extra-04.png
       alt: Extra image for the Stupid Doll
 ---
-
 
 This Stupid Doll was gifted to a great wizard by his annoying aunt. The Wizard felt it was beneath him to play with stupid dolls, so he aimed to mold it into something useful. He cast a powerful spell to bring it to life, but the doll was so stupid it couldn’t even receive the enchantment correctly. The result was a magical servant more useless than a paladin with no oath.
 

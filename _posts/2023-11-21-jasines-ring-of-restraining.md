@@ -5,6 +5,9 @@ title_simple:      "Jasine's Ring of Restraining"
 date:       2023-11-21 10:00:00 -0400
 categories: magic-item
 tags:       dnd dnd-5e magic-item multi-use tier-1 tier-2 tier-3 tier-4
+magicItemType: wondrous item
+rarity:     very-rare
+requires_attunement: false
 image:      /assets/images/jasines-ring-of-restraining/jasines-ring-of-restraining-01.png
 images:
     - url: /assets/images/jasines-ring-of-restraining/jasines-ring-of-restraining-01.png
@@ -34,9 +37,9 @@ Magical restraining devices have existed throughout history, and combined with g
 
 Jasine the Spook was a witch masquerading as a spy, or maybe she was simply looking for new and interesting uses for her spells. No matter your opinion she was employed as a spy and used her magical abilities and sundry to execute her missions with brutal precision. Few were able to give any specifics about her, much less about her motivations.
 
-The ring of restraining can be used to completely restrain a creature of size large or smaller. When someone utters the command word "astringo", magical twine sprouts from the ring and grows to tightly bind a creature all over. In order to activate its abilities, the ring must be placed on the finger or appendage of a creature. A willing creature can choose to place the ring on their finger.
+The ring of restraining can be used to completely restrain a creature of size large or smaller. When someone utters the command word "astringo", magical twine sprouts from the ring and grows to tightly bind a creature all over. To activate its abilities, the ring must be placed on the finger or appendage of a creature. A willing creature can choose to place the ring on their finger.
 
-{% include rules/restrained.html %}
+{% include rules/conditions/restrained.html %}
 
 An attack roll can be used to attempt to force the ring onto an unsuspecting creature's finger. The creature can also make a dexterity saving throw at advantage to prevent the attack from succeeding. On a successful attack and failed save, the ring's effect occurs.
 

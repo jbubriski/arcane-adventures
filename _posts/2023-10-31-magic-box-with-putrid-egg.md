@@ -1,10 +1,13 @@
 ---
 layout:     post
 title:      "A Magic Box with a Putrid Egg - Magic Item for DnD"
-title_simple:      "A Magic Box with a Putrid Egg"
+title_simple: "A Magic Box with a Putrid Egg"
 date:       2023-10-31 10:00:00 -0400
 categories: magic-item
 tags:       dnd dnd-5e magic-item multi-use tier-1 tier-2 tier-3 tier-4
+magicItemType: wondrous item
+rarity:     rare
+requires_attunement: false
 image:      /assets/images/magic-box-with-putrid-egg/magic-box-with-putrid-egg-01.png
 images:
     - url: /assets/images/magic-box-with-putrid-egg/magic-box-with-putrid-egg-01.png

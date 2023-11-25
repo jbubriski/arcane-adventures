@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
-  <head>
+<head>
     <meta charset="UTF-8">
-
-{% seo %}
-{% include head.html %}
+    {% seo %}
+    {% include head.html %}
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,30 +11,28 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     {% include head-custom.html %}
-  </head>
-  <body>
+</head>
+<body>
     <a id="skip-to-content" href="#content">Skip to the content.</a>
 
-{% include header.html %}
+    {% include header.html %}
 
     <main id="content" class="main-content" role="main">
-      <h1 class="project-name">{{ page.title_simple }}</h1>
-      {% include wip.html %}
+        <h1 class="project-name">{{ page.title_simple }}</h1>
+        {% include wip.html %}
 
-      {% assign image = page.images[0] %}
-      {% include post-image.html side="right" url=image.url alt=image.alt %}
+        {% assign image = page.images[0] %}
+        {% include post-image.html side="right" url=image.url alt=image.alt %}
 
-      <em>{{ page.date | date: "%B %-d, %Y" }}</em>
+        {% include magic_item_meta.html %}
 
-      {% include tags.html %}
+        {% include tags.html %}
 
-      {% if page.requires_attunement %}
-      Requires attunement
-      {% endif %}
+        {{ content }}
 
-      {{ content }}
+        <em>Posted {{ page.date | date: "%B %-d, %Y" }}</em>
     </main>
 
-{% include footer.html %}
-  </body>
+    {% include footer.html %}
+</body>
 </html>
