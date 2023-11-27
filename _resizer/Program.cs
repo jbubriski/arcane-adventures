@@ -1,10 +1,7 @@
-﻿using System.IO;
-using SixLabors.ImageSharp;
-using SixLabors.ImageSharp.Formats;
+﻿using SixLabors.ImageSharp.Formats.Jpeg;
 using SixLabors.ImageSharp.Formats.Png;
 
-int[] sizes = new [] { 120, 320 };
-const int quality = 95;
+var sizes = new[] { 120, 320 };
 
 // See https://aka.ms/new-console-template for more information
 Console.WriteLine("Hello, World!");
@@ -13,11 +10,19 @@ var pngEncoder = new PngEncoder
 {
     BitDepth = PngBitDepth.Bit8,
     ColorType = PngColorType.RgbWithAlpha,
-    CompressionLevel = PngCompressionLevel.Level9,
-    FilterMethod = PngFilterMethod.Adaptive
+    CompressionLevel = PngCompressionLevel.Level9
 };
 
-var files = Directory.GetFiles("../assets/images/", "*.png", SearchOption.AllDirectories);
+var jpegEncoder = new JpegEncoder
+{
+    Quality = 90,
+    SkipMetadata = true
+};
+
+var mode = "jpeg";
+
+var folderToFindImages = Path.Combine(Environment.CurrentDirectory, "../../../../assets/images");
+var files = Directory.GetFiles(folderToFindImages, "*.png", SearchOption.AllDirectories);
 
 foreach (var fullOriginalFilePath in files)
 {
@@ -34,7 +39,10 @@ foreach (var fullOriginalFilePath in files)
 
     Console.WriteLine($"Processing {fullOriginalFilePath}...");
 
-    if (fullNewFilePath.EndsWith("_1x.png") || fullNewFilePath.EndsWith("_2x.png") || fullNewFilePath.EndsWith("_3x.png"))
+    if (fullNewFilePath.EndsWith("_1x.png")
+        || fullNewFilePath.EndsWith("_2x.png")
+        || fullNewFilePath.EndsWith("_3x.png")
+        || fullNewFilePath.EndsWith("_4x.png"))
     {
         Console.WriteLine($"Already processed file, skipping.");
         continue;
@@ -42,36 +50,36 @@ foreach (var fullOriginalFilePath in files)
 
     foreach (var size in sizes)
     {
-        using var image = Image.Load(fullOriginalFilePath);
+        var newFileName = fullNewFilePath[..^4] + $"_{size}_1x.png";
+        var newFileName2 = fullNewFilePath[..^4] + $"_{size}_2x.png";
+        var newFileName3 = fullNewFilePath[..^4] + $"_{size}_3x.png";
 
-        image.Mutate(x => x
-                .Resize(size, size));
+        using (var image = Image.Load(fullOriginalFilePath))
+        {
+            image.Mutate(x => x
+                    .Resize(size, size, KnownResamplers.Bicubic));
 
-        var newFileName = fullNewFilePath.Substring(0, fullNewFilePath.Length - 4) + $"_{size}_1x.png";
+            Console.WriteLine($"Writing 1x {newFileName}...");
+            image.Save(newFileName, pngEncoder);
+        }
 
-        Console.WriteLine($"Writing {newFileName}...");
-        image.Save(newFileName, pngEncoder);
+        using (var image2 = Image.Load(fullOriginalFilePath))
+        {
+            image2.Mutate(x => x
+                    .Resize(size * 2, size * 2));
 
-        using var image2 = Image.Load(fullOriginalFilePath);
+            Console.WriteLine($"Writing 2x {newFileName2}...");
+            image2.Save(newFileName2, pngEncoder);
+        }
 
-        image2.Mutate(x => x
-                .Resize(size * 2, size * 2));
+        using (var image3 = Image.Load(fullOriginalFilePath))
+        {
+            image3.Mutate(x => x
+                    .Resize(size * 3, size * 3));
 
-        var newFileName2 = fullNewFilePath.Substring(0, fullNewFilePath.Length - 4) + $"_{size}_2x.png";
-
-        Console.WriteLine($"Writing {newFileName2}...");
-        image2.Save(newFileName2, pngEncoder);
-        
-
-        using var image3 = Image.Load(fullOriginalFilePath);
-
-        image3.Mutate(x => x
-                .Resize(size * 3, size * 3));
-
-        var newFileName3 = fullNewFilePath.Substring(0, fullNewFilePath.Length - 4) + $"_{size}_3x.png";
-
-        Console.WriteLine($"Writing {newFileName3}...");
-        image3.Save(newFileName3, pngEncoder);
+            Console.WriteLine($"Writing 3x {newFileName3}...");
+            image3.Save(newFileName3, pngEncoder);
+        }
     }
 }
 
