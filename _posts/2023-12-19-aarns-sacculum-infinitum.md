@@ -9,20 +9,25 @@ tags:       dnd dnd-5e magic-item multi-use tier-1 tier-2 tier-3 tier-4 wip
 magicItemType: wondrous item
 rarity:     legendary
 requires_attunement: false
-image:      /assets/images/aarns-sacculum-infinitum/aarns-sacculum-infinitum-01.png
+image:      /assets/images/aarns-sacculum-infinitum/resized/aarns-sacculum-infinitum-01
+
+image_base_name: aarns-sacculum-infinitum
+image_base_alt: Aarn's Sacculum Infinitum
+image_extra_count: 4
+
 images:
-    - url: /assets/images/aarns-sacculum-infinitum/aarns-sacculum-infinitum-01.png
+    - url: /assets/images/aarns-sacculum-infinitum/resized/aarns-sacculum-infinitum-01
       alt: Aarn's Sacculum Infinitum
-    - url: /assets/images/aarns-sacculum-infinitum/aarns-sacculum-infinitum-02.png
+    - url: /assets/images/aarns-sacculum-infinitum/resized/aarns-sacculum-infinitum-02
       alt: Alternate image of Aarn's Sacculum Infinitum
 imagesExtra:
-    - url: /assets/images/aarns-sacculum-infinitum/aarns-sacculum-infinitum-extra-01.png
+    - url: /assets/images/aarns-sacculum-infinitum/resized/aarns-sacculum-infinitum-extra-01
       alt: Extra image for Aarn's Sacculum Infinitum
-    - url: /assets/images/aarns-sacculum-infinitum/aarns-sacculum-infinitum-extra-02.png
+    - url: /assets/images/aarns-sacculum-infinitum/resized/aarns-sacculum-infinitum-extra-02
       alt: Extra image for Aarn's Sacculum Infinitum
-    - url: /assets/images/aarns-sacculum-infinitum/aarns-sacculum-infinitum-extra-03.png
+    - url: /assets/images/aarns-sacculum-infinitum/resized/aarns-sacculum-infinitum-extra-03
       alt: Extra image for Aarn's Sacculum Infinitum
-    - url: /assets/images/aarns-sacculum-infinitum/aarns-sacculum-infinitum-extra-04.png
+    - url: /assets/images/aarns-sacculum-infinitum/resized/aarns-sacculum-infinitum-extra-04
       alt: Extra image for Aarn's Sacculum Infinitum
 ---
 
@@ -53,7 +58,7 @@ imagesExtra:
 </div>
 
 {% assign image = page.images[1] %}
-{% include post-image.html side="right" url=image.url alt=image.alt %}
+{% include post-image.html side="right" url=image.url alt=image.alt size=320 %}
 
 Each evening at dusk, the Sacculum Infinitum magically fills with toys. The toys are of various shapes and sizes, are non-magical, and are typically made of wood, stone, fabric, or other basic crafting materials. Toys can be removed from the sack and placed back into the sack, but at dusk, anything else inside is expelled from the sack.
 

@@ -1,7 +1,14 @@
+{% assign size = 320 %}
 <div class="additional-images">
     {% for image in page.imagesExtra %}
-    <a href="{{ image.url }}" target="_blank" title="{{ image.alt }}">
-        <img src="{{ image.url }}" alt="{{ image.alt }}" />
-    </a>
+
+        {% assign url = image.url %}
+        <a href="{{ image.url | remove: "resized/" }}.png" target="_blank" title="{{ image.alt }}">
+            <img srcset="{{ url }}_{{ size }}_2x.png 2x {{ url }}_{{ size }}_3x.jpg 3x"
+                src="{{ url }}_{{ size }}_1x.png"
+                alt="{{ image.alt }}"
+                width="{{ size }}"
+                />
+        </a>
     {% endfor %}
 </div>

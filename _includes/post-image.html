@@ -1,3 +1,18 @@
-<a href="{{ include.url }}" target="_blank" class="image-{{ include.side }}" title="{{ include.alt }}">
-    <img src="{{ include.url }}" alt="{{ include.alt }}" />
+{% comment %}
+Required: side, url, size
+
+side: left, right
+url: "post_image_title"
+size: 320
+
+Will add: "post_image_title_320_2x.png" (and 3x)
+{% endcomment %}
+{% assign url = include.url %}
+{% assign size = include.size %}
+<a href="{{ url | remove: "resized/" }}.png" target="_blank" class="image-{{ include.side }}" title="{{ include.alt }}">
+    <img srcset="{{ url }}_{{ size }}_2x.png 2x, {{ url }}_{{ size }}_3x.jpg 3x"
+        src="{{ url }}_{{ size }}_1x.png"
+        alt="{{ include.alt }}"
+        width="{{ size }}"
+        />
 </a>

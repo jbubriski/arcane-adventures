@@ -15,9 +15,7 @@ Check out the latest posts below, or use the menu to find more specfic types of 
 {% for post in site.posts %}
     <div class="post-list-post">
     {% if post.image %}
-        <a href="{{ post.url }}" class="image-left" title="{{ post.title }}">
-            <img src="{{ post.image }}" alt="{{ post.title }}" />
-        </a>
+        {% include post-image.html side="left" url=post.image alt=post.title size=120 %}
     {% else %}
         <div class="image-left" style="height: 100px"></div>
     {% endif %}

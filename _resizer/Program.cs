@@ -19,9 +19,9 @@ var jpegEncoder = new JpegEncoder
     SkipMetadata = true
 };
 
-var mode = "jpeg";
+var reresize = false;
 
-var folderToFindImages = Path.Combine(Environment.CurrentDirectory, "../../../../assets/images");
+var folderToFindImages = Path.Combine(Environment.CurrentDirectory, "../assets/images");
 var files = Directory.GetFiles(folderToFindImages, "*.png", SearchOption.AllDirectories);
 
 foreach (var fullOriginalFilePath in files)
@@ -54,31 +54,40 @@ foreach (var fullOriginalFilePath in files)
         var newFileName2 = fullNewFilePath[..^4] + $"_{size}_2x.png";
         var newFileName3 = fullNewFilePath[..^4] + $"_{size}_3x.png";
 
-        using (var image = Image.Load(fullOriginalFilePath))
+        if (reresize || !Path.Exists(newFileName))
         {
-            image.Mutate(x => x
-                    .Resize(size, size, KnownResamplers.Bicubic));
+            using (var image = Image.Load(fullOriginalFilePath))
+            {
+                image.Mutate(x => x
+                        .Resize(size, size, KnownResamplers.Bicubic));
 
-            Console.WriteLine($"Writing 1x {newFileName}...");
-            image.Save(newFileName, pngEncoder);
+                Console.WriteLine($"Writing 1x {newFileName}...");
+                image.Save(newFileName, pngEncoder);
+            }
         }
 
-        using (var image2 = Image.Load(fullOriginalFilePath))
+        if (reresize || !Path.Exists(newFileName2))
         {
-            image2.Mutate(x => x
-                    .Resize(size * 2, size * 2));
+            using (var image2 = Image.Load(fullOriginalFilePath))
+            {
+                image2.Mutate(x => x
+                        .Resize(size * 2, size * 2));
 
-            Console.WriteLine($"Writing 2x {newFileName2}...");
-            image2.Save(newFileName2, pngEncoder);
+                Console.WriteLine($"Writing 2x {newFileName2}...");
+                image2.Save(newFileName2, pngEncoder);
+            }
         }
 
-        using (var image3 = Image.Load(fullOriginalFilePath))
+        if (reresize || !Path.Exists(newFileName3))
         {
-            image3.Mutate(x => x
-                    .Resize(size * 3, size * 3));
+            using (var image3 = Image.Load(fullOriginalFilePath))
+            {
+                image3.Mutate(x => x
+                        .Resize(size * 3, size * 3));
 
-            Console.WriteLine($"Writing 3x {newFileName3}...");
-            image3.Save(newFileName3, pngEncoder);
+                Console.WriteLine($"Writing 3x {newFileName3}...");
+                image3.Save(newFileName3, pngEncoder);
+            }
         }
     }
 }

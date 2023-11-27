@@ -8,20 +8,20 @@ tags:       dnd dnd-5e magic-item multi-use tier-1 tier-2 tier-3 tier-4 sentient
 magicItemType: wondrous item
 rarity:     common
 requires_attunement: false
-image:      /assets/images/stupid-doll/stupid-doll-01.png
+image:      /assets/images/stupid-doll/resized/stupid-doll-01
 images:
-    - url: /assets/images/stupid-doll/stupid-doll-01.png
+    - url: /assets/images/stupid-doll/resized/stupid-doll-01
       alt: The Stupid Doll
-    - url: /assets/images/stupid-doll/stupid-doll-02.png
+    - url: /assets/images/stupid-doll/resized/stupid-doll-02
       alt: Alternate image of the Stupid Doll
 imagesExtra:
-    - url: /assets/images/stupid-doll/stupid-doll-extra-01.png
+    - url: /assets/images/stupid-doll/resized/stupid-doll-extra-01
       alt: Extra image for the Stupid Doll
-    - url: /assets/images/stupid-doll/stupid-doll-extra-02.png
+    - url: /assets/images/stupid-doll/resized/stupid-doll-extra-02
       alt: Extra image for the Stupid Doll
-    - url: /assets/images/stupid-doll/stupid-doll-extra-03.png
+    - url: /assets/images/stupid-doll/resized/stupid-doll-extra-03
       alt: Extra image for the Stupid Doll
-    - url: /assets/images/stupid-doll/stupid-doll-extra-04.png
+    - url: /assets/images/stupid-doll/resized/stupid-doll-extra-04
       alt: Extra image for the Stupid Doll
 ---
 
@@ -49,7 +49,7 @@ The creature holding the doll when the vial bursts is soaked in poison and takes
 
 
 {% assign image = page.images[1] %}
-{% include post-image.html side="right" url=image.url alt=image.alt %}
+{% include post-image.html side="right" url=image.url alt=image.alt size=320 %}
 
 
 Example responses/actions include:
