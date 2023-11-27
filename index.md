@@ -17,7 +17,7 @@ Check out the latest posts below, or use the menu to find more specfic types of 
     {% if post.image %}
         {% include list-image.html side="left" src=post.image url=post.url alt=post.title size=120 %}
     {% else %}
-        <div class="image-left" style="height: 100px"></div>
+        <div class="image-empty image-left" style="height: 100px"></div>
     {% endif %}
 
         <div>
