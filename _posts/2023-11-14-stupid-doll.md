@@ -2,7 +2,7 @@
 layout:     post
 title:      "A Stupid Doll - Magic Item for DnD"
 title_simple:      "A Stupid Doll"
-date:       2023-10-31 10:00:00 -0400
+date:       2023-11-14 10:00:00 -0400
 categories: magic-item
 tags:       dnd dnd-5e magic-item multi-use tier-1 tier-2 tier-3 tier-4 sentient npc
 magicItemType: wondrous item
