@@ -12,7 +12,7 @@ Here is a collection of magic items I've created for your enjoyment in your DND 
 {% for post in site.categories.magic-item %}
     <div class="post-list-post">
         {% if post.image %}
-            {% include post-image.html side="left" url=post.image alt=post.title size=120 %}
+            {% include list-image.html side="left" src=post.image url=post.url alt=post.title size=120 %}
         {% else %}
             <div class="image-left" style="height: 120px"></div>
         {% endif %}
