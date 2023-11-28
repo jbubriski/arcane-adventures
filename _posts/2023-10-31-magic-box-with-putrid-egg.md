@@ -8,20 +8,21 @@ tags:       dnd dnd-5e magic-item multi-use tier-1 tier-2 tier-3 tier-4
 magicItemType: wondrous item
 rarity:     rare
 requires_attunement: false
-image:      /assets/images/magic-box-with-putrid-egg/resized/magic-box-with-putrid-egg-01
+image_base_path: /assets/images/magic-box-with-putrid-egg/
+image:     magic-box-with-putrid-egg-01
 images:
-    - url: /assets/images/magic-box-with-putrid-egg/resized/magic-box-with-putrid-egg-01
+    - src: magic-box-with-putrid-egg-01
       alt: The Magic Box with a Putrid Egg inside
-    - url: /assets/images/magic-box-with-putrid-egg/resized/magic-box-with-putrid-egg-02
+    - src: magic-box-with-putrid-egg-02
       alt: Alternate image of the Magic Box with a Putrid Egg inside
 imagesExtra:
-    - url: /assets/images/magic-box-with-putrid-egg/resized/magic-box-with-putrid-egg-extra-01
+    - src: magic-box-with-putrid-egg-extra-01
       alt: Extra image for the Magic Box with a Putrid Egg inside
-    - url: /assets/images/magic-box-with-putrid-egg/resized/magic-box-with-putrid-egg-extra-02
+    - src: magic-box-with-putrid-egg-extra-02
       alt: Extra image for the Magic Box with a Putrid Egg inside
-    - url: /assets/images/magic-box-with-putrid-egg/resized/magic-box-with-putrid-egg-extra-03
+    - src: magic-box-with-putrid-egg-extra-03
       alt: Extra image for the Magic Box with a Putrid Egg inside
-    - url: /assets/images/magic-box-with-putrid-egg/resized/magic-box-with-putrid-egg-extra-04
+    - src: magic-box-with-putrid-egg-extra-04
       alt: Extra image for the Magic Box with a Putrid Egg inside
 ---
 
@@ -34,7 +35,7 @@ When the box is opened the egg gives off a foul odor that instantly permeates th
 The odor is so foul that all living creatures with any sense of smell within range are forced to make a DC 15 Constitution saving throw. On a failed save the creature is forced to use their next reaction to vomit. They also receive a -2 AC penalty while trying to block the odor. Concentration checks must also be made on a failed save. A successful save causes no adverse effects but the odor is still terrible.
 
 {% assign image = page.images[1] %}
-{% include post-image.html side="left" url=image.url alt=image.alt size=320 %}
+{% include post-image.html side="left" src=image.src alt=image.alt size=320 %}
 
 Dropping, throwing, or puncturing the egg causes it to burst on impact. The impacted surface, roughly in a 5 ft square, is splattered with the translucent yellow-green fluid, but chunky, contents of the egg, and gives off the same odor cloud with the same effects, but the radius is increased to a 25 ft circle. The odor cloud cannot be dispelled or blown away by wind. The only recourse is to remove the affected surface, bury it under 6 feet of dirt or submerge it completely in water. For example, a wooden floor would need to be torn up and buried in the ground or sunk to the bottom of a body of water.
 

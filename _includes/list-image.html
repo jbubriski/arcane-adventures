@@ -7,12 +7,13 @@ size: 320
 
 Will add: "post_image_title_320_2x.png" (and 3x)
 {% endcomment %}
+{% assign image_base_path= include.image_base_path %}
 {% assign src = include.src %}
 {% assign url = include.url %}
 {% assign size = include.size %}
 <a href="{{ url }}" class="image-{{ include.side }}" title="{{ include.alt }}">
-    <img srcset="{{ src }}_{{ size }}_2x.png 2x, {{ src }}_{{ size }}_3x.jpg 3x"
-        src="{{ src }}_{{ size }}_1x.png"
+    <img srcset="{{ image_base_path }}resized/{{ src }}_{{ size }}_2x.png 2x, {{ image_base_path }}/resized/{{ src }}_{{ size }}_3x.jpg 3x"
+        src="{{ image_base_path }}/resized/{{ src }}_{{ size }}_1x.png"
         alt="{{ include.alt }}"
         width="{{ size }}"
         />

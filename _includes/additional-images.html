@@ -1,11 +1,11 @@
+{% assign image_base_path= page.image_base_path %}
 {% assign size = 320 %}
 <div class="additional-images">
     {% for image in page.imagesExtra %}
-
-        {% assign url = image.url %}
-        <a href="{{ image.url | remove: "resized/" }}.png" target="_blank" title="{{ image.alt }}">
-            <img srcset="{{ url }}_{{ size }}_2x.png 2x {{ url }}_{{ size }}_3x.jpg 3x"
-                src="{{ url }}_{{ size }}_1x.png"
+        {% assign src = image.src %}
+        <a href="{{ image_base_path }}{{ image.src | remove: "resized/" }}.png" target="_blank" title="{{ image.alt }}">
+            <img srcset="{{ image_base_path }}resized/{{ src }}_{{ size }}_2x.png 2x {{ image_base_path }}resized/{{ src }}_{{ size }}_3x.jpg 3x"
+                src="{{ image_base_path }}resized/{{ src }}_{{ size }}_1x.png"
                 alt="{{ image.alt }}"
                 width="{{ size }}"
                 />

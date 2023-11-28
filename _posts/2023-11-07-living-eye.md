@@ -8,25 +8,26 @@ tags:       dnd dnd-5e magic-item multi-use tier-2 tier-3 tier-4 sentient attune
 magicItemType: wondrous item
 rarity:     very-rare
 requires_attunement: true
-image:      /assets/images/living-eye/resized/living-eye-01
+image_base_path: /assets/images/living-eye/
+image:     living-eye-01
 images:
-    - url: /assets/images/living-eye/resized/living-eye-01
+    - src: living-eye-01
       alt: The Living Eye
-    - url: /assets/images/living-eye/resized/living-eye-02
+    - src: living-eye-02
       alt: Alternate image of the Living Eye
 imagesExtra:
-    - url: /assets/images/living-eye/resized/living-eye-extra-01
+    - src: living-eye-extra-01
       alt: Extra image for the Living Eye
-    - url: /assets/images/living-eye/resized/living-eye-extra-02
+    - src: living-eye-extra-02
       alt: Extra image for the Living Eye
-    - url: /assets/images/living-eye/resized/living-eye-extra-03
+    - src: living-eye-extra-03
       alt: Extra image for the Living Eye
-    - url: /assets/images/living-eye/resized/living-eye-extra-04
+    - src: living-eye-extra-04
       alt: Extra image for the Living Eye
 ---
 
 <p class="read-aloud">
-This slimy eyeball appears to still be alive. A thick nerve squirms from the back, as if it’s searching for it’s owner. The iris narrows when held to the light.
+  This slimy eyeball appears to still be alive. A thick nerve squirms from the back, as if it’s searching for it’s owner. The iris narrows when held to the light.
 </p>
 
 The Living Eye is a sentient magical being that fuses with a new host when the opportunity arises. It may be found still attached to its previous owner, or possibly amongst other treasure items hoping to be found.
@@ -42,7 +43,7 @@ In order to fuse with the eye, a creature simply needs to hold the eye near its 
 If a creature does not have eyes, the fusion can happen in other... places...
 
 {% assign image = page.images[1] %}
-{% include post-image.html side="right" url=image.url alt=image.alt size=320 %}
+{% include post-image.html side="right" src=image.src alt=image.alt size=320 %}
 
 1 day after fusion the host will be able to use the eye to see rough shapes and outlines. Perception checks that require vision are done with disadvantage. After 1 week, vision is mostly restored and the host doesn't suffer any penalties. After 1 month, vision is completely restored and the host has 20/20 vision with the eye which also compensates for vision impairment in any other eyes. If the host did not have eyes or vision to begin with, the process is similar but takes longer. 1 week to see rough shapes and outlines, 1 month for basic vision, 6 months for unimpaired vision, 1 year for perfect vision.
 

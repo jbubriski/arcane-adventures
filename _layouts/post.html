@@ -22,7 +22,7 @@
         {% include wip.html %}
 
         {% assign image = page.images[0] %}
-        {% include post-image.html side="right" url=image.url alt=image.alt size=320 %}
+        {% include post-image.html side="right" src=image.src alt=image.alt size=320 %}
 
         <em>{{ page.date | date: "%B %-d, %Y" }}</em>
 

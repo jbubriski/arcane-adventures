@@ -9,25 +9,21 @@ tags:       dnd dnd-5e magic-item multi-use tier-1 tier-2 tier-3 tier-4 wip
 magicItemType: wondrous item
 rarity:     legendary
 requires_attunement: false
-image:      /assets/images/aarns-sacculum-infinitum/resized/aarns-sacculum-infinitum-01
-
-image_base_name: aarns-sacculum-infinitum
-image_base_alt: Aarn's Sacculum Infinitum
-image_extra_count: 4
-
+image_base_path: /assets/images/aarns-sacculum-infinitum/
+image:     aarns-sacculum-infinitum-01
 images:
-    - url: /assets/images/aarns-sacculum-infinitum/resized/aarns-sacculum-infinitum-01
+    - src: aarns-sacculum-infinitum-01
       alt: Aarn's Sacculum Infinitum
-    - url: /assets/images/aarns-sacculum-infinitum/resized/aarns-sacculum-infinitum-02
+    - src: aarns-sacculum-infinitum-02
       alt: Alternate image of Aarn's Sacculum Infinitum
 imagesExtra:
-    - url: /assets/images/aarns-sacculum-infinitum/resized/aarns-sacculum-infinitum-extra-01
+    - src: aarns-sacculum-infinitum-extra-01
       alt: Extra image for Aarn's Sacculum Infinitum
-    - url: /assets/images/aarns-sacculum-infinitum/resized/aarns-sacculum-infinitum-extra-02
+    - src: aarns-sacculum-infinitum-extra-02
       alt: Extra image for Aarn's Sacculum Infinitum
-    - url: /assets/images/aarns-sacculum-infinitum/resized/aarns-sacculum-infinitum-extra-03
+    - src: aarns-sacculum-infinitum-extra-03
       alt: Extra image for Aarn's Sacculum Infinitum
-    - url: /assets/images/aarns-sacculum-infinitum/resized/aarns-sacculum-infinitum-extra-04
+    - src: aarns-sacculum-infinitum-extra-04
       alt: Extra image for Aarn's Sacculum Infinitum
 ---
 
