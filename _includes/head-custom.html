@@ -1,7 +1,90 @@
 <style>
+    /* Elements */
     ul {
         padding-left: 20px
     }
+
+
+    /* Atomic classes */
+    .mt05 {
+        margin-top: 0.5rem;
+    }
+    .mt10 {
+        margin-top: 1rem;
+    }
+    .mt15 {
+        margin-top: 1.5rem;
+    }
+    .mt20 {
+        margin-top: 2rem;
+    }
+    .mt25 {
+        margin-top: 2.5rem;
+    }
+    .mt30 {
+        margin-top: 3rem;
+    }
+
+    .mr05 {
+        margin-right: 0.5rem;
+    }
+    .mr10 {
+        margin-right: 1rem;
+    }
+    .mr15 {
+        margin-right: 1.5rem;
+    }
+    .mr20 {
+        margin-right: 2rem;
+    }
+    .mr25 {
+        margin-right: 2.5rem;
+    }
+    .mr30 {
+        margin-right: 3rem;
+    }
+
+    .mb05 {
+        margin-bottom: 0.5rem;
+    }
+    .mb10 {
+        margin-bottom: 1rem;
+    }
+    .mb15 {
+        margin-bottom: 1.5rem;
+    }
+    .mb20 {
+        margin-bottom: 2rem;
+    }
+    .mb25 {
+        margin-bottom: 2.5rem;
+    }
+    .mb30 {
+        margin-bottom: 3rem;
+    }
+
+    .ml05 {
+        margin-left: 0.5rem;
+    }
+    .ml10 {
+        margin-left: 1rem;
+    }
+    .ml15 {
+        margin-left: 1.5rem;
+    }
+    .ml20 {
+        margin-left: 2rem;
+    }
+    .ml25 {
+        margin-left: 2.5rem;
+    }
+    .ml30 {
+        margin-left: 3rem;
+    }
+
+
+
+
 
     .site-footer {
         max-width: 64rem;
@@ -38,6 +121,7 @@
 
     .tags {
         margin-top: 0.5rem;
+        margin-bottom: 1rem;
     }
 
     .tag {
@@ -86,25 +170,22 @@
         padding-bottom: 10px;
     }
 
-    .ml10 {
-        margin-top: 30px;
-    }
-
-    .ml20 {
-        margin-top: 30px;
-    }
-
-    .ml30 {
-        margin-top: 30px;
-    }
-
     .read-aloud {
         background-color: #aeffd6;
         border-right: 4px solid black;
         border-left: 4px solid black;
-        padding: 0 10px;
         font-style: italic;
         overflow:hidden;
+    }
+
+    .read-aloud p {
+        padding: 1rem 2rem 1rem 2rem;
+        margin-bottom: 0;
+    }
+
+    /* This has one issue where if you have a image that is getting wrapped around, the read-aloud below wont have a top margin */
+    .read-aloud + .read-aloud p {
+        padding: 0 2rem 1rem 2rem;
     }
 
     .rules-box {

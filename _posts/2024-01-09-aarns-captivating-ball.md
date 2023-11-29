@@ -26,21 +26,21 @@ imagesExtra:
       alt: Extra image for Aarn's Captivating Ball
 ---
 
-<p class="read-aloud">
-    Aarn's trusty companion Rurksi
-</p>
+<div class="read-aloud">
+    <p>
+        "Rurski! Fetch!
+    </p>
+</div>
 
-Creatures within a 10 ft. radius of where the ball initially lands use their reaction to watch the ball. Creatures affected must also make a DC 15 charisma saving throw or use their next turn of movement to chase the ball.
-
-On impact the initial effect happens
+Aarn's Captivating Ball can be thrown to capture the attention of nearby creatures. When the command word "Accio" is spoken, and the ball is thrown, creatures within a 10 ft. radius of where the ball initially lands must use their reaction to watch the ball. Creatures affected must also make a DC 15 charisma saving throw or use their next turn of movement to chase the ball.
 
 After impact, the ball will continue to bounce half the initial thrown distance away, rounded down. Examples:
 
-- A ball thrown 60 ft. will bounce 30 ft.
-- A ball thrown 25 ft. will bounce 10 ft.
+- A ball thrown 60 ft. will bounce another 30 ft.
+- A ball thrown 25 ft. will bounce another 10 ft.
 - A ball thrown 5 ft. will not bounce.
 
-If confronted with a dangerous obstacle, like the ball bouncing off a cliff, the creatures must succeed a DC 8 saving throw or continue to chase the ball.
+If confronted with a dangerous obstacle, like the ball bouncing off a cliff, the creatures must succeed a DC 7 saving throw or continue to chase the ball.
 
 
 {% assign image = page.images[1] %}

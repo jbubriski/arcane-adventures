@@ -27,7 +27,7 @@ imagesExtra:
       alt: Extra image for Aarn's Sacculum Infinitum
 ---
 
-<div class="read-aloud ml10">
+<div class="read-aloud">
   <p>
       Aarn slipped between the patches of moonlight shining onto the sloped path. Even from this distance, he could make out shadows moving against the glow of the workshop's windows. He had watched the owners of the estate leave earlier that morning, but their business still seemed to hum along without their supervision.
   </p>
@@ -54,10 +54,9 @@ imagesExtra:
 </div>
 
 {% assign image = page.images[1] %}
-{% include post-image.html side="right" url=image.url alt=image.alt size=320 %}
+{% include post-image.html side="right" src=image.src alt=image.alt size=320 %}
 
-Each evening at dusk, the Sacculum Infinitum magically fills with toys. The toys are of various shapes and sizes, are non-magical, and are typically made of wood, stone, fabric, or other basic crafting materials. Toys can be removed from the sack and placed back into the sack, but at dusk, anything else inside is expelled from the sack.
-
+Each evening at dusk, the Sacculum Infinitum magically fills with toys. The toys are of various shapes and sizes, are non-magical, and are typically made of wood, stone, fabric, or other basic crafting materials. Toys can be removed and replaced, but at dusk, anything else inside is expelled from the sack.
 
 
 <div style="clear: both;"></div>
