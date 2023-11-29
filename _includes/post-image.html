@@ -12,7 +12,7 @@ Will add: "post_image_title_320_2x.png" (and 3x)
 {% assign size = include.size %}
 <a href="{{ image_base_path }}{{ src }}.png" target="_blank" class="image-{{ include.side }}" title="{{ include.alt }}">
     <img srcset="{{ image_base_path }}resized/{{ src }}_{{ size }}_2x.png 2x,
-                 {{ image_base_path }}resized/{{ src }}_{{ size }}_3x.jpg 3x"
+                 {{ image_base_path }}resized/{{ src }}_{{ size }}_3x.png 3x"
         src="{{ image_base_path }}resized/{{ src }}_{{ size }}_1x.png"
         alt="{{ include.alt }}"
         width="{{ size }}"
