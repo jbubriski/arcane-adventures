@@ -3,3 +3,12 @@ _site
 .jekyll-cache
 .jekyll-metadata
 vendor
+.bundle
+
+# editor
+.vscode
+
+# dotnet
+_resizer/bin/
+_resizer/obj/
+.vs
