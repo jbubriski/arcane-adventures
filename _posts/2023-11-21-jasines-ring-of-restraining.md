@@ -8,24 +8,25 @@ tags:       dnd dnd-5e magic-item multi-use tier-1 tier-2 tier-3 tier-4
 magicItemType: wondrous item
 rarity:     very-rare
 requires_attunement: false
-image:      /assets/images/jasines-ring-of-restraining/resized/jasines-ring-of-restraining-01
+image_base_path: /assets/images/jasines-ring-of-restraining/
+image:     jasines-ring-of-restraining-01
 images:
-    - url: /assets/images/jasines-ring-of-restraining/resized/jasines-ring-of-restraining-01
+    - src: jasines-ring-of-restraining-01
       alt: Jasine's Ring of Restraining
-    - url: /assets/images/jasines-ring-of-restraining/resized/jasines-ring-of-restraining-02
+    - src: jasines-ring-of-restraining-02
       alt: Alternate image of Jasine's Ring of Restraining
 imagesExtra:
-    - url: /assets/images/jasines-ring-of-restraining/resized/jasines-ring-of-restraining-extra-01
+    - src: jasines-ring-of-restraining-extra-01
       alt: Source image for Jasine's Ring of Restraining
-    - url: /assets/images/jasines-ring-of-restraining/resized/jasines-ring-of-restraining-extra-02
+    - src: jasines-ring-of-restraining-extra-02
       alt: Source image for Jasine's Ring of Restraining
-    - url: /assets/images/jasines-ring-of-restraining/resized/jasines-ring-of-restraining-extra-03
+    - src: jasines-ring-of-restraining-extra-03
       alt: Source image for Jasine's Ring of Restraining
-    - url: /assets/images/jasines-ring-of-restraining/resized/jasines-ring-of-restraining-extra-04
+    - src: jasines-ring-of-restraining-extra-04
       alt: Source image for Jasine's Ring of Restraining
-    - url: /assets/images/jasines-ring-of-restraining/resized/jasines-ring-of-restraining-extra-05
+    - src: jasines-ring-of-restraining-extra-05
       alt: Source image for Jasine's Ring of Restraining
-    - url: /assets/images/jasines-ring-of-restraining/resized/jasines-ring-of-restraining-extra-06
+    - src: jasines-ring-of-restraining-extra-06
       alt: Source image for Jasine's Ring of Restraining
 ---
 
@@ -44,7 +45,7 @@ The ring of restraining can be used to completely restrain a creature of size la
 An attack roll can be used to attempt to force the ring onto an unsuspecting creature's finger. The creature can also make a dexterity saving throw at advantage to prevent the attack from succeeding. On a successful attack and failed save, the ring's effect occurs.
 
 {% assign image = page.images[1] %}
-{% include post-image.html side="right" url=image.url alt=image.alt size=320 %}
+{% include post-image.html side="right" src=image.src alt=image.alt size=320 %}
 
 Grappled, incapacitated and restrained creatures have disadvantage on their dexterity saving throw.
 

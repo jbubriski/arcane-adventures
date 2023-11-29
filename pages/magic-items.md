@@ -1,8 +1,8 @@
 ---
 layout:       page
-title:        Magic Items
+title:        Magic Items for DnD
 sub_title:    Cool Tabletop Stuff
-description:  A collection of magic items for your DND 5e or tabletop game
+description:  A collection of magic items for your DnD 5e or tabletop game
 permalink:    /magic-items/
 ---
 
@@ -12,7 +12,7 @@ Here is a collection of magic items I've created for your enjoyment in your DND 
 {% for post in site.categories.magic-item %}
     <div class="post-list-post">
         {% if post.image %}
-            {% include list-image.html side="left" src=post.image url=post.url alt=post.title size=120 %}
+            {% include list-image.html side="left" image_base_path=post.image_base_path src=post.image url=post.url alt=post.title size=120 %}
         {% else %}
             <div class="image-left" style="height: 120px"></div>
         {% endif %}

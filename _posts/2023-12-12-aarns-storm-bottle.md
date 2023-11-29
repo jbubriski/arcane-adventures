@@ -5,20 +5,24 @@ title_simple:      "Aarn's Storm Bottle"
 date:       2023-12-12 10:00:00 -0400
 categories: magic-item
 tags:       dnd dnd-5e magic-item multi-use tier-1 tier-2 tier-3 tier-4 wip
-image:      /assets/images/aarns-storm-bottle/resized/aarns-storm-bottle-01
+magicItemType: wondrous item
+rarity:     very-rare
+requires_attunement: false
+image_base_path: /assets/images/aarns-storm-bottle/
+image:      aarns-storm-bottle-01
 images:
-    - url: /assets/images/aarns-storm-bottle/resized/aarns-storm-bottle-01
+    - src: aarns-storm-bottle-01
       alt: Aarn's Storm Bottle
-    - url: /assets/images/aarns-storm-bottle/resized/aarns-storm-bottle-02
+    - src: aarns-storm-bottle-02
       alt: Alternate image of Aarn's Storm Bottle
 imagesExtra:
-    - url: /assets/images/aarns-storm-bottle/resized/aarns-storm-bottle-extra-01
+    - src: aarns-storm-bottle-extra-01
       alt: Extra image for Aarn's Storm Bottle
-    - url: /assets/images/aarns-storm-bottle/resized/aarns-storm-bottle-extra-02
+    - src: aarns-storm-bottle-extra-02
       alt: Extra image for Aarn's Storm Bottle
-    - url: /assets/images/aarns-storm-bottle/resized/aarns-storm-bottle-extra-03
+    - src: aarns-storm-bottle-extra-03
       alt: Extra image for Aarn's Storm Bottle
-    - url: /assets/images/aarns-storm-bottle/resized/aarns-storm-bottle-extra-04
+    - src: aarns-storm-bottle-extra-04
       alt: Extra image for Aarn's Storm Bottle
 ---
 
@@ -32,7 +36,7 @@ When full of charges, the bottle contains a swirling tempest of dark clouds with
 
 
 {% assign image = page.images[1] %}
-{% include post-image.html side="right" url=image.url alt=image.alt size=320 %}
+{% include post-image.html side="right" src=image.src alt=image.alt size=320 %}
 
 The bottle has 1d4 charges when found.
 
