@@ -23,11 +23,9 @@ imagesExtra:
       alt: Extra image for Colby the Cobblestone
 ---
 
-<div class="read-aloud">
-    <p>
-        Strolling down the rough cobblestone road, your foot catches on something and you almost trip. Looking down at the ground, you notice one of the cobblestones is protruding, but seems to be wiggling free of its place...
-    </p>
-</div>
+<p class="read-aloud">
+    Strolling down the rough cobblestone road, your foot catches on something and you almost trip. Looking down at the ground, you notice one of the cobblestones is protruding, but seems to be wiggling free of its place...
+</p>
 
 The town of Feldan was once known as a cash cow of the farmlands. The rich and deep ore veins drew prospectors and miners from far and wide and they bought up whatever land the locals were willing to part with. As time went on, the natural resources dried up and the miners all left to chase better prospects. The other residents and shipowners slowly moved on as well, and as the local magic dealer was leaving town, his cart overturned on the uneven muddy road, and some of his goods smashed onto the ground.
 

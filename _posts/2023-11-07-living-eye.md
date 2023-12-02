@@ -27,7 +27,7 @@ imagesExtra:
 ---
 
 <p class="read-aloud">
-  This slimy eyeball appears to still be alive. A thick nerve squirms from the back, as if it’s searching for it’s owner. The iris narrows when held to the light.
+    This slimy eyeball appears to still be alive. A thick nerve squirms from the back, as if it’s searching for it’s owner. The iris narrows when held to the light.
 </p>
 
 The Living Eye is a sentient magical being that fuses with a new host when the opportunity arises. It may be found still attached to its previous owner, or possibly amongst other treasure items hoping to be found.

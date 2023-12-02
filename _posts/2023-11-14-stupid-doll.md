@@ -48,10 +48,8 @@ The creature holding the doll when the vial bursts is soaked in poison and takes
 
 ## DM Notes
 
-
 {% assign image = page.images[1] %}
 {% include post-image.html side="right" src=image.src alt=image.alt size=320 %}
-
 
 Example responses/actions include:
 
@@ -61,23 +59,28 @@ Example responses/actions include:
 - "When?" - When asked to do something when no timeframe is specified.
 - "Yes." - When asked a question requiring further follow-up. "Did you bring me the item I requested?"... with no further action.
 
-Example screw-ups:
+Roll a d8 on the example screw-up table to find out what happens:
 
-- Forgetting tasks.
-- Doing tasks in the wrong order.
-- Dropping/breaking/losing objects related to tasks.
-- Requiring instructions to be repeated multiple times.
-- When fetching an item, will drop it or trip and fall when almost to the adventurer.
-- Will follow instructions literally.
-- Will follow commands that directly put its existence in danger.
+| Roll | Screw-up |
+| - | ----------- |
+| 1 | Forgets what the task was.
+| 2 | Does a task or tasks in the wrong order.
+| 3 | Drops/breaks/loses objects related to the task.
+| 4 | Requires instructions to be repeated multiple times.
+| 5 | When fetching an item, will drop it or trip and fall when almost to the adventurer.
+| 6 | Will follow instructions literally.
+| 7 | Will follow commands that directly put its existence in danger.
+| 8 | Does the completely wrong task.
 
 Just when the adventurers think the Stupid Doll is completely useless, it may complete a menial task to regain their confidence.
+
 
 ## Additional Images
 
 All images were generated with Chat GPT 4. The images below are some other results you might find interesting.
 
 {% include additional-images.html %}
+
 
 ## Attribution
 

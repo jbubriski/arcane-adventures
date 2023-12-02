@@ -26,11 +26,9 @@ imagesExtra:
       alt: Extra image for Aarn's Captivating Ball
 ---
 
-<div class="read-aloud">
-    <p>
-        "Rurski! Fetch!
-    </p>
-</div>
+<p class="read-aloud">
+    "Rurski! Fetch!
+</p>
 
 Aarn's Captivating Ball can be thrown to capture the attention of nearby creatures. When the command word "Accio" is spoken, and the ball is thrown, creatures within a 10 ft. radius of where the ball initially lands must use their reaction to watch the ball. Creatures affected must also make a DC 15 charisma saving throw or use their next turn of movement to chase the ball.
 
@@ -50,11 +48,13 @@ Upon reaching ball, creatures will use a free hand to pick up the ball, at which
 
 <div style="clear: both;"></div>
 
+
 ## Additional Images
 
 All images were generated with Chat GPT 4. The images below are some other results that you might find interesting.
 
 {% include additional-images.html image_base_path=page.image_base_path %}
+
 
 ## Attribution
 

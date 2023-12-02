@@ -28,29 +28,19 @@ imagesExtra:
 ---
 
 <div class="read-aloud">
-  <p>
-      Aarn slipped between the patches of moonlight shining onto the sloped path. Even from this distance, he could make out shadows moving against the glow of the workshop's windows. He had watched the owners of the estate leave earlier that morning, but their business still seemed to hum along without their supervision.
-  </p>
+    Aarn slipped between the patches of moonlight shining onto the sloped path. Even from this distance, he could make out shadows moving against the glow of the workshop's windows. He had watched the owners of the estate leave earlier that morning, but their business still seemed to hum along without their supervision.
 </div>
 <div class="read-aloud">
-  <p>
-      Cresting the hill, the dark silhouette of the mansion loomed over Aarn. He hesitated a moment, but quickly suppressed his doubts and pressed on. Reaching a servant's entrance, he took a glance around and then tried the latch on the door. To his surprise, the door wasn't locked or barred.
-  </p>
+    Cresting the hill, the dark silhouette of the mansion loomed over Aarn. He hesitated a moment, but quickly suppressed his doubts and pressed on. Reaching a servant's entrance, he took a glance around and then tried the latch on the door. To his surprise, the door wasn't locked or barred.
 </div>
 <div class="read-aloud">
-  <p>
-      He pulled the heavy oak door open, gently closing it behind him. Compared to the pitch-black interior of the mansion, the moonlight may as well have been full daylight. He waited for a moment for his eyes to adjust and methodically navigated the rooms until he found the main study.
-  </p>
+    He pulled the heavy oak door open, gently closing it behind him. Compared to the pitch-black interior of the mansion, the moonlight may as well have been full daylight. He waited for a moment for his eyes to adjust and methodically navigated the rooms until he found the main study.
 </div>
 <div class="read-aloud">
-  <p>
-      The study was clean and lightly furnished. It was then that Aarn realized that the furnishings in the house were all of a peculiar style. The few things that were there were quite ornate, but not in a style he was familiar.
-  </p>
+    The study was clean and lightly furnished. It was then that Aarn realized that the furnishings in the house were all of a peculiar style. The few things that were there were quite ornate, but not in a style he was familiar.
 </div>
 <div class="read-aloud">
-  <p>
-      Aarn dropped a heavy canvas sack onto the tavern table. A wide-eyed consortium of ruffians eyed the sack with a skeptical "Lads, this just might be the most lucrative job I've ever pulled. It's full to the brim, I could barely carry it here!"
-  </p>
+    Aaris just might be the most lucrative job I've ever pulled. It's full to the brim, I could barely carry it here!"
 </div>
 
 {% assign image = page.images[1] %}
@@ -61,11 +51,13 @@ Each evening at dusk, the Sacculum Infinitum magically fills with toys. The toys
 
 <div style="clear: both;"></div>
 
+
 ## Additional Images
 
 All images were generated with Chat GPT 4. The images below are some other results that you might find interesting.
 
 {% include additional-images.html %}
+
 
 ## Attribution
 

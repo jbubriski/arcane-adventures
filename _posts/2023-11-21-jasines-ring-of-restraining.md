@@ -59,11 +59,13 @@ The command word "dimittis" can be used to deactivate the ring, at which point i
 
 <div style="clear: both;"></div>
 
+
 ## Additional Images
 
 All images were generated with Chat GPT 4. The images below are some other results that you might find interesting.
 
 {% include additional-images.html %}
+
 
 ## Attribution
 

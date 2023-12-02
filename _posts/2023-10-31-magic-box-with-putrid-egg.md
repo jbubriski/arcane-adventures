@@ -45,11 +45,13 @@ Creatures splattered will stink for 30 days. Bathing will reduce the stink bit b
 
 Without the egg, the box can be used to completely mask the smell of an item, as long as it fits fully in the box and the box is completely closed.
 
+
 ## Additional Images
 
 All images were generated with Chat GPT 4. The images above were color adjusted by me to look more... putrid... The images below are some other results you might find interesting.
 
 {% include additional-images.html %}
+
 
 ## Attribution
 
