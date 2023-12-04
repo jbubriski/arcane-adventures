@@ -94,7 +94,7 @@
         snackbar.className = "show";
 
         setTimeout(function () {
-            tryCloseToast(newMessageDiv);
+            tryCloseToast(newMessageRow);
             //snackbar.className = snackbar.className.replace("show", "");
         }, 10000);
     }
