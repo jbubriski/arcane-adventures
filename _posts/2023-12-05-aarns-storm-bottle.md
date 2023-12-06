@@ -40,7 +40,7 @@ When full of charges, the bottle contains a swirling tempest of dark clouds with
 
 The bottle has 1d4 charges when found.
 
-As an action, you utter the related command word which expends a number of charges to alter the local weather accordingly, within a 1 mile radius.
+As an action, you utter the related command word which expends a number of charges to alter the local weather accordingly, within a half-mile radius. The weather appears to form naturally, but unusually fast. The effects do not occur indoors or underground.
 
 - "Nebula" - 1 charge can be used to produce a light fog.
 - "Caligo" - 2 charges can be used to produce a dense fog greatly obscuring vision.
@@ -49,8 +49,6 @@ As an action, you utter the related command word which expends a number of charg
 - "Fulminare" - 5 charges can be used to produce a heavy rain with a thunderstorm.
 
 The bottle regains 1 expended charge each week.
-
-The weather appears to form naturally, but unusually fast. The affects do not occur indoors or underground.
 
 
 ## DM Notes
