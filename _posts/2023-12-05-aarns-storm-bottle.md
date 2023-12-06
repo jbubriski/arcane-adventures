@@ -2,7 +2,7 @@
 layout:     post
 title:      "Aarn's Storm Bottle - Magic Item for DnD"
 title_simple:      "Aarn's Storm Bottle"
-date:       2023-12-12 10:00:00 -0400
+date:       2023-12-05 10:00:00 -0400
 categories: magic-item
 tags:       dnd dnd-5e magic-item multi-use tier-1 tier-2 tier-3 tier-4 wip
 magicItemType: wondrous item
