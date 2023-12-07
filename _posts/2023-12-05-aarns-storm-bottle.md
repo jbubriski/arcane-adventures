@@ -4,7 +4,7 @@ title:      "Aarn's Storm Bottle - Magic Item for DnD"
 title_simple:      "Aarn's Storm Bottle"
 date:       2023-12-05 10:00:00 -0400
 categories: magic-item
-tags:       dnd dnd-5e magic-item multi-use tier-1 tier-2 tier-3 tier-4 wip
+tags:       dnd dnd-5e magic-item multi-use tier-1 tier-2 tier-3 tier-4
 magicItemType: wondrous item
 rarity:     very-rare
 requires_attunement: false
@@ -30,7 +30,7 @@ imagesExtra:
     Uncorking the glowing bottle, Aarn held it up to the small crowd forming around him. A dark mist pierced by bright sparks rose from the narrow opening, causing whispers and hushed cautions. "I wasn't trying to rain on your parade, but you leave me no choice."
 </p>
 
-The Storm Bottle contains the magical essence of a powerful elemental capable of altering the local weather.
+The Storm Bottle contains the magical essence of a powerful storm elemental capable of altering the local weather.
 
 When full of charges, the bottle contains a swirling tempest of dark clouds with tiny flashes of lightning. The fewer the charges remaining, the more calm the weather appears inside the bottle. When the bottle has no charges, there is only a faint mist visible.
 
