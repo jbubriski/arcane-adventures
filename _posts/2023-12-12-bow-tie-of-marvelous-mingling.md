@@ -44,7 +44,9 @@ While the bow tie effect is activated, you gain a +1 bonus to Charisma ability c
 
 ## DM Notes
 
+{% comment %}
 Similar to the [Ribbon of Courageous Carousing](ribbon-of-courageous-carousing)
+{% endcomment %}
 
 While creatures with Charisma of 18 or higher can tell that the attire produced is an illusion, it's up to you to decide what this means to the specific NPC's. Maybe they want the adventurer to succeed in their task... maybe someone else at the party has their own Bow Tie of Marvelous Mingling... maybe they're waiting for the right moment to call the adventurer out
 
