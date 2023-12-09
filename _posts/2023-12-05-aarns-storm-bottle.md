@@ -58,7 +58,7 @@ The adventurers could weather a nasty storm, and then find the bottle as loot. Y
 
 ## Additional Images
 
-All images were generated with Chat GPT 4. The images below are some other results that you might find interesting.
+{% include additional-images-dall-e.html %}
 
 {% include additional-images.html %}
 

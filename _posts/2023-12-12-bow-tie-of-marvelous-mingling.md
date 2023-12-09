@@ -27,7 +27,7 @@ imagesExtra:
 ---
 
 <p class="read-aloud">
-    With a quick adjustment to her bow tie, she quickly whispered something to herself then strode up to the general and asked her for a dance. The general, pleasantly surprised with such confidence, happily obliged. The war with North Prandela could wait another day... or two.
+    With a quick adjustment to her bow tie, she quickly whispered something to herself and her soldier's uniform began to morph into a formal suit. Moments later the transformation was complete. Bounding up the steps, Jasine entered the hall, strode up to the general and asked her for a dance. The general, pleasantly surprised with the sudden appearance of an unknown, confident newcomer, happily obliged. The war with North Prandela could wait another day... or two.
 </p>
 
 While wearing the Bow Tie of Marvelous Mingling you can use an action to speak the command word "Miscere" and create a magical illusion on the surface of your clothes and skin. The illusion makes it look as if you are wearing attire to match the occasion. The exact composition of the illusion will automatically adjust to fit the formality of the event, and either the style of the wearer or the region. The Bow Tie's appearance is also altered accordingly.
