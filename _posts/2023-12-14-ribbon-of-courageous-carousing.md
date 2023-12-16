@@ -20,10 +20,6 @@ imagesExtra:
       alt: Extra image for Ribbon of Courageous Carousing
     - src: ribbon-of-courageous-carousing-extra-02
       alt: Extra image for Ribbon of Courageous Carousing
-    - src: ribbon-of-courageous-carousing-extra-03
-      alt: Extra image for Ribbon of Courageous Carousing
-    - src: ribbon-of-courageous-carousing-extra-04
-      alt: Extra image for Ribbon of Courageous Carousing
 ---
 
 <p class="read-aloud">
