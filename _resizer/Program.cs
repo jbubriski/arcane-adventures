@@ -1,7 +1,8 @@
 ﻿using SixLabors.ImageSharp.Formats.Jpeg;
 using SixLabors.ImageSharp.Formats.Png;
 
-var sizes = new[] { 120, 320 };
+var mainImageSizes = new[] { 120, 320 };
+var regularSizes = new[] { 320 };
 
 // See https://aka.ms/new-console-template for more information
 Console.WriteLine("Hello, World!");
@@ -47,6 +48,8 @@ foreach (var fullOriginalFilePath in files)
         Console.WriteLine($"Already processed file, skipping.");
         continue;
     }
+
+    var sizes = fileName.EndsWith("-01.png") && !fileName.EndsWith("-extra-01.png") ? mainImageSizes : regularSizes;
 
     foreach (var size in sizes)
     {

@@ -36,7 +36,7 @@ The bow tie is only usable in this way after sundown, and at midnight the illusi
 
 Creatures with Charisma 18 or higher can tell that the attire is an illusion.
 
-While the bow tie effect is activated, you gain a +1 bonus to Charisma ability checks and Saving Throws.
+While the bow tie's effect is active, you gain a +1 bonus to Charisma ability checks and Saving Throws.
 
 {% assign image = page.images[1] %}
 {% include post-image.html side="right" src=image.src alt=image.alt size=320 %}
