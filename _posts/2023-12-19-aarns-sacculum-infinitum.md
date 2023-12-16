@@ -54,7 +54,7 @@ Each evening at dusk, the Sacculum Infinitum magically fills with toys. The toys
 
 ## Additional Images
 
-All images were generated with Chat GPT 4. The images below are some other results that you might find interesting.
+{% include additional-images-dall-e.html %}
 
 {% include additional-images.html %}
 

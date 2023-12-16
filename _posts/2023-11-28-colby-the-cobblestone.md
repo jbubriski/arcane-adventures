@@ -46,7 +46,7 @@ He is energetic and has a cheery and optimistic disposition.
 
 ## Additional Images
 
-All images were generated with Chat GPT 4. The images below are some other results that you might find interesting.
+{% include additional-images-dall-e.html %}
 
 {% include additional-images.html %}
 
