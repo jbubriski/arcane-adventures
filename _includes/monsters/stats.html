@@ -1,0 +1,71 @@
+
+{% assign str_modifier = include.str | minus: 10 | divided_by: 2 %}
+{%- capture str_modifier_text -%}
+{% if str_modifier > 0 %}+{% endif %}{% if str_modifier < 0 %}-{% endif %}{{ str_modifier }}
+{%- endcapture -%}
+{% capture str_roll %}
+1d20 {{ str_modifier_text }}
+{% endcapture %}
+
+{% assign dex_modifier = include.dex | minus: 10 | divided_by: 2 %}
+{%- capture dex_modifier_text -%}
+{% if dex_modifier > 0 %}+{% endif %}{% if dex_modifier < 0 %}-{% endif %}{{ dex_modifier }}
+{%- endcapture -%}
+{% capture dex_roll %}
+1d20 {{ dex_modifier_text }}
+{% endcapture %}
+
+{% assign con_modifier = include.con | minus: 10 | divided_by: 2 %}
+{%- capture con_modifier_text -%}
+{% if con_modifier > 0 %}+{% endif %}{% if con_modifier < 0 %}-{% endif %}{{ con_modifier }}
+{%- endcapture -%}
+{% capture con_roll %}
+1d20 {{ con_modifier_text }}
+{% endcapture %}
+
+{% assign wis_modifier = include.wis | minus: 10 | divided_by: 2 %}
+{%- capture wis_modifier_text -%}
+{% if wis_modifier > 0 %}+{% endif %}{% if wis_modifier < 0 %}-{% endif %}{{ wis_modifier }}
+{%- endcapture -%}
+{% capture wis_roll %}
+1d20 {{ wis_modifier_text }}
+{% endcapture %}
+
+{% assign int_modifier = include.int | minus: 10 | divided_by: 2 %}
+{%- capture int_modifier_text -%}
+{% if int_modifier > 0 %}+{% endif %}{% if int_modifier < 0 %}-{% endif %}{{ int_modifier }}
+{%- endcapture -%}
+{% capture int_roll %}
+1d20 {{ int_modifier_text }}
+{% endcapture %}
+
+{% assign cha_modifier = include.cha | minus: 10 | divided_by: 2 %}
+{%- capture cha_modifier_text -%}
+{% if cha_modifier > 0 %}+{% endif %}{% if cha_modifier < 0 %}-{% endif %}{{ cha_modifier }}
+{%- endcapture -%}
+{% capture cha_roll %}
+1d20 {{ cha_modifier_text }}
+{% endcapture %}
+
+<table class="monster-stats">
+<thead>
+    <tr>
+        <th>STR</th>
+        <th>DEX</th>
+        <th>CON</th>
+        <th>INT</th>
+        <th>WIS</th>
+        <th>CHA</th>
+    </tr>
+</thead>
+<tbody>
+    <tr>
+        <td>{{ include.str }}<br /><span style="white-space-collapse: collapse; ">({%- include tools/dice-roll.html type="Strength Ability Check" roll=str_roll text=str_modifier_text -%})</span></td>
+        <td>{{ include.dex }}<br /><span style="white-space-collapse: collapse; ">({%- include tools/dice-roll.html type="Dexterity Ability Check" roll=dex_roll text=dex_modifier_text -%})</span></td>
+        <td>{{ include.con }}<br /><span style="white-space-collapse: collapse; ">({%- include tools/dice-roll.html type="Constitution Ability Check" roll=con_roll text=con_modifier_text -%})</span></td>
+        <td>{{ include.int }}<br /><span style="white-space-collapse: collapse; ">({%- include tools/dice-roll.html type="Wisdom Ability Check" roll=wis_roll text=wis_modifier_text -%})</span></td>
+        <td>{{ include.wis }}<br /><span style="white-space-collapse: collapse; ">({%- include tools/dice-roll.html type="Intelligence Ability Check" roll=int_roll text=int_modifier_text -%})</span></td>
+        <td>{{ include.cha }}<br /><span style="white-space-collapse: collapse; ">({%- include tools/dice-roll.html type="Charisma Ability Check" roll=cha_roll text=cha_modifier_text -%})</span></td>
+    </tr>
+</tbody>
+</table>
