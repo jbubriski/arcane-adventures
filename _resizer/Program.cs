@@ -30,12 +30,6 @@ foreach (var fullOriginalFilePath in files)
     var fileName = Path.GetFileName(fullOriginalFilePath);
     var newFilePath = Path.Combine(Path.GetDirectoryName(fullOriginalFilePath), @"resized");
 
-    if (!Directory.Exists(newFilePath))
-    {
-        Console.WriteLine($"Creating directory {newFilePath}...");
-        Directory.CreateDirectory(newFilePath);
-    }
-
     var fullNewFilePath = Path.Combine(newFilePath, fileName);
 
     Console.WriteLine($"Processing {fullOriginalFilePath}...");
@@ -47,6 +41,12 @@ foreach (var fullOriginalFilePath in files)
     {
         Console.WriteLine($"Already processed file, skipping.");
         continue;
+    }
+
+    if (!Directory.Exists(newFilePath))
+    {
+        Console.WriteLine($"Creating directory {newFilePath}...");
+        Directory.CreateDirectory(newFilePath);
     }
 
     var sizes = fileName.EndsWith("-01.png") && !fileName.EndsWith("-extra-01.png") ? mainImageSizes : regularSizes;
