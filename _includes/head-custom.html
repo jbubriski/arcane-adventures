@@ -1,304 +1,368 @@
 <style>
-    /* Elements */
-    ul {
-        padding-left: 20px
-    }
+/* Elements */
+ul {
+    padding-left: 20px
+}
+
+body {
+    background-color: #666;
+    color: #ddd;
+}
+
+.main-content h1,
+.main-content h2,
+.main-content h3,
+.main-content h4,
+.main-content h5,
+.main-content h6,
+a {
+    color: #3eff9e;
+}
+
+/* Atomic classes */
+.mt05 {
+    margin-top: 0.5rem;
+}
+.mt10 {
+    margin-top: 1rem;
+}
+.mt15 {
+    margin-top: 1.5rem;
+}
+.mt20 {
+    margin-top: 2rem;
+}
+.mt25 {
+    margin-top: 2.5rem;
+}
+.mt30 {
+    margin-top: 3rem;
+}
+
+.mr05 {
+    margin-right: 0.5rem;
+}
+.mr10 {
+    margin-right: 1rem;
+}
+.mr15 {
+    margin-right: 1.5rem;
+}
+.mr20 {
+    margin-right: 2rem;
+}
+.mr25 {
+    margin-right: 2.5rem;
+}
+.mr30 {
+    margin-right: 3rem;
+}
+
+.mb05 {
+    margin-bottom: 0.5rem;
+}
+.mb10 {
+    margin-bottom: 1rem;
+}
+.mb15 {
+    margin-bottom: 1.5rem;
+}
+.mb20 {
+    margin-bottom: 2rem;
+}
+.mb25 {
+    margin-bottom: 2.5rem;
+}
+.mb30 {
+    margin-bottom: 3rem;
+}
+
+.ml05 {
+    margin-left: 0.5rem;
+}
+.ml10 {
+    margin-left: 1rem;
+}
+.ml15 {
+    margin-left: 1.5rem;
+}
+.ml20 {
+    margin-left: 2rem;
+}
+.ml25 {
+    margin-left: 2.5rem;
+}
+.ml30 {
+    margin-left: 3rem;
+}
 
 
-    /* Atomic classes */
-    .mt05 {
-        margin-top: 0.5rem;
-    }
-    .mt10 {
-        margin-top: 1rem;
-    }
-    .mt15 {
-        margin-top: 1.5rem;
-    }
-    .mt20 {
-        margin-top: 2rem;
-    }
-    .mt25 {
-        margin-top: 2.5rem;
-    }
-    .mt30 {
-        margin-top: 3rem;
-    }
-
-    .mr05 {
-        margin-right: 0.5rem;
-    }
-    .mr10 {
-        margin-right: 1rem;
-    }
-    .mr15 {
-        margin-right: 1.5rem;
-    }
-    .mr20 {
-        margin-right: 2rem;
-    }
-    .mr25 {
-        margin-right: 2.5rem;
-    }
-    .mr30 {
-        margin-right: 3rem;
-    }
-
-    .mb05 {
-        margin-bottom: 0.5rem;
-    }
-    .mb10 {
-        margin-bottom: 1rem;
-    }
-    .mb15 {
-        margin-bottom: 1.5rem;
-    }
-    .mb20 {
-        margin-bottom: 2rem;
-    }
-    .mb25 {
-        margin-bottom: 2.5rem;
-    }
-    .mb30 {
-        margin-bottom: 3rem;
-    }
-
-    .ml05 {
-        margin-left: 0.5rem;
-    }
-    .ml10 {
-        margin-left: 1rem;
-    }
-    .ml15 {
-        margin-left: 1.5rem;
-    }
-    .ml20 {
-        margin-left: 2rem;
-    }
-    .ml25 {
-        margin-left: 2.5rem;
-    }
-    .ml30 {
-        margin-left: 3rem;
-    }
 
 
 
+.site-footer {
+    max-width: 64rem;
+    padding: 2rem 6rem;
+    margin: 0 auto;
+    font-size: 1.1rem;
+}
 
+.page-header {
+    padding: 5rem 6rem 2rem 6rem;
+}
 
-    .site-footer {
-        max-width: 64rem;
-        padding: 2rem 6rem;
-        margin: 0 auto;
-        font-size: 1.1rem;
-    }
+.project-name a {
+    text-decoration: none;
+    color: #fff;
+}
 
-    .page-header {
-        padding: 5rem 6rem 2rem 6rem;
-    }
+.post-list-post {
+    margin-top: 2rem;
+}
 
-    .project-name a {
-        text-decoration: none;
-        color: #fff;
-    }
+.post-list .image-left, .post-list .image-right {
+    width: 120px;
+}
 
-    .post-list-post {
-        margin-top: 2rem;
-    }
+.post-list img {
+    width: 120px;
+}
 
-    .post-list .image-left, .post-list .image-right {
-        width: 120px;
-    }
+.wip {
+    padding: 10px;
+    border: 1px solid red;
+}
 
-    .post-list img {
-        width: 120px;
-    }
+.tags {
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
 
-    .wip {
-        padding: 10px;
-        border: 1px solid red;
-    }
+.tag {
+    padding: 0.25rem 0.5rem;
+    font-size: 12px;
+    display: inline-block;
+    margin-bottom: 0.25rem;
+    color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(0, 0, 0, 0.6);
+    border-color: rgba(0, 0, 0, 0.8);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 0.3rem;
+}
 
-    .tags {
-        margin-top: 0.5rem;
-        margin-bottom: 1rem;
-    }
+.tag+.tag {
+    margin-left: 0.25rem;
+}
 
-    .tag {
-        padding: 0.25rem 0.5rem;
-        font-size: 12px;
-        display: inline-block;
-        margin-bottom: 0.25rem;
-        color: rgba(255, 255, 255, 0.9);
-        background-color: rgba(0, 0, 0, 0.6);
-        border-color: rgba(0, 0, 0, 0.8);
-        border-style: solid;
-        border-width: 1px;
-        border-radius: 0.3rem;
-    }
+.image-left {
+    display: block;
+    float: left;
+    width: 320px;
+    margin-right: 20px
+}
 
-    .tag+.tag {
-        margin-left: 0.25rem;
-    }
+.image-right {
+    display: block;
+    float: right;
+    width: 320px;
+    margin-left: 20px;
+}
 
+@media (max-width: 500px) {
     .image-left {
-        display: block;
-        float: left;
-        width: 320px;
-        margin-right: 20px
+        float: none;
     }
 
     .image-right {
-        display: block;
-        float: right;
-        width: 320px;
-        margin-left: 20px;
+        float: none;
     }
+}
 
-    @media (max-width: 500px) {
-        .image-left {
-            float: none;
-        }
+.image-empty {
+    border: 1px dashed gray;
+}
 
-        .image-right {
-            float: none;
-        }
-    }
+.additional-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 
-    .image-empty {
-        border: 1px dashed gray;
-    }
+.additional-images a {
+    width: 48%;
+    padding-bottom: 10px;
+}
 
-    .additional-images {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
+.read-aloud {
+    background-color: #aeffd6;
+    border-right: 4px solid black;
+    border-left: 4px solid black;
+    font-style: italic;
+    overflow:hidden;
+}
 
-    .additional-images a {
-        width: 48%;
-        padding-bottom: 10px;
-    }
+.read-aloud {
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    margin-bottom: 0;
+}
 
-    .read-aloud {
-        background-color: #aeffd6;
-        border-right: 4px solid black;
-        border-left: 4px solid black;
-        font-style: italic;
-        overflow:hidden;
-    }
+/* This has one issue where if you have a image that is getting wrapped around, the read-aloud below wont have a top margin */
+.read-aloud + .read-aloud p {
+    padding: 0 1.5rem 1rem 1.5rem;
+}
 
-    .read-aloud {
-        padding: 1rem 1.5rem 1rem 1.5rem;
-        margin-bottom: 0;
-    }
+.rules-box {
+    display: block;
+    float: right;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px 0;
+    overflow:hidden;
+}
 
-    /* This has one issue where if you have a image that is getting wrapped around, the read-aloud below wont have a top margin */
-    .read-aloud + .read-aloud p {
-        padding: 0 1.5rem 1rem 1.5rem;
-    }
+.rules-header {
+    color: #159957;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
 
-    .rules-box {
-        display: block;
-        float: right;
-        border: 2px solid black;
-        padding: 10px;
-        margin: 10px 0;
-        overflow:hidden;
-    }
-
-    .rules-header {
-        color: #159957;
-        font-weight: bold;
-        margin-bottom: 10px;
-    }
-
-    .sidebar {
-        width: 320px;
-        display: block;
-        float: right;
-        border: 2px solid black;
-        padding: 10px;
-        margin: 10px;
-        font-style: italic;
-        overflow:hidden;
-    }
+.sidebar {
+    width: 320px;
+    display: block;
+    float: right;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+    font-style: italic;
+    overflow:hidden;
+}
 
 
 
 
 
-    .dice-roll {
-        border-bottom: 1px dotted #000;
-        padding: 0.1rem;
-        cursor: pointer;
-    }
+.dice-roll {
+    border-bottom: 1px dotted #000;
+    padding: 0.1rem;
+    cursor: pointer;
+}
 
 
 
 
-    #snackbar {
-        visibility: hidden;
-        min-width: 300px;
-        margin-left: -125px;
-        background-color: #333;
-        color: #fff;
-        text-align: center;
-        border-radius: 2px;
-        padding: 16px;
-        position: fixed;
-        z-index: 1;
-        right: 30px;
-        bottom: 30px;
-        font-size: 17px;
-    }
+#snackbar {
+    visibility: hidden;
+    min-width: 300px;
+    margin-left: -125px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    right: 30px;
+    bottom: 30px;
+    font-size: 17px;
+}
 
-    #snackbar.show {
-        visibility: visible;
-        -webkit-animation: fadein 0.5s;
-        animation: fadein 0.5s;
-    }
+#snackbar.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s;
+    animation: fadein 0.5s;
+}
 
-    #snackbar.hide {
-        visibility: visible;
-        -webkit-animation: fadeout 0.5s 1 linear forwards;
-        animation: fadeout 0.5s 1 linear forwards;
-    }
+#snackbar.hide {
+    visibility: visible;
+    -webkit-animation: fadeout 0.5s 1 linear forwards;
+    animation: fadeout 0.5s 1 linear forwards;
+}
 
-    @-webkit-keyframes fadein {
-        from {bottom: 0; opacity: 0;}
-        to {bottom: 30px; opacity: 1;}
-    }
+@-webkit-keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+}
 
-    @keyframes fadein {
-        from {bottom: 0; opacity: 0;}
-        to {bottom: 30px; opacity: 1;}
-    }
+@keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+}
 
-    @-webkit-keyframes fadeout {
-        from { bottom: 30px; opacity: 1; }
-        to { bottom: 0; opacity: 0; visibility: none; }
-    }
+@-webkit-keyframes fadeout {
+    from { bottom: 30px; opacity: 1; }
+    to { bottom: 0; opacity: 0; visibility: none; }
+}
 
-    @keyframes fadeout {
-        from { bottom: 30px; opacity: 1; }
-        to { bottom: 0; opacity: 0; visibility: none; }
-    }
+@keyframes fadeout {
+    from { bottom: 30px; opacity: 1; }
+    to { bottom: 0; opacity: 0; visibility: none; }
+}
 
-    #snackbar .roll-row {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
+#snackbar .roll-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 
-    #snackbar .roll-row+.roll-row {
-        margin-top: 1rem;
-    }
+#snackbar .roll-row+.roll-row {
+    margin-top: 1rem;
+}
 
-    #snackbar .roll-column {
-        display: flex;
-        flex-direction: column;
-        flex-basis: 100%;
-        flex: 1;
-    }
+#snackbar .roll-column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+
+.main-content.monster .stat-block {
+    color: #000;
+}
+
+.main-content.monster .stat-block h1,
+.main-content.monster .stat-block h2,
+.main-content.monster .stat-block h3,
+.main-content.monster .stat-block h4,
+.main-content.monster .stat-block h5,
+.main-content.monster .stat-block h6 {
+    color: #159957;
+}
+
+.main-content.monster .stat-block  h2.monster-name {
+    margin-top: 0;
+    margin-bottom: 0;
+    border: none;
+}
+
+.main-content.monster .stat-block {
+    padding: 1rem;
+    background-color: #caffe4;
+    border: 1px solid black;
+}
+
+.main-content.monster .stat-block hr {
+    height: auto;
+    border: 4px solid #159957;
+    border-radius: 2px;
+}
+
+.main-content.monster .stat-block h2 {
+    border-bottom: 2px solid #159957;
+    border-radius: 2px;
+}
+
+table.monster-stats {
+    width: auto;
+}
+
+table.monster-stats th {
+    width: auto;
+}
+
+table.monster-stats td {
+    text-align: center;
+    white-space: nowrap;
+}
 </style>

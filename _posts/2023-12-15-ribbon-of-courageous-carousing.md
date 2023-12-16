@@ -2,7 +2,7 @@
 layout:     post
 title:      "Ribbon of Courageous Carousing - Magic Item for DnD"
 title_simple:      "Ribbon of Courageous Carousing"
-date:       2023-12-26 10:00:00 -0400
+date:       2023-12-15 10:00:00 -0400
 categories: magic-item
 tags:       dnd dnd-5e magic-item multi-use tier-1 tier-2 tier-3 tier-4
 magicItemType: wondrous item

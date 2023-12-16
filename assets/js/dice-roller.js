@@ -13,7 +13,7 @@
         log('Rolling:', element);
 
         var rollType = element.dataset.rollType;
-        var result = calculateDiceRoll(element.innerHTML);
+        var result = calculateDiceRoll(element.dataset.roll);
 
         log(result);
 

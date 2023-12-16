@@ -1,1 +1,1 @@
-<span class="dice-roll" data-roll-type="{{ include.type }}">{{ include.roll }}</span>
+{% if include.text != nil  %}<span class="dice-roll" data-roll-type="{{ include.type }}" data-roll="{{ include.roll }}">{{ include.text }}</span>{% else %}<span class="dice-roll" data-roll-type="{{ include.type }}" data-roll="{{ include.roll }}">{{ include.roll }}</span>{% endif %}

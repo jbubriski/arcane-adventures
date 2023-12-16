@@ -59,7 +59,7 @@ Example responses/actions include:
 - "When?" - When asked to do something when no timeframe is specified.
 - "Yes." - When asked a question requiring further follow-up. "Did you bring me the item I requested?"... with no further action.
 
-Roll {% include tools/dice-roll.html type="Screw Up" roll="1d8" %} on the example screw-up table to find out what happens:
+Roll {% include tools/dice-roll.html type="Screw Up" roll="1d8" text="1d8" %} on the example screw-up table to find out what happens:
 
 | {% include tools/dice-roll.html type="Screw Up" roll="1d8" text="Roll" %} | Screw-up |
 | - | ----------- |
