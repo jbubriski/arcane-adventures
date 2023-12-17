@@ -4,7 +4,7 @@ title:      "Bow Tie of Marvelous Mingling - Magic Item for DnD"
 title_simple:      "Bow Tie of Marvelous Mingling"
 date:       2023-12-12 10:00:00 -0400
 categories: magic-item
-tags:       dnd dnd-5e magic-item multi-use tier-1 tier-2 tier-3 tier-4
+tags:       dnd dnd-5e magic-item multi-use tier-1 tier-2 tier-3 tier-4 non-combat
 magicItemType: wondrous item
 rarity:     very-rare
 requires_attunement: false
@@ -48,7 +48,7 @@ While the bow tie's effect is active, you gain a +1 bonus to Charisma ability ch
 Similar to the [Ribbon of Courageous Carousing](ribbon-of-courageous-carousing)
 {% endcomment %}
 
-While creatures with Charisma of 18 or higher can tell that the attire produced is an illusion, it's up to you to decide what this means to the specific NPC's. Maybe they want the adventurer to succeed in their task... maybe someone else at the party has their own Bow Tie of Marvelous Mingling... maybe they're waiting for the right moment to call the adventurer out
+While creatures with Charisma of 18 or higher can tell that the attire produced is an illusion, it's up to you to decide what this means to the specific NPC's. Maybe they want the adventurer to succeed in their task... maybe someone else at the party has their own Bow Tie of Marvelous Mingling... maybe they're waiting for the right moment to call the adventurer out.
 
 
 ## Additional Images

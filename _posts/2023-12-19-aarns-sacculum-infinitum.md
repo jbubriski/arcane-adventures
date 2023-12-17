@@ -5,7 +5,7 @@ title_simple: "Aarn's Sacculum Infinitum"
 date:       2023-12-19 10:00:00 -0400
 published: true
 categories: magic-item
-tags:       dnd dnd-5e magic-item multi-use tier-1 tier-2 tier-3 tier-4 wip
+tags:       dnd dnd-5e magic-item multi-use tier-1 tier-2 tier-3 tier-4 non-combat
 magicItemType: wondrous item
 rarity:     legendary
 requires_attunement: false
@@ -47,6 +47,15 @@ imagesExtra:
 {% include post-image.html side="right" src=image.src alt=image.alt size=320 %}
 
 Each evening at dusk, the Sacculum Infinitum magically fills with toys. The toys are of various shapes and sizes, are non-magical, and are typically made of wood, stone, fabric, or other basic crafting materials. Toys can be removed and replaced, but at dusk, anything else inside is expelled from the sack.
+
+## Optional Rules
+
+Each time the sack fills, roll a d100. On a 100, the sack also contains a list of all the individuals in the immediate vicinity. Next to each name on the list is a checkmark if the person has been good, and an x if they have been bad.
+
+- If someone is using a fake name publicly people in the area won't recognize the name on the list.
+- A person's "true" alignment may not match their designation on the list. For example, a person with an evil alignment could have a checkmark if they have not done any evil deeds recently.
+
+On some occasions, there is a skull next to a name. This designates that the person has done some truly awful things.
 
 
 <div style="clear: both;"></div>

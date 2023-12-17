@@ -4,7 +4,7 @@ title:      "Ribbon of Courageous Carousing - Magic Item for DnD"
 title_simple:      "Ribbon of Courageous Carousing"
 date:       2023-12-14 10:00:00 -0400
 categories: magic-item
-tags:       dnd dnd-5e magic-item multi-use tier-1 tier-2 tier-3 tier-4
+tags:       dnd dnd-5e magic-item multi-use tier-1 tier-2 tier-3 tier-4 non-combat
 magicItemType: wondrous item
 rarity:     very-rare
 requires_attunement: false
