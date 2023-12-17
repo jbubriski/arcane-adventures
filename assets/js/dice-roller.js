@@ -1,3 +1,6 @@
+var diceRoller = {};
+diceRoller.log = [];
+
 (function () {
     var elements = document.getElementsByClassName('dice-roll');
 
@@ -13,13 +16,50 @@
         log('Rolling:', element);
 
         var rollType = element.dataset.rollType;
+        var advantage = element.dataset.advantage;
+        var disadvantage = element.dataset.disadvantage;
+
         var result = calculateDiceRoll(element.dataset.roll);
+
+        if (advantage || disadvantage) {
+            var result2 = calculateDiceRoll(element.dataset.roll);
+        }
 
         log(result);
 
         var rollsStrings = result.rolls.map((x) => x.roll);
+        var rollResultParts = rollsStrings.concat(result.adds);
+        var message = rollResultParts.length > 1
+            ? `${rollResultParts.join(' + ')} = ${result.totalValue}`
+            : result.totalValue;
 
-        showToast(rollType, `${rollsStrings.concat(result.adds).join(' + ')} = ${result.totalValue}`);
+        var rollData = {
+            rollType: rollType,
+            message: message,
+            result: result.totalValue
+        };
+
+        if (advantage || disadvantage) {
+            var rollsStrings2 = result2.rolls.map((x) => x.roll);
+            var rollResultParts2 = rollsStrings2.concat(result2.adds);
+            var message2 = rollResultParts2.length > 1
+                ? `${rollResultParts2.join(' + ')} = ${result2.totalValue}`
+                : result2.totalValue;
+
+            if (advantage) {
+                var higherRollResult = result.totalValue > result2.totalValue ? result.totalValue : result2.totalValue;
+            } else {
+                var higherRollResult = result.totalValue < result2.totalValue ? result.totalValue : result2.totalValue;
+            }
+
+            rollData.rollType += advantage ? " with advantage" : " with disadvantage";
+            rollData.message = `(${message}, ${message2}) = ${higherRollResult}`
+            rollData.result2 = result2.totalValue;
+        }
+
+        diceRoller.log.push(rollData);
+
+        showToast(rollData);
     }
 
     function calculateDiceRoll(rollText) {
@@ -73,7 +113,9 @@
         };
     }
 
-    function showToast(messageType, message) {
+    function showToast(rollData) {
+        log(rollData);
+
         var snackbar = document.getElementById("snackbar");
 
         var newMessageRow = document.createElement("div");
@@ -81,11 +123,11 @@
 
         var rollTypeColumn = document.createElement("div");
         rollTypeColumn.className = 'roll-column';
-        rollTypeColumn.innerText = messageType;
+        rollTypeColumn.innerText = rollData.rollType;
 
         var rollColumn = document.createElement("div");
         rollColumn.className = 'roll-column';
-        rollColumn.innerText = message;
+        rollColumn.innerText = rollData.message;
 
         newMessageRow.append(rollTypeColumn);
         newMessageRow.append(rollColumn);
@@ -115,5 +157,9 @@
         } else {
             console.log(message)
         }
+    }
+
+    diceRoller.showLog = function() {
+
     }
 })();

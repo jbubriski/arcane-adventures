@@ -38,11 +38,11 @@ After impact, the ball will continue to bounce half the initial thrown distance 
 - A ball thrown 25 ft. will bounce another 10 ft.
 - A ball thrown 5 ft. will not bounce.
 
-If confronted with a dangerous obstacle, like the ball bouncing off a cliff, the creatures must succeed on a DC 7 charisma saving throw or continue to chase the ball.
-
 
 {% assign image = page.images[1] %}
 {% include post-image.html side="right" src=image.src alt=image.alt size=320 %}
+
+If confronted with a dangerous obstacle, like the ball bouncing off a cliff, the creatures must succeed on a DC 7 charisma saving throw or continue to chase the ball.
 
 Upon reaching the ball, creatures will use their free action to pick up the ball, at which point further effects are stopped. If the creature does not have a free hand, it will free up a hand in order to pick up the ball. For example, a creature carrying a shield and weapon will drop its weapon, a creature carrying a 2 handed weapon will hold its weapon in one hand, and a creature carrying an item that requires 2 hands to carry (like a large chest) will drop the item.
 
