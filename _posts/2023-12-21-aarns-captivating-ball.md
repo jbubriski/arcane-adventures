@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "Aarn's Captivating Ball - Magic Item for DnD"
-title_simple:      "Aarn's Captivating Ball - Magic Item for DnD"
+title_simple:      "Aarn's Captivating Ball"
 date:       2023-12-21 10:00:00 -0400
 categories: magic-item
 tags:       dnd dnd-5e magic-item multi-use tier-2 tier-3 tier-4
