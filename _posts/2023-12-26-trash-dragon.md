@@ -2,7 +2,7 @@
 layout:     monster
 title:      "Trash Dragon - NPC for DnD"
 title_simple:      "Trash Dragon"
-date:       2023-12-21 10:00:00 -0400
+date:       2023-12-26 10:00:00 -0400
 categories: monster
 tags:       dnd dnd-5e npc tier-1 tier-2 tier-3 tier-4 legendary
 image_base_path: /assets/images/trash-dragon/
