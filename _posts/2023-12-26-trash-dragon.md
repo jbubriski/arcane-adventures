@@ -4,7 +4,7 @@ title:      "Trash Dragon - NPC for DnD"
 title_simple:      "Trash Dragon"
 date:       2023-12-26 10:00:00 -0400
 categories: monster
-tags:       dnd dnd-5e npc tier-1 tier-2 tier-3 tier-4 legendary
+tags:       dnd dnd-5e tier-3 tier-4 wip untested
 image_base_path: /assets/images/trash-dragon/
 image:      trash-dragon-01
 images:
@@ -61,15 +61,15 @@ speed: 40 ft., climb 30ft.
 
     <p><strong>Multiattack.</strong> It then makes three attacks: one bite and two punches.</p>
 
-    <p><strong>Bite.</strong> Melee Weapon Attack: {% include tools/dice-roll.html type="Melee Weapon Attack" roll="1d20 + 8" text="+8" attack="true" %} to hit, reach 10 ft., one target. Hit: 24 ({% include tools/dice-roll.html type="Melee Weapon Attack" roll="5d6 + 6" %}) piercing damage.</p>
+    <p><strong>Bite.</strong> Melee Weapon Attack: {% include tools/dice-roll.html type="Melee Weapon Attack" roll="1d20 + 8" text="+8" attack="true" %} to hit, reach 10 ft., one target. Hit: 20 ({% include tools/dice-roll.html type="Melee Weapon Attack" roll="4d6 + 6" %}) piercing damage.</p>
 
     <p><strong>Punch.</strong> Melee Weapon Attack: {% include tools/dice-roll.html type="Melee Weapon Attack" roll="1d20 + 10" text="+10" attack=true %} to hit, reach 5 ft., one target. Hit: 12 ({% include tools/dice-roll.html type="Melee Weapon Attack" roll="2d6 + 4" %}) bludgeoning damage.</p>
 
     <p><strong>Breath Weapons (Recharge 5–6).</strong> The dragon uses one of the following breath weapons.</p>
 
-    <p><strong>Trash Breath.</strong> The dragon exhales trash in a 30-foot cone. Each creature in that area must make a DC 18 Dexterity saving throw, taking 54 ({% include tools/dice-roll.html type="Trash Breath Attack" roll="16d6" %}) bludgeoning damage on a failed save, or half as much damage on a successful one.</p>
+    <p><strong>Trash Breath.</strong> The dragon exhales trash in a 30-foot cone. Each creature in that area must make a DC 15 Dexterity saving throw, taking 42 ({% include tools/dice-roll.html type="Trash Breath Attack" roll="12d6" %}) bludgeoning damage on a failed save, or half as much damage on a successful one.</p>
 
-    <p><strong>Burp Bubble.</strong> The dragon spews a giant bubble filled with noxious fumes, aimed at a creature within 30 ft. The bubble bursts creating a 15 foot radius cloud of noxious fumes centered on the creature. Each creature in the cloud must make a DC 15 Constitution saving throw, taking 42 ({% include tools/dice-roll.html type="Burp Bubble Attack" roll="12d6" %}) poison damage on a failed save, or half as much damage on a successful one. A creature that ends its turn within the cloud has to repeat the save or suffer the damage (again). The cloud lasts for 1 hour unless dispersed by a strong wind.</p>
+    <p><strong>Burp Bubble.</strong> The dragon spews a giant bubble filled with noxious fumes, aimed at a creature within 30 ft. The bubble bursts creating a 15 foot radius cloud of noxious fumes centered on the creature. Each creature in the cloud must make a DC 15 Constitution saving throw, taking 35 ({% include tools/dice-roll.html type="Burp Bubble Attack" roll="10d6" %}) poison damage on a failed save, or half as much damage on a successful one. A creature that ends its turn within the cloud has to repeat the save or suffer the damage (again). The cloud lasts for 1 hour unless dispersed by a strong wind.</p>
 
 
     <h2 id="legendary_actions">Legendary Actions</h2>
@@ -78,22 +78,53 @@ speed: 40 ft., climb 30ft.
 
     <p><strong>Guzzle.</strong> The dragon rakes its mouth across the ground, consuming any items within 5 feet of it. If there are enough items or trash around it, its breath weapon attack is recharged.</p>
 
-    <p><strong>Dumpster Dive.</strong> If inside its layer, the dragon can dive into the trash hoard. While under the trash hoard there is a low rumble as the dragon tunnels around, but its location isn't visibly obvious and the dragon has complete cover. After 2 adventurers have taken their turns, the dragon will resurface within 30 ft. of the place it went under. When surfacing, each creature within 5 feet of the dragon must make a DC 15 Dexterity saving throw, taking 24 ({% include tools/dice-roll.html type="Bludgeoning damage" roll="6d6 + 6" %}) bludgeoning damage on a failed save, or half as much damage on a successful one.</p>
+    <p><strong>Dumpster Dive.</strong> If inside its layer, the dragon can dive into the trash hoard. While under the trash hoard there is a low rumble as the dragon tunnels around, but its location isn't visibly obvious and the dragon has complete cover. After 2 adventurers have taken their turns, the dragon will resurface within 30 ft. of the place it went under. When surfacing, each creature within 5 feet of the dragon must make a DC 15 Dexterity saving throw, taking 20 ({% include tools/dice-roll.html type="Bludgeoning damage" roll="4d6 + 6" %}) bludgeoning damage on a failed save, or half as much damage on a successful one.</p>
 
     <div class="dm-note">While the dragon can't be targeted while under the trash hoard, adventurers can ready their actions to attack when the dragon resurfaces, as long as they're not affected by the resurfacing.</div>
 
-    <p><strong>Improvised Large Trash Slam.</strong> The dragon grabs one of its large prized possessions (for example, a small boat) and attacks an area on the ground within 10 feet. Each creature within 5 feet of the target must succeed on a DC 18 Dexterity saving throw or take 20 ({% include tools/dice-roll.html type="Bludgeoning damage" roll="3d6 + 6" %}) bludgeoning damage and be knocked back 5 feet from the target.</p>
+    <p><strong>Improvised Large Trash Slam.</strong> The dragon grabs one large piece of trash (for example, a small boat, tree trunk, or lamp post) and attacks an area on the ground within 10 feet. Each creature within 5 feet of the target must succeed on a DC 15 Dexterity saving throw or take 16 ({% include tools/dice-roll.html type="Bludgeoning damage" roll="3d6 + 6" %}) bludgeoning damage and be knocked back 5 feet from the target.</p>
 </div>
 
 
 {% assign image = page.images[1] %}
 {% include post-image.html side="right" src=image.src alt=image.alt size=320 %}
 
-## Whatever
+## Background
 
 Dwelling deep under the sewers of Hemadal, Trash Dragons rest atop the piles of discarded waste rather than piles of traditional wealth. They find value in the mundane garbage discarded indiscriminately, and sometimes, accidentally, by mortals. While the value of a Trash Dragon's hoard may pale in comparison to that of a typical dragon, they're often a source of arcane, cryptic, and long-forgotten magical sundries.
 
 In adulthood they generally prefer solitude, but younger dragons live in a perpetual commune until big enough to amass their own disgusting hoard.
+
+
+## Motivations
+
+Like other dragons, Trash Dragons aim to increase their hoard, and generally act in their self-interest.
+
+| {% include tools/dice-roll.html type="Motivation" roll="1d8" text="Roll" %} | Motivation |
+| - | ----------- |
+| 1 | Wants to increase its trash hoard by disrupting society.
+| 2 | Wants to increase its trash hoard through trading.
+| 3 | Wants the adventurers to retrieve some magic items.
+| 4 | Wants the adventurers to find a way to increase the trash hoard.
+| 5 | Wants to ally with the nearby city to increase the trash hoard.
+| 6 | Is content with its trash hoard and wants to be left alone.
+| 7 | Wants to lure the adventurers in through deception to steal their items.
+| 8 | Wants to add the adventurers' bodies to their trash horde.
+
+
+## Related Magic Item Ideas
+
+Here are some magic items that the Trash Dragon might be interested in finding.
+
+| {% include tools/dice-roll.html type="Magic Items" roll="1d6" text="Roll" %} | Magic Items |
+| - | ----------- |
+| 1 | Housewarming Prank - A cracked jug that slowly and continually leaks wine, but contains no wine.
+| 2 | Sharding Bowl - A glass bowl that reconstitutes itself when smashed, leaving behind extra shards.
+| 3 | Stank Powder - A special alchemical powder that will react with the offgassing around the trash hoard.
+| 4 | Trash Chute - A metal pipe that expands and bores through surfaces when activated.
+| 5 | Heinous Hairball - A hairball from a magical creature that reacts to magical energy and grows.
+| 6 | Francis the Pig - Francis the Pig had a portal to another plane opened within its bowels. It will produce an unnatural amount of poop.
+
 
 ## Additional Images
 
