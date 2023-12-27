@@ -59,28 +59,30 @@ speed: 40 ft., climb 30ft.
 
     <h2 id="actions">Actions</h2>
 
-    <p><strong>Multiattack.</strong> It then makes three attacks: one with its bite and two with its claws.</p>
+    <p><strong>Multiattack.</strong> It then makes three attacks: one bite and two punches.</p>
 
-    <p><strong>Bite.</strong> Melee Weapon Attack: {% include tools/dice-roll.html type="Melee Weapon Attack" roll="1d20 + 8" text="+8" %} to hit, reach 10 ft., one target. Hit: 24 ({% include tools/dice-roll.html type="Melee Weapon Attack" roll="3d10 + 6" %}) piercing damage.</p>
+    <p><strong>Bite.</strong> Melee Weapon Attack: {% include tools/dice-roll.html type="Melee Weapon Attack" roll="1d20 + 8" text="+8" attack="true" %} to hit, reach 10 ft., one target. Hit: 24 ({% include tools/dice-roll.html type="Melee Weapon Attack" roll="5d6 + 6" %}) piercing damage.</p>
 
-    <p><strong>Punch.</strong> Melee Weapon Attack: {% include tools/dice-roll.html type="Melee Weapon Attack" roll="1d20 + 10" text="+10" %} to hit, reach 5 ft., one target. Hit: 12 ({% include tools/dice-roll.html type="Melee Weapon Attack" roll="2d6 + 4" %}) bludgeoning damage.</p>
+    <p><strong>Punch.</strong> Melee Weapon Attack: {% include tools/dice-roll.html type="Melee Weapon Attack" roll="1d20 + 10" text="+10" attack=true %} to hit, reach 5 ft., one target. Hit: 12 ({% include tools/dice-roll.html type="Melee Weapon Attack" roll="2d6 + 4" %}) bludgeoning damage.</p>
 
     <p><strong>Breath Weapons (Recharge 5–6).</strong> The dragon uses one of the following breath weapons.</p>
 
-    <p><strong>Trash Breath.</strong> The dragon exhales trash in a 30-foot cone. Each creature in that area must make a DC 18 Dexterity saving throw, taking 54 ({% include tools/dice-roll.html type="Melee Weapon Attack" roll="12d8" %}) bludgeoning damage on a failed save, or half as much damage on a successful one.</p>
+    <p><strong>Trash Breath.</strong> The dragon exhales trash in a 30-foot cone. Each creature in that area must make a DC 18 Dexterity saving throw, taking 54 ({% include tools/dice-roll.html type="Trash Breath Attack" roll="16d6" %}) bludgeoning damage on a failed save, or half as much damage on a successful one.</p>
 
-    <p><strong>Burp.</strong> The dragon exhales noxious fumes in a 15-foot cone. Each creature in that area must make a DC 15 Constitution saving throw, taking 54 ({% include tools/dice-roll.html type="Melee Weapon Attack" roll="12d8" %}) poison damage on a failed save, or half as much damage on a successful one.</p>
+    <p><strong>Burp Bubble.</strong> The dragon spews a giant bubble filled with noxious fumes, aimed at a creature within 30 ft. The bubble bursts creating a 15 foot radius cloud of noxious fumes centered on the creature. Each creature in the cloud must make a DC 15 Constitution saving throw, taking 42 ({% include tools/dice-roll.html type="Burp Bubble Attack" roll="12d6" %}) poison damage on a failed save, or half as much damage on a successful one. A creature that ends its turn within the cloud has to repeat the save or suffer the damage (again). The cloud lasts for 1 hour unless dispersed by a strong wind.</p>
 
 
     <h2 id="legendary_actions">Legendary Actions</h2>
 
     <p>The dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The dragon regains spent legendary actions at the start of its turn.</p>
 
-    <p><strong>Guzzle.</strong> The dragon consumes any items within 5 feet of it. If there are enough items or trash around it, its breath weapon attack is recharged.</p>
+    <p><strong>Guzzle.</strong> The dragon rakes its mouth across the ground, consuming any items within 5 feet of it. If there are enough items or trash around it, its breath weapon attack is recharged.</p>
 
-    <p><strong>Tail Rake.</strong> The dragon rakes its tail along the ground flinging rocks, debris, or any trash it spewed earlier in a 15 foot cone. Each creature in that area must make a DC 15 Dexterity saving throw, taking 24 ({% include tools/dice-roll.html type="Bludgeoning damage" roll="5d8" %}) bludgeoning damage on a failed save, or half as much damage on a successful one.</p>
+    <p><strong>Dumpster Dive.</strong> If inside its layer, the dragon can dive into the trash hoard. While under the trash hoard there is a low rumble as the dragon tunnels around, but its location isn't visibly obvious and the dragon has complete cover. After 2 adventurers have taken their turns, the dragon will resurface within 30 ft. of the place it went under. When surfacing, each creature within 5 feet of the dragon must make a DC 15 Dexterity saving throw, taking 24 ({% include tools/dice-roll.html type="Bludgeoning damage" roll="6d6 + 6" %}) bludgeoning damage on a failed save, or half as much damage on a successful one.</p>
 
-    <p><strong>Wing Attack (Costs 2 Actions).</strong> The dragon beats its wings. Each creature within 10 feet of the dragon must succeed on a DC 19 Dexterity saving throw or take 13 ({% include tools/dice-roll.html type="Bludgeoning damage" roll="2d6 + 6" %}) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed.</p>
+    <div class="dm-note">While the dragon can't be targeted while under the trash hoard, adventurers can ready their actions to attack when the dragon resurfaces, as long as they're not affected by the resurfacing.</div>
+
+    <p><strong>Improvised Large Trash Slam.</strong> The dragon grabs one of its large prized possessions (for example, a small boat) and attacks an area on the ground within 10 feet. Each creature within 5 feet of the target must succeed on a DC 18 Dexterity saving throw or take 20 ({% include tools/dice-roll.html type="Bludgeoning damage" roll="3d6 + 6" %}) bludgeoning damage and be knocked back 5 feet from the target.</p>
 </div>
 
 
@@ -89,19 +91,9 @@ speed: 40 ft., climb 30ft.
 
 ## Whatever
 
-It's rumored deep under the sewers of Hemadal,
-Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a DC 16 Charisma saving throw or become Frightful Presence. Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a DC 16 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours.
+Dwelling deep under the sewers of Hemadal, Trash Dragons rest atop the piles of discarded waste rather than piles of traditional wealth. They find value in the mundane garbage discarded indiscriminately, and sometimes, accidentally, by mortals. While the value of a Trash Dragon's hoard may pale in comparison to that of a typical dragon, they're often a source of arcane, cryptic, and long-forgotten magical sundries.
 
-
-## Whatever 2
-
-Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a DC 16 Charisma saving throw or become Frightful Presence. Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a DC 16 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours.
-
-- t on itself on a success. If a creature's saving throw is successful or
-- t on itself on a success. If a creature's saving throw is successful or
-- t on itself on a success. If a creature's saving throw is successful or
-
-t on itself on a success. If a creature's saving throw is successful or
+In adulthood they generally prefer solitude, but younger dragons live in a perpetual commune until big enough to amass their own disgusting hoard.
 
 ## Additional Images
 

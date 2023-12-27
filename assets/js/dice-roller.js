@@ -15,9 +15,13 @@ diceRoller.log = [];
 
         log('Rolling:', element);
 
+        var roll = element.dataset.roll;
+        var isAttackRoll = element.dataset.isAttackRoll;
         var rollType = element.dataset.rollType;
         var advantage = element.dataset.advantage;
         var disadvantage = element.dataset.disadvantage;
+
+        var isCriticalHit = false;
 
         var result = calculateDiceRoll(element.dataset.roll);
 
@@ -27,6 +31,10 @@ diceRoller.log = [];
 
         log(result);
 
+        if (isAttackRoll && result.rolls[0].roll == 20) {
+            isCriticalHit = true;
+        }
+
         var rollsStrings = result.rolls.map((x) => x.roll);
         var rollResultParts = rollsStrings.concat(result.adds);
         var message = rollResultParts.length > 1
@@ -34,9 +42,12 @@ diceRoller.log = [];
             : result.totalValue;
 
         var rollData = {
+            roll: roll,
+            isAttackRoll: isAttackRoll,
             rollType: rollType,
             message: message,
-            result: result.totalValue
+            result: result.totalValue,
+            isCriticalHit: isCriticalHit
         };
 
         if (advantage || disadvantage) {
@@ -121,9 +132,13 @@ diceRoller.log = [];
         var newMessageRow = document.createElement("div");
         newMessageRow.className = 'roll-row';
 
+        if (rollData.isCriticalHit) {
+            newMessageRow.className += " critical-hit";
+        }
+
         var rollTypeColumn = document.createElement("div");
         rollTypeColumn.className = 'roll-column';
-        rollTypeColumn.innerText = rollData.rollType;
+        rollTypeColumn.innerHTML = rollData.rollType + "<br />" + rollData.roll;
 
         var rollColumn = document.createElement("div");
         rollColumn.className = 'roll-column';
@@ -137,7 +152,6 @@ diceRoller.log = [];
 
         setTimeout(function () {
             tryCloseToast(newMessageRow);
-            //snackbar.className = snackbar.className.replace("show", "");
         }, 10000);
     }
 

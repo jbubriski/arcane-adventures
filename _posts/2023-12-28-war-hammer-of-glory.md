@@ -2,7 +2,7 @@
 layout:     post
 title:      "War Hammer of Glory - Magic Item for DnD"
 title_simple:      "War Hammer of Glory"
-date:       2024-01-02 10:00:00 -0400
+date:       2023-12-28 10:00:00 -0400
 categories: magic-item
 tags:       dnd dnd-5e magic-item multi-use tier-1 tier-2 tier-3 tier-4 wip
 magicItemType: Weapon (war hammer)
