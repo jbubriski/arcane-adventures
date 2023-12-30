@@ -1,3 +1,3 @@
-<div><strong>Armor Class</strong> {{ page.ac }}</div>
-<div><strong>Hit Points</strong> {{ page.hp }} ({%- include tools/dice-roll.html type="Max HP" roll=page.hp_roll text=page.hp_roll -%})</div>
-<div><strong>Speed</strong> {{ page.speed }}</div>
+<div><strong>Armor Class</strong> {{ include.ac }}</div>
+<div><strong>Hit Points</strong> {{ include.hp }} ({%- include tools/dice-roll.html type="Max HP" roll=include.hp_roll text=include.hp_roll -%})</div>
+<div><strong>Speed</strong> {{ include.speed }}</div>
