@@ -61,6 +61,7 @@ Example responses/actions include:
 
 Roll {% include tools/dice-roll.html type="Screw Up" roll="1d8" text="1d8" %} on the example screw-up table to find out what happens:
 
+<div markdown="block" class="roll-table js-autoroll js-roll-table">
 | {% include tools/dice-roll.html type="Screw Up" roll="1d8" text="Roll" %} | Screw-up |
 | - | ----------- |
 | 1 | Forgets what the task was.
@@ -71,6 +72,8 @@ Roll {% include tools/dice-roll.html type="Screw Up" roll="1d8" text="1d8" %} on
 | 6 | Will follow instructions literally.
 | 7 | Will follow commands that directly put its existence in danger.
 | 8 | Does the completely wrong task.
+
+</div>
 
 Just when the adventurers think the Stupid Doll is completely useless, it may complete a menial task to regain their confidence.
 

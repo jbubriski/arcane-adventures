@@ -19,6 +19,10 @@ a {
     color: #3eff9e;
 }
 
+button {
+    color: black;
+}
+
 /* Atomic classes */
 .mt05 {
     margin-top: 0.5rem;
@@ -259,6 +263,7 @@ a {
     margin-left: -125px;
     background-color: #333;
     color: #fff;
+    border: 2px solid #fff;
     text-align: center;
     border-radius: 2px;
     padding: 16px;
@@ -323,6 +328,7 @@ a {
 }
 
 
+
 .main-content.monster .stat-block {
     color: #000;
 }
@@ -375,4 +381,31 @@ table.monster-stats td {
 .main-content.monster .dm-note {
     font-style: italic;
 }
+
+.container {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.container table {
+    width: auto;
+}
+
+.roll-table {
+    margin-top: 1rem;
+}
+
+.roll-table table th,
+.roll-table table td {
+    border: 1px solid #999;
+}
+
+.roll-table-compact table th,
+.roll-table-compact table td {
+    padding: 0.5rem;
+}
+
 </style>

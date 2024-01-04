@@ -2,13 +2,25 @@ var diceRoller = {};
 diceRoller.log = [];
 
 (function () {
-    var elements = document.getElementsByClassName('dice-roll');
+    var diceRollElements = document.getElementsByClassName("dice-roll");
+    var autoRollerElements = document.getElementsByClassName("js-auto-roller");
 
-    for (var i = 0; i < elements.length; i++) {
-        log('Attaching:', elements[i]);
+    for (var i = 0; i < diceRollElements.length; i++) {
+        log("Attaching:", diceRollElements[i]);
 
-        elements[i].addEventListener('mousedown', function(e) { rollDice(this, e); })
+        diceRollElements[i].addEventListener("mousedown", function (e) {
+            rollDice(this, e);
+        });
     }
+
+    for (var i = 0; i < autoRollerElements.length; i++) {
+        log("Attaching auto roller:", autoRollerElements[i]);
+
+        autoRollerElements[i].addEventListener("mousedown", function (e) {
+            autoRollDice(this, e);
+        });
+    }
+
 
     function rollDice(element, e) {
         e.preventDefault();
@@ -18,15 +30,16 @@ diceRoller.log = [];
         var roll = element.dataset.roll;
         var isAttackRoll = element.dataset.isAttackRoll;
         var rollType = element.dataset.rollType;
+
         var advantage = element.dataset.advantage;
         var disadvantage = element.dataset.disadvantage;
 
         var isCriticalHit = false;
 
-        var result = calculateDiceRoll(element.dataset.roll);
+        var result = calculateDiceRoll(element.dataset.roll, element);
 
         if (advantage || disadvantage) {
-            var result2 = calculateDiceRoll(element.dataset.roll);
+            var result2 = calculateDiceRoll(element.dataset.roll, element);
         }
 
         log(result);
@@ -47,6 +60,7 @@ diceRoller.log = [];
             rollType: rollType,
             message: message,
             result: result.totalValue,
+            rollValueText: result.rollValueText,
             isCriticalHit: isCriticalHit
         };
 
@@ -66,6 +80,7 @@ diceRoller.log = [];
             rollData.rollType += advantage ? " with advantage" : " with disadvantage";
             rollData.message = `(${message}, ${message2}) = ${higherRollResult}`
             rollData.result2 = result2.totalValue;
+            rollData.rollValueText = result2.rollValueText
         }
 
         diceRoller.log.push(rollData);
@@ -73,10 +88,22 @@ diceRoller.log = [];
         showToast(rollData);
     }
 
-    function calculateDiceRoll(rollText) {
+    function autoRollDice(element, e) {
+        e.preventDefault();
+
+        log("Rolling:", element);
+
+        // Roll each one separately
+        for (var i = 0; i < diceRollElements.length; i++) {
+            rollDice(diceRollElements[i], e);
+        }
+    }
+
+    function calculateDiceRoll(rollText, element) {
         var rolls = [];
         var adds = [];
         var totalValue = 0;
+        var rollValueText = '';
 
         log(rollText);
 
@@ -117,10 +144,27 @@ diceRoller.log = [];
             console.log(rollParts2);
         }
 
+        log("Total value:", totalValue);
+
+        var parent = element.parentNode.parentNode.parentNode.parentNode.parentNode;
+
+        if (parent.classList.contains("js-roll-table")) {
+            log("Roll table");
+
+            var rollTable = parent.querySelector("table");
+
+            if (rollTable) {
+                rollValueText = rollTable.rows[totalValue].cells[1].innerText;
+
+                log("Roll value text:", rollValueText);
+            }
+        }
+
         return {
             rolls: rolls,
             adds: adds,
-            totalValue: totalValue
+            totalValue: totalValue,
+            rollValueText: rollValueText
         };
     }
 
@@ -144,8 +188,13 @@ diceRoller.log = [];
         rollColumn.className = 'roll-column';
         rollColumn.innerText = rollData.message;
 
+        var rollColumn2 = document.createElement("div");
+        rollColumn2.className = "roll-column";
+        rollColumn2.innerText = rollData.rollValueText;
+
         newMessageRow.append(rollTypeColumn);
         newMessageRow.append(rollColumn);
+        newMessageRow.append(rollColumn2);
 
         snackbar.append(newMessageRow);
         snackbar.className = "show";
