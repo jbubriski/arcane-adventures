@@ -20,10 +20,6 @@ imagesExtra:
       alt: Extra image for Chadley's Chatty Chompers
     - src: chadleys-chatty-chompers-extra-02
       alt: Extra image for Chadley's Chatty Chompers
-    - src: chadleys-chatty-chompers-extra-03
-      alt: Extra image for Chadley's Chatty Chompers
-    - src: chadleys-chatty-chompers-extra-04
-      alt: Extra image for Chadley's Chatty Chompers
 ---
 
 <p class="read-aloud">
@@ -49,8 +45,24 @@ On a successful save the Chatty Chompers land in the square behind the target, a
 
 When the Chatty Chompers are latched onto a creature, 1 action can be used by any creature within 5 ft. to forcefully rip them off. The target will suffer 1d6 additional damage if the teeth are removed in this way. If 2 actions are dedicated to the removal of the Chatty Chompers then the extra damage is avoided.
 
-For example, the creature suffering the effects can use its action to stop the Chatty Chompers from causing further damage, and another creature can use their action to complete the removal of the teeth.
+For example, the creature suffering the effects can use its action to stop the Chatty Chompers from causing further damage, and another creature can use its action to complete the removal of the teeth.
 
+
+## Quip
+
+As the Chatty Chompers fly through the air they cackle a quip! Roll on the Quip table below to determine what the Chatty Chompers say as they're flying through the air. The Chatty Chompers continue to say quips every time they cause damage, but the quip is muffled and unintelligible due to it actively gnawing on its victim.
+
+<div markdown="block" class="roll-table js-autoroll js-roll-table">
+| {% include tools/dice-roll.html type="Chatty Chompers Quip" roll="1d6" text="Roll" %} | Quip |
+| - | ----------- |
+| 1 | "You've bit off more than you can chew!"
+| 2 | "I think we've bit off more than we can chew!"
+| 3 | "[Target Creature Type] is on the menu tonight!"
+| 4 | "To a set of chompers, everything looks like dinner!"
+| 5 | "Num num num num num num!"
+| 6 | Instead of a quip you hear the sound of a dinner bell.
+
+</div>
 
 ## DM Notes
 

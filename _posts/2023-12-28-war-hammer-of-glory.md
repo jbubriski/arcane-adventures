@@ -48,7 +48,7 @@ You have a +x bonus to attack and damage rolls made with this magic weapon.
 
 A creature has proficiency with war hammers while wielding the weapon.
 
-The weapon is not cursed and can be discarded at anytime (See GM Note below). Using the spell Identify or other magical detection spells will only reveal the original intention of the crafter, not specifically the adverse effects.
+The weapon is not cursed and can be discarded at any time (See GM Note below). Using the spell Identify or other magical detection spells will only reveal the original intention of the crafter, not specifically the adverse effects.
 
 <div class="read-aloud">
     "The weapon provides a +x bonus to attack and damage rolls, and offers opportunities for glory to the wielder"
