@@ -91,7 +91,7 @@ When a group of miners discovered the war hammer deep in a cave, they came under
     Galdan relaxed a little and started to lower the hammer, thinking that the disarming of his opponent would end the fight. But the goblin, unarmed and with a desperate look on his face, continued the assault. Galdan, caught off guard and off balance, tried to retreat and fell backwards, but swung the hammer upward just in time to catch the goblin's chin. Now the fight was over.
 </div>
 <div class="read-aloud">
-    Galdan was himself a bit stunned. He looked at the goblin corpses scattered up towards the cave entrance but quickly his gaze shifted to that of his fellow miners. They all lay still where they had fallen. He remembered each one before him taking up the hammer and doing their duty to protect their mine. He was proud that one of them had survived, and even prouder that it was him who had survived. As he slowly rose, he checked himself over and found that none of the wounds he had received were life threatening.
+    Galdan was himself a bit stunned. He looked at the goblin corpses scattered up towards the cave entrance but quickly his gaze shifted to that of his fellow miners. They all lay still where they had fallen. He remembered each one before him taking up the hammer and doing their duty to protect their mine. He was proud that one of them had survived, and even prouder that it was him who had survived. As he slowly rose, he checked himself over and found that none of the wounds he had received were life-threatening.
 </div>
 <div class="read-aloud">
     That's when Galdan heard the low rumble emanating from deep inside the cave.
