@@ -6,8 +6,8 @@ date:       2024-01-18 10:00:00 -0400
 categories: magic-item
 tags:       dnd dnd-5e magic-item multi-use tier-2 tier-3 tier-4
 magicItemType: wand
-rarity:     rare
-requires_attunement: false
+rarity:     very-rare
+requires_attunement: true
 image_base_path: /assets/images/bloodletting-wand/
 image:      bloodletting-wand-01
 images:
