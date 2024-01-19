@@ -15,33 +15,26 @@ images:
       alt: Trick Crystal Ball
     - src: trick-crystal-ball-02
       alt: Alternate image of Trick Crystal Ball
-imagesExtra:
-    - src: trick-crystal-ball-extra-01
-      alt: Extra image for Trick Crystal Ball
-    - src: trick-crystal-ball-extra-02
-      alt: Extra image for Trick Crystal Ball
-    - src: trick-crystal-ball-extra-03
-      alt: Extra image for Trick Crystal Ball
-    - src: trick-crystal-ball-extra-04
-      alt: Extra image for Trick Crystal Ball
 ---
 
 <p class="read-aloud">
-    Jasine knew the good-hearted apprentice would be thrilled to return a lost crystal ball to its owner. She would be long gone from the region when the deed was done.
+    Jasine knew the good-hearted apprentice would be thrilled to return a lost crystal ball to its owner. The apprentice even decided to make a show of it and surprise his teacher. A surprise indeed. She would be long gone from the region when the deed was done.
 </p>
-
-Trick crystal balls range in their application from simple harmless pranks to deadly traps concocted by dastardly magic users. Specific effects can vary from showing the wrong prophecy to exploding in the face of the user.
 
 {% assign image = page.images[1] %}
 {% include post-image.html side="right" src=image.src alt=image.alt size=320 %}
+
+Trick crystal balls range in their application from simple harmless pranks to deadly traps concocted by dastardly magic users. Specific effects can vary from showing the wrong prophecy to exploding in the face of the user.
+
+Roll on the tables below for the specific effect.
 
 <div markdown="block" class="roll-table js-autoroll js-roll-table">
 | {% include tools/dice-roll.html type="Harmless Trick Crystal Ball Effect" roll="1d4" text="Roll" %} | Harmless Trick Crystal Ball Effect |
 | ---------------------- | -- |
 | 1 | Harmless misstep: The crystal ball provides a small glimpse into the future, but provides the opposite of what will happen. Use a relative effect like causing an NPC to be insulated when the adventure tries to play out the prophecy.
-| 2 | Loading: The crystal ball constantly swirls and appears to form shapes, but they quickly morph and dissipate into other shapes.
+| 2 | Loading: The crystal ball constantly swirls and appears to form shapes, but they quickly morph and dissipate into other shapes, infinitely.
 | 3 | Jumpscare: The crystal ball shows something in the swirling mist. When a player looks closely a scary face appears. Roll a DC 10 Dexterity saving throw. On a failed save fall out of your chair or fall backwards.
-| 4 | The crystal ball claims to be the property of a powerful wizard and demands
+| 4 | Return to... somone? The crystal ball claims to be the property of a powerful wizard and demands to be returned. It turns out the "owner" isn't really the owner, and may not even be a wizard at all!
 
 </div>
 
