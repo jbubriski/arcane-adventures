@@ -1,12 +1,17 @@
 {% assign image_base_path= page.image_base_path %}
 {% assign size = 320 %}
+{% if image_suffix %}
+{% assign suffix = image_suffix %}
+{% else %}
+{% assign suffix = "webp" %}
+{% endif %}
 <div class="additional-images">
     {% for image in page.imagesExtra %}
         {% assign src = image.src %}
-        <a href="{{ image_base_path }}{{ image.src }}.png" target="_blank" title="{{ image.alt }}">
-            <img srcset="{{ image_base_path }}resized/{{ src }}_{{ size }}_2x.png 2x
-                         {{ image_base_path }}resized/{{ src }}_{{ size }}_3x.png 3x"
-                src="{{ image_base_path }}resized/{{ src }}_{{ size }}_1x.png"
+        <a href="{{ image_base_path }}{{ image.src }}.{{ suffix }}" target="_blank" title="{{ image.alt }}">
+            <img srcset="{{ image_base_path }}resized/{{ src }}_{{ size }}_2x.{{ suffix }} 2x
+                         {{ image_base_path }}resized/{{ src }}_{{ size }}_3x.{{ suffix }} 3x"
+                src="{{ image_base_path }}resized/{{ src }}_{{ size }}_1x.{{ suffix }}"
                 alt="{{ image.alt }}"
                 width="{{ size }}"
                 />

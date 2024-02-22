@@ -11,10 +11,15 @@ Will add: "post_image_title_320_2x.png" (and 3x)
 {% assign src = include.src %}
 {% assign url = include.url %}
 {% assign size = include.size %}
+{% if include.image_suffix %}
+{% assign suffix = include.image_suffix %}
+{% else %}
+{% assign suffix = "png" %}
+{% endif %}
 <a href="{{ url }}" class="image-{{ include.side }}" title="{{ include.alt }}">
-    <img srcset="{{ image_base_path }}resized/{{ src }}_{{ size }}_2x.png 2x,
-                 {{ image_base_path }}resized/{{ src }}_{{ size }}_3x.png 3x"
-        src="{{ image_base_path }}resized/{{ src }}_{{ size }}_1x.png"
+    <img srcset="{{ image_base_path }}resized/{{ src }}_{{ size }}_2x.{{ suffix }} 2x,
+                 {{ image_base_path }}resized/{{ src }}_{{ size }}_3x.{{ suffix }} 3x"
+        src="{{ image_base_path }}resized/{{ src }}_{{ size }}_1x.{{ suffix }}"
         alt="{{ include.alt }}"
         width="{{ size }}"
         />
