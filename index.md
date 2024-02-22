@@ -5,7 +5,7 @@
 layout: home
 ---
 
-## Welcome to the {{ site.title }}
+## Welcome to the The Arcane Arcade
 
 Check out the latest posts below, or use the menu to find more specific types of posts.
 
