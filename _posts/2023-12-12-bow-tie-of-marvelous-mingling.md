@@ -9,6 +9,7 @@ magicItemType: wondrous item
 rarity:     very-rare
 requires_attunement: false
 image_base_path: /assets/images/bow-tie-of-marvelous-mingling/
+image_suffix: png
 image:      bow-tie-of-marvelous-mingling-01
 images:
     - src: bow-tie-of-marvelous-mingling-01

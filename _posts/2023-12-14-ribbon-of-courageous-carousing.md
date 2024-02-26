@@ -9,6 +9,7 @@ magicItemType: wondrous item
 rarity:     very-rare
 requires_attunement: false
 image_base_path: /assets/images/ribbon-of-courageous-carousing/
+image_suffix: png
 image:      ribbon-of-courageous-carousing-01
 images:
     - src: ribbon-of-courageous-carousing-01

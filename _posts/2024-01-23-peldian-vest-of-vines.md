@@ -9,6 +9,7 @@ magicItemType: armor
 rarity:     rare
 requires_attunement: false
 image_base_path: /assets/images/peldian-vest-of-vines/
+image_suffix: png
 image:      peldian-vest-of-vines-01
 images:
     - src: peldian-vest-of-vines-01

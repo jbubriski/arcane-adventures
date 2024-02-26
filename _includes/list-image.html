@@ -13,8 +13,10 @@ Will add: "post_image_title_320_2x.png" (and 3x)
 {% assign size = include.size %}
 {% if include.image_suffix %}
 {% assign suffix = include.image_suffix %}
+{% elsif page.image_suffix %}
+{% assign suffix = page.image_suffix %}
 {% else %}
-{% assign suffix = "png" %}
+{% assign suffix = "webp" %}
 {% endif %}
 <a href="{{ url }}" class="image-{{ include.side }}" title="{{ include.alt }}">
     <img srcset="{{ image_base_path }}resized/{{ src }}_{{ size }}_2x.{{ suffix }} 2x,

@@ -9,6 +9,7 @@ magicItemType: wondrous item
 rarity:     rare
 requires_attunement: false
 image_base_path: /assets/images/magic-box-with-putrid-egg/
+image_suffix: png
 image:     magic-box-with-putrid-egg-01
 images:
     - src: magic-box-with-putrid-egg-01

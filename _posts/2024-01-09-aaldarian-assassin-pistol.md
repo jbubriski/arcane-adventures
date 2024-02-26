@@ -9,6 +9,7 @@ magicItemType: pistol
 rarity:     very-rare
 requires_attunement: true
 image_base_path: /assets/images/aaldarian-assassin-pistol/
+image_suffix: png
 image:      aaldarian-assassin-pistol-01
 images:
     - src: aaldarian-assassin-pistol-01

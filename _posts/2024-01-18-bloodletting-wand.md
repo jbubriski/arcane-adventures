@@ -9,6 +9,7 @@ magicItemType: wand
 rarity:     very-rare
 requires_attunement: true
 image_base_path: /assets/images/bloodletting-wand/
+image_suffix: png
 image:      bloodletting-wand-01
 images:
     - src: bloodletting-wand-01
@@ -43,13 +44,6 @@ If the wielder is brought to 0 hp by using the wand in this way, they instantly 
 ## DM Notes
 
 If the players discover that the item is cursed, or have another reason to get rid of it, destroying the wand can become a quest. Maybe a friendly NPC has succumbed to the allure of power that the wand provides but is slowly killing themselves as they use it. To destroy the wand, Dispel Magic at 5th level can be cast, or a powerful being can be bargained with.  In the wrong hands, the wand may have disastrous consequences.
-
-
-## Additional Images
-
-All images were generated with Chat GPT 4. The images below are some other results you might find interesting.
-
-{% include additional-images.html %}
 
 
 ## Attribution

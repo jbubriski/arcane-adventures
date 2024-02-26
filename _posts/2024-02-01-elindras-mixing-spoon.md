@@ -8,7 +8,6 @@ tags:       dnd dnd-5e magic-item multi-use tier-1 tier-2 tier-3 tier-4
 magicItemType: wondrous item
 rarity:     common
 requires_attunement: false
-image_suffix: webp
 image_base_path: /assets/images/elindras-mixing-spoon/
 image:      elindras-mixing-spoon-01
 images:
@@ -18,9 +17,15 @@ images:
       alt: Alternate image for Elindra's Mixing Spoon
 ---
 
-<p class="read-aloud">
-    A sliver of light illuminated Elindra's face as she peered through the crack in the door. The kitchen staff were buzzing about, finalizing their prep for the banquet. Mistress Maldunam entered and clapped her hands and the staff immediately stopped their work and followed the mistress out of the room. As the head of the Queen's staff, Maldunam was
-</p>
+<div class="read-aloud">
+    A sliver of light illuminated Elindra's face as she peered through the crack in the door. The kitchen staff were buzzing about, finalizing their prep for the banquet. Lady Maldunam entered and clapped her hands and the staff immediately stopped their work and they silently hurried themselves out of the room. Muldunam surveyed the room with a glance and then spun around and glided out of the room as if suspended by hidden marionette strings. As the head of the Queen's staff, Maldunam was a force to be reckoned with.
+</div>
+<div class="read-aloud">
+    Elindra slipped through the crack in the door. She stood with her back to the door for a moment, taking in the room. Lady Maldunam was known for her harmless but well-hidden traps. The real danger would be when she was found by the kitchen stay upon their return, and they summoned their boss.
+</div>
+<div class="read-aloud">
+    Elindra nearly took a step when she spotted a thin thread stretched across the kitchen from the doorway where the others had exited, to the far wall. She ducked low to avoid severing the thread, then sidled up to a large cauldron over a low fire, its contents gently bubbling. Producing a worn wooden spoon from thin air, Elindra performed a few flowing swishes, then gently tapped the edge of the cauldron. The stew calmed for a moment before resuming its simmer. Slipping out the same way she had entered, Elindra wore a grin from ear to ear as she broke into a sprint down the castle hallway and up a spiral staircase.
+</div>
 
 Elindra's Mixing Spoon can be used as a spellcasting focus.
 

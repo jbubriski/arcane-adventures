@@ -9,6 +9,7 @@ magicItemType: wondrous item
 rarity:     very-rare
 requires_attunement: true
 image_base_path: /assets/images/living-eye/
+image_suffix: png
 image:     living-eye-01
 images:
     - src: living-eye-01

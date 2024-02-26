@@ -10,8 +10,10 @@ Will add: "post_image_title_320_2x.png" (and 3x)
 {% assign image_base_path= page.image_base_path %}
 {% assign src = include.src %}
 {% assign size = include.size %}
-{% if image_suffix %}
+{% if include.image_suffix %}
 {% assign suffix = image_suffix %}
+{% elsif page.image_suffix %}
+{% assign suffix = page.image_suffix %}
 {% else %}
 {% assign suffix = "webp" %}
 {% endif %}

@@ -10,6 +10,7 @@ magicItemType: wondrous item
 rarity:     legendary
 requires_attunement: false
 image_base_path: /assets/images/aarns-sacculum-infinitum/
+image_suffix: png
 image:     aarns-sacculum-infinitum-01
 images:
     - src: aarns-sacculum-infinitum-01
@@ -37,10 +38,10 @@ imagesExtra:
     He pulled the heavy oak door open, gently closing it behind him. Compared to the pitch-black interior of the mansion, the moonlight may as well have been full daylight. He waited for a moment for his eyes to adjust and methodically navigated the rooms until he found the main study.
 </div>
 <div class="read-aloud">
-    The study was clean and lightly furnished. It was then that Aarn realized that the furnishings in the house were all of a peculiar style. The few things that were there were quite ornate, but not in a style he was familiar.
+    The study was clean and lightly furnished. It was then that Aarn realized that the furnishings in the house were all of a peculiar style. The few things that were there were quite ornate, but not in a style he was familiar with.
 </div>
 <div class="read-aloud">
-    Aaris just might be the most lucrative job I've ever pulled. It's full to the brim, I could barely carry it here!"
+    "This just might be the most lucrative job I've ever pulled. It's full to the brim, I could barely carry it here!"
 </div>
 
 {% assign image = page.images[1] %}

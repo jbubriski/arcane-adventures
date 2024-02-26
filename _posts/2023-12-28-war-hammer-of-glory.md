@@ -9,6 +9,7 @@ magicItemType: Weapon (war hammer)
 rarity:     very-rare
 requires_attunement: false
 image_base_path: /assets/images/war-hammer-of-glory/
+image_suffix: png
 image:      war-hammer-of-glory-01
 images:
     - src: war-hammer-of-glory-01

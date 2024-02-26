@@ -9,6 +9,7 @@ magicItemType: wondrous item
 rarity:     very-rare
 requires_attunement: false
 image_base_path: /assets/images/jasines-ring-of-restraining/
+image_suffix: png
 image:     jasines-ring-of-restraining-01
 images:
     - src: jasines-ring-of-restraining-01
@@ -23,10 +24,6 @@ imagesExtra:
     - src: jasines-ring-of-restraining-extra-03
       alt: Source image for Jasine's Ring of Restraining
     - src: jasines-ring-of-restraining-extra-04
-      alt: Source image for Jasine's Ring of Restraining
-    - src: jasines-ring-of-restraining-extra-05
-      alt: Source image for Jasine's Ring of Restraining
-    - src: jasines-ring-of-restraining-extra-06
       alt: Source image for Jasine's Ring of Restraining
 ---
 

@@ -9,6 +9,7 @@ magicItemType: wondrous item
 rarity:     rare
 requires_attunement: false
 image_base_path: /assets/images/trick-crystal-ball/
+image_suffix: png
 image:      trick-crystal-ball-01
 images:
     - src: trick-crystal-ball-01

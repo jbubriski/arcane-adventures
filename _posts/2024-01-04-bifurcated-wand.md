@@ -9,6 +9,7 @@ magicItemType: wand
 rarity:     very-rare
 requires_attunement: true
 image_base_path: /assets/images/bifurcated-wand/
+image_suffix: png
 image:      bifurcated-wand-01
 images:
     - src: bifurcated-wand-01

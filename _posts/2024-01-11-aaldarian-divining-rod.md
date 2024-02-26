@@ -9,6 +9,7 @@ magicItemType: wondrous item
 rarity:     common
 requires_attunement: false
 image_base_path: /assets/images/aaldarian-divining-rod/
+image_suffix: png
 image:      aaldarian-divining-rod-01
 images:
     - src: aaldarian-divining-rod-01

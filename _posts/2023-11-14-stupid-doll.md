@@ -9,6 +9,7 @@ magicItemType: wondrous item
 rarity:     common
 requires_attunement: false
 image_base_path: /assets/images/stupid-doll/
+image_suffix: png
 image:      stupid-doll-01
 images:
     - src: stupid-doll-01

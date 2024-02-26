@@ -9,6 +9,7 @@ magicItemType: wondrous item
 rarity:     very-rare
 requires_attunement: false
 image_base_path: /assets/images/aarns-storm-bottle/
+image_suffix: png
 image:      aarns-storm-bottle-01
 images:
     - src: aarns-storm-bottle-01

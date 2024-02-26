@@ -9,6 +9,7 @@ magicItemType: wondrous item
 rarity:     common
 requires_attunement: false
 image_base_path: /assets/images/chadleys-chatty-chompers/
+image_suffix: png
 image:      chadleys-chatty-chompers-01
 images:
     - src: chadleys-chatty-chompers-01
