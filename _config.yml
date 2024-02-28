@@ -18,12 +18,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: The Arcane Arcade
+title: Arcane Adventures
 description: Cool Tabletop Stuff
 author: John Bubriski
 email: bubriski@gmail.com
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "thearcanearcade.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "arcaneadventures.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: JohnBubriski
 github_username:  jbubriski
 
