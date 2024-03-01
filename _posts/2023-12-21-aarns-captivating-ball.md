@@ -31,6 +31,8 @@ imagesExtra:
     "Rurski! Fetch!
 </p>
 
+<!--more-->
+
 Aarn's Captivating Ball can be thrown to capture the attention of nearby creatures. When the command word "Accio" is spoken, and the ball is thrown, creatures within a 10 ft. radius of where the ball initially lands must use their reaction to watch the ball. Creatures affected must also make a DC 15 charisma saving throw or use their next turn of movement to chase the ball.
 
 After impact, the ball will continue to bounce half the initial thrown distance away, rounded down. For example:

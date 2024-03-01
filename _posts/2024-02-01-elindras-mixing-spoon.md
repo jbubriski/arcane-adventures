@@ -20,6 +20,7 @@ images:
 <div class="read-aloud">
     A sliver of light illuminated Elindra's face as she peered through the crack in the door. The kitchen staff were buzzing about, finalizing their prep for the banquet. Lady Maldunam entered and clapped her hands and the staff immediately stopped their work and they silently hurried themselves out of the room. Muldunam surveyed the room with a glance and then spun around and glided out of the room as if suspended by hidden marionette strings. As the head of the Queen's staff, Maldunam was a force to be reckoned with.
 </div>
+<!--more-->
 <div class="read-aloud">
     Elindra slipped through the crack in the door. She stood with her back to the door for a moment, taking in the room. Lady Maldunam was known for her harmless but well-hidden traps. The real danger would be when she was found by the kitchen stay upon their return, and they summoned their boss.
 </div>

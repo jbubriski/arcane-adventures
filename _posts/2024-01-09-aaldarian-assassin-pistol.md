@@ -19,13 +19,14 @@ images:
 ---
 
 <div class="read-aloud">
-    <p>
-        "Kill me, and every guard in the palace will be here in 10 seconds."
-    </p>
-    <p>
-        "No one's going to hear a thing."
-    </p>
+    "Kill me, and every guard in the palace will be here in 10 seconds."
+
 </div>
+<div class="read-aloud">
+    "No one's going to hear a thing."
+</div>
+
+<!--more-->
 
 The pistol has base damage and you have a bonus to attack and damage rolls made with this magic weapon.
 

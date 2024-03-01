@@ -30,6 +30,7 @@ imagesExtra:
 <p class="read-aloud">
     Wand at the ready, Yumonn winced as her hand tightened around the barbed grip of the wand. Blood squeezed out from between her fingers, bubbling and then disappearing, leaving behind only thin wisps of smoke. The price she was about to pay would pale in comparison to the alternative, and she began the final incantation.
 </p>
+<!--more-->
 
 The wand features a grip dotted with razor-sharp spikes. While it can be safely used to cast spells, the wielder can choose to grip the wand tightly, causing it to absorb some of their blood and infuse their next spell with blood magic.
 

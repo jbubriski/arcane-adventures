@@ -29,6 +29,8 @@ github_username:  jbubriski
 
 permalink: /:categories/:title:output_ext
 
+excerpt_separator: "<!--more-->"
+
 # Build settings
 theme: jekyll-theme-cayman
 #remote_theme: pages-themes/cayman@v0.2.0

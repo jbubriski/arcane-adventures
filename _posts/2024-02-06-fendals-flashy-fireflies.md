@@ -18,6 +18,7 @@ images:
 <div class="read-aloud">
     Greenvale sauntered around the dusty shop, his eyes darting all around. He was searching for something but he didn't know what. He was also trying not to trip on the items cluttering the aisles, or hit his head on the ones dangling from the ceiling. The old couple that ran the shop was always buying up "new" stock whenever they could, without really thinking about where the stock would go. From floor to ceiling the walls were covered with what looked to be junk, but he knew there was a diamond in the rough.
 </div>
+<!--more-->
 <div class="read-aloud">
     Sifting through some items on a bookshelf, Greenvale spotted a dusty glass jar with an intricate clamp top lid. There was something in the jar, on the bottom, and as he picked up the jar the dark specs began to emit a soft golden light. He had found what was looking for. He quickly tucked the jar under his arm, tossed too many coins on the counter, and said a loud "Thank you and have a wonderful day!" on his way out.
 </div>

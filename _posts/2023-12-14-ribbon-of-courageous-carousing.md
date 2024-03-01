@@ -31,6 +31,8 @@ imagesExtra:
     With a quick flick of his wrist, Aarn produced a long shimmering ribbon, seemingly from thin air, and gently looped it around his neck. As was customary, he grumbled something about his thieving sister, and then with another flourish and a muttered word, his plain wizard's robes flickered for a moment and in their place was a suit fit for a noble. Though he didn't usually care, he would not be talked down to on this day. Not with so much at stake.
 </p>
 
+<!--more-->
+
 While wearing the Ribbon of Courageous Carousing you can use an action to speak the command word "Sociālis" and create a magical illusion on the surface of your clothes and skin. The illusion makes it look as if you are wearing attire to match the occasion. The exact composition of the illusion will automatically adjust to fit the formality of the event, and either the style of the wearer or the region. The Bow Tie's appearance is also altered accordingly.
 
 The ribbon is only usable in this way after sundown, and at midnight the illusion wears off.

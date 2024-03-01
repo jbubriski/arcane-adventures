@@ -21,6 +21,7 @@ images:
 <p class="read-aloud">
     Jasine knew the good-hearted apprentice would be thrilled to return a lost crystal ball to its owner. The apprentice even decided to make a show of it and surprise his teacher. A surprise indeed. She would be long gone from the region when the deed was done.
 </p>
+<!--more-->
 
 {% assign image = page.images[1] %}
 {% include post-image.html side="right" src=image.src alt=image.alt size=320 %}

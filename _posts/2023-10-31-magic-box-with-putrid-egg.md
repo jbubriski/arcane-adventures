@@ -29,6 +29,8 @@ imagesExtra:
 
 The box is a nondescript but well-made wooden box. The surface has no carvings or embellishments except for a maker's mark "A.D." on the bottom.  The edges have a slim rounded bevel, and the box shows no signs of wear. The box has a magical enchantment placed on it making it extremely durable.  The hinge and clasp appear to be made of a brass colored metal. The clasp closes and stays shut with a satisfying snap. Shaking the box does not cause it to open, but the clasp can be easily undone by hand.
 
+<!--more-->
+
 The interior of the box is well padded with fabric and contains a single Putrid Egg. The egg is a yellowish brown color with a leathery shell. It is about 2 times the size of a large chicken egg but the species is unknown. The egg is slightly squishy, but too much force will cause the egg shell to rupture. While closed, the box protects the egg from damage and no smell escapes.
 
 When the box is opened the egg gives off a foul odor that instantly permeates throughout a 15 ft radius circle. The odor cloud is invisible and is only detectable by smell. Closing the box will instantly and completely contain the smell, removing the odor cloud.

@@ -27,6 +27,8 @@ imagesExtra:
     Chadley removed a curious-looking object from his vest and began violently twisting it in his hand. The orcs stood there, befuddled by what they were witnessing. Holding the object out in front of him, the orcs could now see it was a pair of wooden teeth and they began to chortle. But Chadley's own smile only grew as he hurled the teeth at the naive orcs. Flying through the air, the teeth let out a cackling cry "You've bit off more than you can chew!"
 </p>
 
+<!--more-->
+
 As an action, a creature can wind and throw the Chatty Chompers at an enemy within 30 ft. causing the target to make a Dexterity saving throw. On a failed save the Chatty Chompers latch onto one of the limbs of the target and deal xd6 piercing damage. At the end of each of the target's turns, they suffer an additional xd6 damage.
 
 {% include descriptions/tiered-play.html %}

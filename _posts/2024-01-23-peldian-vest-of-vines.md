@@ -19,7 +19,7 @@ images:
 <p class="read-aloud">
     Elm's new vest was rustic and a bit snug. Maybe a bit too snug, but he wore it anyway. His new lady friend had insisted that he wear the vest on his adventure, and had lovingly explained that he was to pretend that she was giving him a tender embrace. He didn't think too much of it at the time since he hadn't even tried the vest on. But even so, he thought once more about his lady friend, and the next time he might be able to see her and return the embrace.
 </p>
-
+<!--more-->
 <p class="read-aloud">
     The bright green foliage adorning the vest gently fluttered as he shifted around to get accustomed to the fit. It really was a nice vest. Elm wondered how long the bright colors would last, especially given his line of work. Surely they would dull over time? Maybe they would even need to be replaced? Once more he thought back to his lady friend as the vest seemed to cinch itself in once more.
 </p>

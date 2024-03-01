@@ -29,6 +29,8 @@ imagesExtra:
 
 The Aaldarian Divining Rod can be activated with the command word “exitus” While in any indoor or underground structure, this will activate the rod which will glow blue and gently guide the wielder on a route toward the nearest exit from any indoor or underground structure.
 
+<!--more-->
+
 If the user is outside the rod will momentarily activate and then deactivate.
 
 The rod is mostly reliable, but sometimes complications can occur. Roll on the table below to determine the complication:

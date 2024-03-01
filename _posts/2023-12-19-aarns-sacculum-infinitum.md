@@ -31,6 +31,7 @@ imagesExtra:
 <div class="read-aloud">
     Aarn slipped between the patches of moonlight shining onto the sloped path. Even from this distance, he could make out shadows moving against the glow of the workshop's windows. He had watched the owners of the estate leave earlier that morning, but their business still seemed to hum along without their supervision.
 </div>
+<!--more-->
 <div class="read-aloud">
     Cresting the hill, the dark silhouette of the mansion loomed over Aarn. He hesitated a moment, but quickly suppressed his doubts and pressed on. Reaching a servant's entrance, he took a glance around and then tried the latch on the door. To his surprise, the door wasn't locked or barred.
 </div>

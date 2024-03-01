@@ -18,6 +18,7 @@ images:
 
 Someone who chews on these enchanted drops will find that they become extremely sticky to the point that the creature eating won't be able to speak for some time. 1 drop is enough to stop someone from speaking for a full minute. If more drops are consumed at the same time, it has increasingly detrimental effects. 2 drops last 5 minutes, 3 last for 30 minutes, and 4 last for an hour.
 
+<!--more-->
 
 ## DM Notes
 

@@ -23,6 +23,8 @@ imagesExtra:
     The two other students held their wands at the ready. "You won't be able to get us both, give up now!". Being the faster caster, Elms knew they would be eating their words shortly.
 </p>
 
+<!--more-->
+
 When used as a spellcasting focus, the bifurcated wand allows a creature to duplicate the casting of a cantrip, once per long rest. The cantrip must have a casting time of 1 action and each casting must target a different creature.
 
 

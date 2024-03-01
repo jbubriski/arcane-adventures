@@ -31,6 +31,8 @@ imagesExtra:
     "Oh, this? Just a little trinket. Made by a little elven child in a village I once visited. Oh yes, it's quite rustic. You should take it! Try it on! It fits you perfectly, how wonderful. Oh, it's becoming too tight? Oh dear..."
 </p>
 
+<!--more-->
+
 Magical restraining devices have existed throughout history, and combined with gentle coercion to outright torture, they're dastardly devices in the hands of spies. Jasine's Ring of Restraining was designed for this exact purpose and she became famous for employing it effectively, and liberally.
 
 Jasine the Spook was a witch masquerading as a spy, or maybe she was simply looking for new and interesting uses for her spells. No matter your opinion she was employed as a spy and used her magical abilities and sundry to execute her missions with brutal precision. Few were able to give any specifics about her, much less about her motivations.

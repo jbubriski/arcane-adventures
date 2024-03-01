@@ -31,6 +31,8 @@ imagesExtra:
     Uncorking the glowing bottle, Aarn held it up to the small crowd forming around him. A dark mist pierced by bright sparks rose from the narrow opening, causing whispers and hushed cautions. "I wasn't trying to rain on your parade, but you leave me no choice."
 </p>
 
+<!--more-->
+
 The Storm Bottle contains the magical essence of a powerful storm elemental capable of altering the local weather.
 
 When full of charges, the bottle contains a swirling tempest of dark clouds with tiny flashes of lightning. The fewer the charges remaining, the more calm the weather appears inside the bottle. When the bottle has no charges, there is only a faint mist visible.

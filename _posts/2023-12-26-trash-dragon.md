@@ -28,6 +28,8 @@ hp_roll: 16d12 + 120
 speed: 40 ft., Climb 40ft., Swim 40ft.
 ---
 
+<!--more-->
+
 <div class="stat-block">
     {% assign image = page.images[0] %}
     {% include post-image.html side="right" src=image.src alt=image.alt size=320 %}
