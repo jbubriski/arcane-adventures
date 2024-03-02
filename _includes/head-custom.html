@@ -294,7 +294,7 @@ button {
 
 
 
-#snackbar {
+#dicetray {
     visibility: hidden;
     min-width: 300px;
     margin-left: -125px;
@@ -311,13 +311,13 @@ button {
     font-size: 17px;
 }
 
-#snackbar.show {
+#dicetray.show {
     visibility: visible;
     -webkit-animation: fadein 0.5s;
     animation: fadein 0.5s;
 }
 
-#snackbar.hide {
+#dicetray.hide {
     visibility: visible;
     -webkit-animation: fadeout 0.5s 1 linear forwards;
     animation: fadeout 0.5s 1 linear forwards;
@@ -343,25 +343,37 @@ button {
     to { bottom: 0; opacity: 0; visibility: none; }
 }
 
-#snackbar .roll-row {
+#dicetray .roll-row {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
 
-#snackbar .roll-row+.roll-row {
+#dicetray .roll-row+.roll-row {
     margin-top: 1rem;
 }
 
-#snackbar .roll-row.critical-hit {
+#dicetray .roll-row.critical-hit {
     font-weight: bolder;
 }
 
-#snackbar .roll-column {
+#dicetray .roll-column {
     display: flex;
     flex-direction: column;
     flex-basis: 100%;
     flex: 1;
+}
+
+@media (max-width: 500px) {
+    #dicetray {
+        max-width: 400px;
+        margin-left: 0px;
+        padding: 4px;
+        z-index: 1;
+        right: 10px;
+        bottom: 10px;
+        font-size: 14px;
+    }
 }
 
 

@@ -148,7 +148,7 @@ diceRoller.log = [];
 
         var parent = element.parentNode.parentNode.parentNode.parentNode.parentNode;
 
-        if (parent.classList.contains("js-roll-table")) {
+        if (parent && parent.classList && parent.classList.contains("js-roll-table")) {
             log("Roll table");
 
             var rollTable = parent.querySelector("table");
@@ -171,7 +171,7 @@ diceRoller.log = [];
     function showToast(rollData) {
         log(rollData);
 
-        var snackbar = document.getElementById("snackbar");
+        var dicetray = document.getElementById("dicetray");
 
         var newMessageRow = document.createElement("div");
         newMessageRow.className = 'roll-row';
@@ -196,8 +196,8 @@ diceRoller.log = [];
         newMessageRow.append(rollColumn);
         newMessageRow.append(rollColumn2);
 
-        snackbar.append(newMessageRow);
-        snackbar.className = "show";
+        dicetray.append(newMessageRow);
+        dicetray.className = "show";
 
         setTimeout(function () {
             tryCloseToast(newMessageRow);
@@ -207,10 +207,10 @@ diceRoller.log = [];
     function tryCloseToast(messageDiv) {
         messageDiv.remove();
 
-        var snackbar = document.getElementById("snackbar");
+        var dicetray = document.getElementById("dicetray");
 
-        if (snackbar.childNodes.length === 0) {
-            snackbar.className = snackbar.className.replace("show", "hide");
+        if (dicetray.childNodes.length === 0) {
+            dicetray.className = dicetray.className.replace("show", "hide");
         }
     }
 
