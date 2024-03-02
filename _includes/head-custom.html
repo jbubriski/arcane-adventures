@@ -102,8 +102,9 @@ button {
 
 
 
-
-
+/****************************/
+/* HEADER */
+/****************************/
 .site-footer {
     max-width: 64rem;
     padding: 2rem 6rem;
@@ -121,15 +122,44 @@ button {
     padding-bottom: 1rem;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 674px) {
     .page-header {
         padding: 1rem 1rem 1rem 1rem;
     }
     .page-header img.logo {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .page-header a.btn {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .page-header img.logo {
+        width: 80%;
+    }
+
+    .page-header a.btn {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .page-header a.btn {
         width: 100%;
     }
 }
 
+
+
+/****************************/
+/* POST LIST */
+/****************************/
 .project-name a {
     text-decoration: none;
     color: #fff;
