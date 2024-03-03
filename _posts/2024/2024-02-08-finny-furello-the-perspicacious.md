@@ -2,7 +2,7 @@
 layout:     post
 title:      "Finny Furello the Perspicacious - NPC for DnD"
 title_simple:      "Finny Furello the Perspicacious"
-date:       2024-02-13 10:00:00 -0400
+date:       2024-02-08 10:00:00 -0400
 categories: npc
 tags:       dnd dnd-5e npc tier-1 tier-2 tier-3 tier-4
 image_suffix: webp

@@ -55,7 +55,7 @@ Magical items that cast spells with charges are unaffected. . Probably found on 
 
 This can be a very powerful item when used at the right time... be careful about when you give it to players. You may need to compensate for your boss failing all their spellcasting...
 
-To add more flavor and excitement to your game, when any spells are cast with the orb active, be sure to describe how the orb is sucking in the arcane energy and absorbing the power 
+To add more flavor and excitement to your game, when any spells are cast with the orb active, be sure to describe how the orb is sucking in the arcane energy and absorbing the power
 that was being weaved to form the spell. Maybe every time a spell fails, the Orb's effect grows stronger...
 
 If used in combination with some sort of anti-magic cult, give the cultists magic wands with spell charges to make for some intersting combat and roleplay opportunities. Maybe they're being deceived by their leaders and the magic items they're collecting will be used and not destroyed. Just make sure that their spells aren't too powerful or numerous. Magic missiles and other low level direct damage spells might be a good idea.
