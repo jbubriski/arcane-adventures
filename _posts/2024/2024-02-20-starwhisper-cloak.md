@@ -31,6 +31,11 @@ After sundown, an action can be used to activate the cloak which illuminates the
 The wearer of the cloak is the only one who can activate it, but obviously can't see the back while it's being worn. The effect lasts for several minutes, so the cloak can be removed to view the star pattern. That way a solo traveler can still benefit from the effects.
 
 
+## DM Note
+
+Feel free to rule that the Starwhisper Cloak doesn't need direct visibility of the stars. Maybe being outside is enough, even if the sky is overcast. The cloak could have the stars form a map of waypoints instead of mirroring the constellations.
+
+
 ## Attribution
 
 {% include srd_attribution.html %}
