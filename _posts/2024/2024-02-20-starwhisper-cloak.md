@@ -35,6 +35,8 @@ The wearer of the cloak is the only one who can activate it, but obviously can't
 
 Feel free to rule that the Starwhisper Cloak doesn't need direct visibility of the stars. Maybe being outside is enough, even if the sky is overcast. The cloak could have the stars form a map of waypoints instead of mirroring the constellations.
 
+You may not want this to be a "get out of jail free" card that works every time... feel free to have this item work, or not work, as is convenient for you. You can also have your players perform an Arcana or Survival skill check, even with a low general DC like 10, just to let them know it's not a foolproof solution to navigating. Inclement weather or unfamiliarity with the terrain could increase the DC needed to interpret the map.
+
 
 ## Attribution
 
