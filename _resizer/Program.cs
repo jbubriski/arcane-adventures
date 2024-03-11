@@ -1,7 +1,10 @@
-﻿using SixLabors.ImageSharp.Formats;
+﻿using Newtonsoft.Json;
+using SixLabors.ImageSharp;
+using SixLabors.ImageSharp.Formats;
 using SixLabors.ImageSharp.Formats.Jpeg;
 using SixLabors.ImageSharp.Formats.Png;
 using SixLabors.ImageSharp.Formats.Webp;
+using SixLabors.ImageSharp.Processing;
 
 var mainImageSizes = new[] { 120, 320 };
 var regularSizes = new[] { 320 };
@@ -35,23 +38,44 @@ var fileSuffixEncoderMap = new Dictionary<string, ImageEncoder> {
     { "webp", webpEncoder }
 };
 
-var reresize = false;
+var config = GetConfig();
 
+var directoriesToIgnore = GetDirectoriesToIgnore();
+
+// Start the work
 foreach (var fileSuffixPair in fileSuffixEncoderMap)
 {
     var fileSuffix = fileSuffixPair.Key;
     var suffixLength = fileSuffix.Length;
     var encoder = fileSuffixPair.Value;
 
-    var folderToFindImages = Path.Combine(Environment.CurrentDirectory, "../assets/images");
+    var folderToFindImages = Path.Combine(Environment.CurrentDirectory, config.PathToResize);
     var files = Directory.GetFiles(folderToFindImages, $"*.{fileSuffix}", SearchOption.AllDirectories);
 
-    foreach (var fullOriginalFilePath in files)
+    foreach (var originalFilePath in files)
     {
-        var fileName = Path.GetFileName(fullOriginalFilePath);
+        var fullOriginalFilePath = Path.GetFullPath(originalFilePath);
+        var fileName = Path.GetFileName(originalFilePath);
         var newFilePath = Path.Combine(Path.GetDirectoryName(fullOriginalFilePath), @"resized");
 
         var fullNewFilePath = Path.Combine(newFilePath, fileName);
+
+        var ignoredPath = "";
+
+        foreach (var directoryToIgnore in directoriesToIgnore)
+        {
+            if (fullOriginalFilePath.StartsWith(directoryToIgnore))
+            {
+                ignoredPath = directoryToIgnore;
+                break;
+            }
+        }
+
+        if (!string.IsNullOrWhiteSpace(ignoredPath))
+        {
+            Console.WriteLine($"Ignored path: {ignoredPath}, skipping.");
+            continue;
+        }
 
         Console.WriteLine($"Processing {fullOriginalFilePath}...");
 
@@ -74,12 +98,11 @@ foreach (var fileSuffixPair in fileSuffixEncoderMap)
 
         foreach (var size in sizes)
         {
-
             var newFileName = fullNewFilePath[..^(suffixLength + 1)] + $"_{size}_1x.{fileSuffix}";
             var newFileName2 = fullNewFilePath[..^(suffixLength + 1)] + $"_{size}_2x.{fileSuffix}";
             var newFileName3 = fullNewFilePath[..^(suffixLength + 1)] + $"_{size}_3x.{fileSuffix}";
 
-            if (reresize || !Path.Exists(newFileName))
+            if (config.Reresize || !Path.Exists(newFileName))
             {
                 using (var image = Image.Load(fullOriginalFilePath))
                 {
@@ -91,7 +114,7 @@ foreach (var fileSuffixPair in fileSuffixEncoderMap)
                 }
             }
 
-            if (reresize || !Path.Exists(newFileName2))
+            if (config.Reresize || !Path.Exists(newFileName2))
             {
                 using (var image2 = Image.Load(fullOriginalFilePath))
                 {
@@ -103,7 +126,7 @@ foreach (var fileSuffixPair in fileSuffixEncoderMap)
                 }
             }
 
-            if (reresize || !Path.Exists(newFileName3))
+            if (config.Reresize || !Path.Exists(newFileName3))
             {
                 using (var image3 = Image.Load(fullOriginalFilePath))
                 {
@@ -119,3 +142,37 @@ foreach (var fileSuffixPair in fileSuffixEncoderMap)
 }
 
 Console.WriteLine("Done!");
+
+JsonConfig GetConfig()
+{
+    using var streamReader = new StreamReader(".resizerconfig");
+
+    var json = streamReader.ReadToEnd();
+    var item = JsonConvert.DeserializeObject<JsonConfig>(json);
+    return item;
+}
+
+List<string> GetDirectoriesToIgnore()
+{
+    var directoriesToIgnore = new List<string>();
+
+    // Load ignored paths
+    foreach (var ignoredPath in config.PathsToIgnore)
+    {
+        var ignoredFullPath = Path.GetFullPath(ignoredPath);
+
+        Console.WriteLine($"Adding to ignore list: {ignoredFullPath}");
+
+        directoriesToIgnore.Add(ignoredFullPath);
+    }
+
+    return directoriesToIgnore;
+}
+
+class JsonConfig
+{
+    public string PathToResize { get; set; }
+    public string[] PathsToIgnore { get; set; }
+
+    public bool Reresize { get; set; }
+}
