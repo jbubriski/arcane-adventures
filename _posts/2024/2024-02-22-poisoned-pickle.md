@@ -10,7 +10,7 @@ rarity:     common
 requires_attunement: false
 image_suffix: webp
 image_base_path: /assets/images/poisoned-pickle/
-image:      poisonous-pickle-01
+image:      poisoned-pickle-01
 images:
     - src: poisoned-pickle-01
       alt: Poisoned Pickle
