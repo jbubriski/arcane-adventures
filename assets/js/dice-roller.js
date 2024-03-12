@@ -51,7 +51,7 @@ diceRoller.log = [];
         var rollsStrings = result.rolls.map((x) => x.roll);
         var rollResultParts = rollsStrings.concat(result.adds);
         var message = rollResultParts.length > 1
-            ? `${rollResultParts.join(' + ')} = ${result.totalValue}`
+            ? `${rollResultParts.join(' + ')} = <strong>${result.totalValue}</strong>`
             : result.totalValue;
 
         var rollData = {
@@ -78,7 +78,7 @@ diceRoller.log = [];
             }
 
             rollData.rollType += advantage ? " with advantage" : " with disadvantage";
-            rollData.message = `(${message}, ${message2}) = ${higherRollResult}`
+            rollData.message = `(${message}, ${message2}) = <strong>${higherRollResult}</strong>`
             rollData.result2 = result2.totalValue;
             rollData.rollValueText = result2.rollValueText
         }
@@ -186,15 +186,18 @@ diceRoller.log = [];
 
         var rollColumn = document.createElement("div");
         rollColumn.className = 'roll-column';
-        rollColumn.innerText = rollData.message;
-
-        var rollColumn2 = document.createElement("div");
-        rollColumn2.className = "roll-column";
-        rollColumn2.innerText = rollData.rollValueText;
+        rollColumn.innerHTML = rollData.message;
 
         newMessageRow.append(rollTypeColumn);
         newMessageRow.append(rollColumn);
-        newMessageRow.append(rollColumn2);
+
+        if (rollData.rollValueText) {
+            var rollColumn2 = document.createElement("div");
+            rollColumn2.className = "roll-column";
+            rollColumn2.innerText = rollData.rollValueText;
+
+            newMessageRow.append(rollColumn2);
+        }
 
         dicetray.append(newMessageRow);
         dicetray.className = "show";
