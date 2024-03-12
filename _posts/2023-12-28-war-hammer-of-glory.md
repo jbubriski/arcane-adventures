@@ -31,6 +31,7 @@ imagesExtra:
     As you take up the war hammer, you feel it vibrate and radiate with energy. Those around you feel it reach out and call to them.
 </p>
 
+<!--more-->
 
 ## Mechanics
 

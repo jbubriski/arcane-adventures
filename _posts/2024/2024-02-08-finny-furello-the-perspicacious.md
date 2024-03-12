@@ -17,6 +17,8 @@ images:
     Finny squinted at the long dark tunnel, her whiskers and nose twitching as they propbed for any signs of life. Her ears flitted back and forth and her head tilted gently to the side, trying to catch any voices in the air. There were no signs of any moving guards and she motioned for the party to move forward.
 </p>
 
+<!--more-->
+
 Finny is a small, female, ferret-like creature that speaks Common and Undercommon. She has a sunny disposition and works for coin by providing advice to adventurers and kings alike. Her existence is well-known throughout the region, but she generally stays out of the limelight. She maintains a prim and proper attitude and is well dressed and well mannered.
 
 While Finny is friendly to most, don’t mistake kindness for friendship. She works for coin and requires upfront payment directly deposited to a nearby bank, or to an innkeeper friend of hers in a smaller town. She is extremely perceptive, but her true powers lie in her ability to see past futures and determine if any of them would have had better short-term outcomes.

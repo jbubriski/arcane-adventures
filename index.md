@@ -37,6 +37,7 @@ Check out the latest posts below, or use the menu to find more specific types of
             {% if postIndex == 0 %}
             <div>
                 <em>{{ post.excerpt }}</em>
+                <a class="link-right" href="{{ post.url }}">Read more</a>
             </div>
             {% endif %}
 

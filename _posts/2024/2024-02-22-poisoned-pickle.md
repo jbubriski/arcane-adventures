@@ -25,6 +25,8 @@ images:
     But who would poison pickles? Surely Entellion knows nothing of this dastardly business so who could it be? Was it the tavern keeper holding your gift for you? Was it the courier that rushed the jar from the city? Or was it an intermediary who purchased the jar from Entellion, added the insidious poison to the jar, and then paid the courier a handsom fee to rush the pickles to their destination?
 </div>
 
+<!--more-->
+
 The pickle jar contains 3d6 large poisoned pickles.
 
 {% assign image = page.images[1] %}

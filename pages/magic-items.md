@@ -35,6 +35,7 @@ Here is a collection of magic items I've created for your enjoyment in your DND 
             {% if postIndex == 0 %}
             <div>
                 <em>{{ post.excerpt }}</em>
+                <a class="link-right" href="{{ post.url }}">Read more</a>
             </div>
             {% endif %}
 
