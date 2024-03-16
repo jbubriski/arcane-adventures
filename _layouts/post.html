@@ -20,8 +20,9 @@
 
     <main id="content" class="main-content {{ page.categories }}" role="main">
         <h1 class="project-name">{{ page.title_simple }}</h1>
-        {% include wip.html %}
-        {% include untested.html %}
+        {% include banners/wip.html %}
+        {% include banners/untested.html %}
+        {% include banners/legendary.html %}
 
         {% assign image = page.images[0] %}
         {% include post-image.html side="right" src=image.src alt=image.alt size=320 %}
