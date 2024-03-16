@@ -48,15 +48,15 @@ If consumed, a creature will suffer poison damage and other effects depending on
 
 | Tier of Play | Constitution DC | Poison Effect
 | ---------------------- | - | - |
-| [1][tier1_description] | DC 14 | 2d6 poison damage and 2 levels of exhaustion
-| [2][tier2_description] | DC 18 | 4d6 poison damage and 3 levels of exhaustion
-| [3][tier3_description] | DC 24 | 6d6 poison damage and 4 levels of exhaustion
-| [4][tier4_description] | DC 30 | 8d6 poison damage and 5 levels of exhaustion
+| [1][tier1_description] | DC 14 | {% include tools/dice-roll.html type="Poison Damage" roll="2d6" %} poison damage and 2 levels of exhaustion
+| [2][tier2_description] | DC 18 | {% include tools/dice-roll.html type="Poison Damage" roll="4d6" %} poison damage and 3 levels of exhaustion
+| [3][tier3_description] | DC 24 | {% include tools/dice-roll.html type="Poison Damage" roll="6d6" %} poison damage and 4 levels of exhaustion
+| [4][tier4_description] | DC 30 | {% include tools/dice-roll.html type="Poison Damage" roll="8d6" %} poison damage and 5 levels of exhaustion
 
 
 ## DM Note
 
-My original thought for this poisoned item was for it to be a straight forward trap. It would be sent to the adventurer's as part of a package congratulating them for a deed they had _just_ accomplished, meaning it was a bit too soon for news to have spread. The package would be signed with the name of a  The party did not have a direct way to detect poison, but a simple inspection might reveal that the item was a trap. I was considering making the check automatic if they realized that the situation was very suspect.
+My original thought for this poisoned item was for it to be a straightforward trap. It would be sent to the adventurer's as part of a package congratulating them for a deed they had _just_ accomplished, meaning it was a bit too soon for news to have spread. The package would be signed with the name of a person the party did not know. The party did not have a direct way to detect poison, but a simple inspection might reveal that the item was a trap. I was considering making the check automatic if they realized that the situation was very suspect.
 
 If the adventurers do become poisoned, feel free to flavor up the situation. Maybe the poison damage isn't taken immediately, but will slowly deal damage if left untreated, or if they go to sleep feeling sickly they'll wake up on death's door. Give the players opportunities to remedy the situation (and the poison).
 
