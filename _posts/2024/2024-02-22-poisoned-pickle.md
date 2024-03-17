@@ -16,6 +16,8 @@ images:
       alt: Poisoned Pickle
     - src: poisoned-pickle-02
       alt: Alternate image for Poisoned Pickle
+    - src: poisoned-pickle-03
+      alt: Alternate image for Poisoned Pickle
 ---
 
 <div class="read-aloud">
@@ -32,8 +34,7 @@ The pickle jar contains 3d6 large poisoned pickles.
 {% assign image = page.images[1] %}
 {% include post-image.html side="right" src=image.src alt=image.alt size=320 %}
 
-A creature's passive perception may be enough to detect that the jar has been tampered with and is no longer "factory sealed". A creature inspecting the jar can also roll a
-perception skill check to see if they spot the tampering.
+A creature's passive perception may be enough to detect that the jar has been tampered with and is no longer "factory sealed". A creature inspecting the jar can also roll a perception skill check to see if they spot the tampering.
 
 {% include descriptions/tiered-play.html %}
 
@@ -53,6 +54,9 @@ If consumed, a creature will suffer poison damage and other effects depending on
 | [3][tier3_description] | DC 24 | 6d6 poison damage and 4 levels of exhaustion
 | [4][tier4_description] | DC 30 | 8d6 poison damage and 5 levels of exhaustion
 
+
+{% assign image = page.images[2] %}
+{% include post-image.html side="right" src=image.src alt=image.alt size=320 %}
 
 ## DM Note
 
