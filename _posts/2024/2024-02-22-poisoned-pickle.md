@@ -60,6 +60,8 @@ If consumed, a creature will suffer poison damage and other effects depending on
 
 ## DM Note
 
+Technically the pickles are not a magic item, and are not magically poisoned, so detect magic will not find anything.
+
 My original thought for this poisoned item was for it to be a straight forward trap. It would be sent to the adventurer's as part of a package congratulating them for a deed they had _just_ accomplished, meaning it was a bit too soon for news to have spread. The package would be signed with the name of a  The party did not have a direct way to detect poison, but a simple inspection might reveal that the item was a trap. I was considering making the check automatic if they realized that the situation was very suspect.
 
 If the adventurers do become poisoned, feel free to flavor up the situation. Maybe the poison damage isn't taken immediately, but will slowly deal damage if left untreated, or if they go to sleep feeling sickly they'll wake up on death's door. Give the players opportunities to remedy the situation (and the poison).
