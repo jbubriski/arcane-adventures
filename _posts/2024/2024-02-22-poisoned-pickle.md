@@ -4,7 +4,7 @@ title:      "Poisoned Pickle - Magic Item for DnD"
 title_simple:      "Poisoned Pickle"
 date:       2024-02-22 10:00:00 -0400
 categories: magic-item
-tags:       dnd dnd-5e magic-item multi-use tier-1 tier-2 tier-3 tier-4
+tags:       dnd dnd-5e magic-item multi-use tier-1 tier-2 tier-3 tier-4 food
 magicItemType: wondrous item
 rarity:     common
 requires_attunement: false
