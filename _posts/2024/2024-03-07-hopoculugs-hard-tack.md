@@ -25,9 +25,11 @@ images:
 
 <!--more-->
 
-Hopoculug's (Ho-Pock-You-Lug) hard tack is infused with magical energy which, when combined with a short rest, restores a level 1 spell slot, and 5 hit points. The magical energy does nothing to enhance the bland flavor or the dry rought texture.
+Hopoculug's (Ho-Pock-You-Lug) hard tack is infused with magical energy for enhanced sustenance and recovery. When combined with a short rest, the food restores a level 1 spell slot and 5 hit points. The magical energy does nothing to enhance the bland flavor or the dry rough texture, though.
 
-Only 1 can be used per creature per short rest.
+Only 1 can be eaten per creature per short rest and is enough to sustain them for the day. No one has ever asked for seconds...
+
+A package of 6 pieces costs 50 GP.
 
 
 ## Attribution
