@@ -22,6 +22,7 @@ imagesExtra:
       alt: Extra image for Trash Dragon
     - src: trash-dragon-extra-04
       alt: Extra image for Trash Dragon
+cr: 12
 ac: 18 (natural armor)
 hp: 224
 hp_roll: 16d12 + 120
