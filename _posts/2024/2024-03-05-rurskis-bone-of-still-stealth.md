@@ -8,7 +8,6 @@ tags:       dnd dnd-5e magic-item multi-use tier-1 tier-2 tier-3 tier-4
 magicItemType: wondrous item
 rarity:     rare
 requires_attunement: false
-image_suffix: webp
 image_base_path: /assets/images/rurskis-bone-of-still-stealth/
 image:      rurskis-bone-of-still-stealth-01
 images:
