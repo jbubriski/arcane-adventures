@@ -1,16 +1,17 @@
 ---
-layout:     post
-title:      "Aaldarian Assassin Pistol - Magic Item for DnD"
-title_simple:      "Aaldarian Assassin Pistol"
-date:       2024-01-09 10:00:00 -0400
-categories: magic-item
-tags:       dnd dnd-5e magic-item multi-use tier-1 tier-2 tier-3 tier-4
-magicItemType: pistol
-rarity:     very-rare
+layout:         post
+title:          "Aaldarian Assassin Pistol - Magic Item for DnD"
+title_simple:   "Aaldarian Assassin Pistol"
+date:           2024-01-09 10:00:00 -0400
+categories:     magic-item
+tags:           dnd dnd-5e tier-1 tier-2 tier-3 tier-4
+itemType:       pistol
+magicItemType:  weapon
+rarity:         very-rare
 requires_attunement: true
 image_base_path: /assets/images/aaldarian-assassin-pistol/
 image_suffix: png
-image:      aaldarian-assassin-pistol-01
+image:     aaldarian-assassin-pistol-01
 images:
     - src: aaldarian-assassin-pistol-01
       alt: Aaldarian Assassin Pistol

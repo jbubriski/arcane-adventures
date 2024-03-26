@@ -1,13 +1,13 @@
 ---
-layout:     monster
-title:      "Trash Dragon - NPC for DnD"
-title_simple:      "Trash Dragon"
-date:       2023-12-26 10:00:00 -0400
-categories: monster
-tags:       dnd dnd-5e tier-3 tier-4 wip untested
+layout:         monster
+title:          "Trash Dragon - NPC for DnD"
+title_simple:   "Trash Dragon"
+date:           2023-12-26 10:00:00 -0400
+categories:     monster
+tags:           dnd dnd-5e tier-3 tier-4 wip untested
 image_base_path: /assets/images/trash-dragon/
 image_suffix: png
-image:      trash-dragon-01
+image:     trash-dragon-01
 images:
     - src: trash-dragon-01
       alt: Trash Dragon
@@ -22,6 +22,7 @@ imagesExtra:
       alt: Extra image for Trash Dragon
     - src: trash-dragon-extra-04
       alt: Extra image for Trash Dragon
+cr: 12
 ac: 18 (natural armor)
 hp: 224
 hp_roll: 16d12 + 120

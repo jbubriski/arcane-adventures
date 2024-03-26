@@ -1,15 +1,16 @@
 ---
-layout:     post
-title:      "Elindra's Mixing Spoon - Magic Item for DnD"
-title_simple:      "Elindra's Mixing Spoon"
-date:       2024-02-01 10:00:00 -0400
-categories: magic-item
-tags:       dnd dnd-5e magic-item multi-use tier-1 tier-2 tier-3 tier-4
-magicItemType: wondrous item
-rarity:     common
+layout:         post
+title:          "Elindra's Mixing Spoon - Magic Item for DnD"
+title_simple:   "Elindra's Mixing Spoon"
+date:           2024-02-01 10:00:00 -0400
+categories:     magic-item
+tags:           dnd dnd-5e tier-1 tier-2 tier-3 tier-4
+itemType:       wand
+magicItemType:  wand
+rarity:         common
 requires_attunement: false
 image_base_path: /assets/images/elindras-mixing-spoon/
-image:      elindras-mixing-spoon-01
+image:     elindras-mixing-spoon-01
 images:
     - src: elindras-mixing-spoon-01
       alt: Elindra's Mixing Spoon

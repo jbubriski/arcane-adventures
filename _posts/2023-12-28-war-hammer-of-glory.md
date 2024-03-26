@@ -1,16 +1,17 @@
 ---
-layout:     post
-title:      "War Hammer of Glory - Magic Item for DnD"
-title_simple:      "War Hammer of Glory"
-date:       2023-12-28 10:00:00 -0400
-categories: magic-item
-tags:       dnd dnd-5e magic-item multi-use tier-1 tier-2 tier-3 tier-4
-magicItemType: Weapon (war hammer)
-rarity:     very-rare
+layout:         post
+title:          "War Hammer of Glory - Magic Item for DnD"
+title_simple:   "War Hammer of Glory"
+date:           2023-12-28 10:00:00 -0400
+categories:     magic-item
+tags:           dnd dnd-5e tier-1 tier-2 tier-3 tier-4
+itemType:       War hammer
+magicItemType:  weapon
+rarity:         very-rare
 requires_attunement: false
 image_base_path: /assets/images/war-hammer-of-glory/
 image_suffix: png
-image:      war-hammer-of-glory-01
+image:     war-hammer-of-glory-01
 images:
     - src: war-hammer-of-glory-01
       alt: War Hammer of Glory

@@ -1,13 +1,13 @@
 ---
-layout:     post
-title:      "Aarn's Sacculum Infinitum - Magic Item for DnD"
-title_simple: "Aarn's Sacculum Infinitum"
-date:       2023-12-19 10:00:00 -0400
-published: true
-categories: magic-item
-tags:       dnd dnd-5e magic-item multi-use tier-1 tier-2 tier-3 tier-4 non-combat
-magicItemType: wondrous item
-rarity:     legendary
+layout:         post
+title:          "Aarn's Sacculum Infinitum - Magic Item for DnD"
+title_simple:   "Aarn's Sacculum Infinitum"
+date:           2023-12-19 10:00:00 -0400
+categories:     magic-item
+tags:           dnd dnd-5e tier-1 tier-2 tier-3 tier-4 non-combat
+itemType:       bag
+magicItemType:  wondrous item
+rarity:         legendary
 requires_attunement: false
 image_base_path: /assets/images/aarns-sacculum-infinitum/
 image_suffix: png

@@ -1,16 +1,17 @@
 ---
-layout:     post
-title:      "Bloodletting Wand - Magic Item for DnD"
-title_simple:      "Bloodletting Wand"
-date:       2024-01-18 10:00:00 -0400
-categories: magic-item
-tags:       dnd dnd-5e magic-item multi-use tier-2 tier-3 tier-4
-magicItemType: wand
-rarity:     very-rare
+layout:         post
+title:          "Bloodletting Wand - Magic Item for DnD"
+title_simple:   "Bloodletting Wand"
+date:           2024-01-18 10:00:00 -0400
+categories:     magic-item
+tags:           dnd dnd-5e tier-2 tier-3 tier-4
+itemType:       wand
+magicItemType:  wand
+rarity:         very-rare
 requires_attunement: true
 image_base_path: /assets/images/bloodletting-wand/
 image_suffix: png
-image:      bloodletting-wand-01
+image:     bloodletting-wand-01
 images:
     - src: bloodletting-wand-01
       alt: Bloodletting Wand

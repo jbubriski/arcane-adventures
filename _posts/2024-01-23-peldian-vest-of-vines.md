@@ -1,16 +1,17 @@
 ---
-layout:     post
-title:      "Peldian Vest of Vines - Magic Item for DnD"
-title_simple:      "Peldian Vest of Vines"
-date:       2024-01-23 10:00:00 -0400
-categories: magic-item
-tags:       dnd dnd-5e magic-item multi-use tier-2 tier-3 tier-4
-magicItemType: armor
-rarity:     rare
+layout:         post
+title:          "Peldian Vest of Vines - Magic Item for DnD"
+title_simple:   "Peldian Vest of Vines"
+date:           2024-01-23 10:00:00 -0400
+categories:     magic-item
+tags:           dnd dnd-5e tier-2 tier-3 tier-4
+itemType:       armor
+magicItemType:  armor
+rarity:         rare
 requires_attunement: false
 image_base_path: /assets/images/peldian-vest-of-vines/
 image_suffix: png
-image:      peldian-vest-of-vines-01
+image:     peldian-vest-of-vines-01
 images:
     - src: peldian-vest-of-vines-01
       alt: Peldian Vest of Vines
@@ -26,7 +27,7 @@ images:
 
 The Vest of Vines has 3 charges that are restored at dawn each day.
 
-As a reaction, you can activate the Vest of Vines with the command word “ferito”. Until the start of your next turn, you can choose to expend a charge each time you want the vest to deflect a non-magical projectile of regular size (arrows, bolts, small stones, etc.) targeting you. If you choose to expend 2 charges you can ricochet the projectile into a creature within 5 feet of you, dealing half damage to them.
+As a reaction, you can activate the Vest of Vines with the command word "ferito". Until the start of your next turn, you can choose to expend a charge each time you want the vest to deflect a non-magical projectile of regular size (arrows, bolts, small stones, etc.) targeting you. If you choose to expend 2 charges you can ricochet the projectile into a creature within 5 feet of you, dealing half damage to them.
 
 If the projectile is magical or if it is a ranged spell attack you must expend 2 charges.
 

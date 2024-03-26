@@ -1,13 +1,13 @@
 ---
-layout:     post
-title:      "Colby the Cobblestone - NPC for DnD"
-title_simple:      "Colby the Cobblestone"
-date:       2023-11-28 10:00:00 -0400
-categories: npc
-tags:       dnd dnd-5e tier-1 tier-2 tier-3 tier-4 npc
+layout:         post
+title:          "Colby the Cobblestone - NPC for DnD"
+title_simple:   "Colby the Cobblestone"
+date:           2023-11-28 10:00:00 -0400
+categories:     npc
+tags:           dnd dnd-5e tier-1 tier-2 tier-3 tier-4 npc
 image_base_path: /assets/images/colby-the-cobblestone/
 image_suffix: png
-image:      colby-the-cobblestone-01
+image:     colby-the-cobblestone-01
 images:
     - src: colby-the-cobblestone-01
       alt: Colby the Cobblestone

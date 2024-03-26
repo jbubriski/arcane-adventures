@@ -1,15 +1,16 @@
 ---
-layout:     post
-title:      "Starwhisper Cloak - Magic Item for DnD"
-title_simple:      "Starwhisper Cloak"
-date:       2024-02-20 10:00:00 -0400
-categories: magic-item
-tags:       dnd dnd-5e magic-item multi-use tier-1 tier-2 tier-3 tier-4
-magicItemType: wondrous item
-rarity:     common
+layout:         post
+title:          "Starwhisper Cloak - Magic Item for DnD"
+title_simple:   "Starwhisper Cloak"
+date:           2024-02-20 10:00:00 -0400
+categories:     magic-item
+tags:           dnd dnd-5e tier-1 tier-2 tier-3 tier-4
+itemType:       cloak
+magicItemType:  wondrous item
+rarity:         common
 requires_attunement: false
 image_base_path: /assets/images/starwhisper-cloak/
-image:      starwhisper-cloak-01
+image:     starwhisper-cloak-01
 images:
     - src: starwhisper-cloak-01
       alt: Starwhisper Cloak
@@ -24,7 +25,7 @@ images:
 
 <!--more-->
 
-Starwhisper cloaks are nondescript-looking cloaks that are rather common in Astarfell. Adventurers heading into Dragon Park use the cloak to guide them through the dense forests at night. The thick foliage and canopy of the forests can make navigating difficult, but the cloak makes the way clear. 
+Starwhisper cloaks are nondescript-looking cloaks that are rather common in Astarfell. Adventurers heading into Dragon Park use the cloak to guide them through the dense forests at night. The thick foliage and canopy of the forests can make navigating difficult, but the cloak makes the way clear.
 
 After sundown, an action can be used to activate the cloak which illuminates the back with glowing green stars that match the pattern in the sky to guide the party's way. Even if only a small portion of the sky is visible due to forest or cloud cover, adventurers can distinguish the patterns that will guide their way.
 
