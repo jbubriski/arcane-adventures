@@ -10,7 +10,7 @@ magicItemType:  wondrous item
 rarity:         common
 requires_attunement: false
 image_base_path: /assets/images/starwhisper-cloak/
-image:      starwhisper-cloak-01
+image:     starwhisper-cloak-01
 images:
     - src: starwhisper-cloak-01
       alt: Starwhisper Cloak

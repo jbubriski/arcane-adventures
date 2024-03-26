@@ -10,7 +10,7 @@ rarity:         common
 requires_attunement: false
 image_base_path: /assets/images/jasines-reticent-drops/
 image_suffix: png
-image:      jasines-reticent-drops-01
+image:     jasines-reticent-drops-01
 images:
     - src: jasines-reticent-drops-01
       alt: Jasine's Reticent Drops

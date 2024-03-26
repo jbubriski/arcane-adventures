@@ -9,10 +9,8 @@ itemType:       wand
 magicItemType:  wand
 rarity:         legendary
 requires_attunement: true
-cursed: true
-image_suffix: webp
 image_base_path: /assets/images/cantorums-devil-wand/
-image:      cantorums-devil-wand-01
+image:     cantorums-devil-wand-01
 images:
     - src: cantorums-devil-wand-01
       alt: Cantorum's Devil Wand

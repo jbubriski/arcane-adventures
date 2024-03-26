@@ -11,7 +11,7 @@ rarity:         rare
 requires_attunement: false
 image_base_path: /assets/images/aarns-captivating-ball/
 image_suffix: png
-image:    aarns-captivating-ball-01
+image:     aarns-captivating-ball-01
 images:
     - src: aarns-captivating-ball-01
       alt: Aarn's Captivating Ball

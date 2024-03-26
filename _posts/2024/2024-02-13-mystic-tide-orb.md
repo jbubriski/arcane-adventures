@@ -10,7 +10,7 @@ magicItemType:  wondrous item
 rarity:         very-rare
 requires_attunement: false
 image_base_path: /assets/images/mystic-tide-orb/
-image:      mystic-tide-orb-01
+image:     mystic-tide-orb-01
 images:
     - src: mystic-tide-orb-01
       alt: Mystic Tide Orb

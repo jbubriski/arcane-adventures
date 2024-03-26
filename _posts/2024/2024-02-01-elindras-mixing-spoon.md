@@ -10,7 +10,7 @@ magicItemType:  wand
 rarity:         common
 requires_attunement: false
 image_base_path: /assets/images/elindras-mixing-spoon/
-image:      elindras-mixing-spoon-01
+image:     elindras-mixing-spoon-01
 images:
     - src: elindras-mixing-spoon-01
       alt: Elindra's Mixing Spoon

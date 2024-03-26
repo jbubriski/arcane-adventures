@@ -10,7 +10,7 @@ magicItemType:  wondrous item
 rarity:         common
 requires_attunement: false
 image_base_path: /assets/images/hopoculugs-hard-tack/
-image:      hopoculugs-hard-tack-01
+image:     hopoculugs-hard-tack-01
 images:
     - src: hopoculugs-hard-tack-01
       alt: Hopoculug's Hard Tack

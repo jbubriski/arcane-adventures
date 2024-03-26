@@ -10,7 +10,7 @@ magicItemType:  wondrous item
 rarity:         rare
 requires_attunement: false
 image_base_path: /assets/images/rurskis-bone-of-still-stealth/
-image:      rurskis-bone-of-still-stealth-01
+image:     rurskis-bone-of-still-stealth-01
 images:
     - src: rurskis-bone-of-still-stealth-01
       alt: Rurski's Bone of Standing Stealth

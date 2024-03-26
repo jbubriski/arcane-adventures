@@ -11,7 +11,7 @@ rarity:         very-rare
 requires_attunement: true
 image_base_path: /assets/images/bloodletting-wand/
 image_suffix: png
-image:      bloodletting-wand-01
+image:     bloodletting-wand-01
 images:
     - src: bloodletting-wand-01
       alt: Bloodletting Wand
