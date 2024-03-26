@@ -1,13 +1,13 @@
 ---
-layout:     post
-title:      "Golem Scrap Metal - Magic Item Component for DnD"
-title_simple:      "Golem Scrap Metal"
-date:       2024-03-12 10:00:00 -0400
-categories: magic-item-component
-tags:       dnd dnd-5e magic-item-component single-use tier-1 tier-2 tier-3 tier-4
-rarity:     rare
+layout:         post
+title:          "Golem Scrap Metal - Magic Item Component for DnD"
+title_simple:   "Golem Scrap Metal"
+date:           2024-03-12 10:00:00 -0400
+categories:     magic-item-component
+tags:           dnd dnd-5e tier-1 tier-2 tier-3 tier-4 crafting-item
+rarity:         rare
 image_base_path: /assets/images/golem-scrap-metal/
-image:      golem-scrap-metal-01
+image:     golem-scrap-metal-01
 images:
     - src: golem-scrap-metal-01
       alt: Golem Scrap Metal

@@ -1,12 +1,13 @@
 ---
-layout:     post
-title:      "Cantorum's Devil Wand - Magic Item for DnD"
-title_simple:      "Cantorum's Devil Wand"
-date:       2024-02-27 10:00:00 -0400
-categories: magic-item
-tags:       dnd dnd-5e magic-item multi-use tier-1 tier-2 tier-3 tier-4 cursed
-magicItemType: wand
-rarity:     legendary
+layout:         post
+title:          "Cantorum's Devil Wand - Magic Item for DnD"
+title_simple:   "Cantorum's Devil Wand"
+date:           2024-02-27 10:00:00 -0400
+categories:     magic-item
+tags:           dnd dnd-5e tier-1 tier-2 tier-3 tier-4 cursed
+itemType:       wand
+magicItemType:  wand
+rarity:         legendary
 requires_attunement: true
 cursed: true
 image_suffix: webp

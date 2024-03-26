@@ -1,16 +1,17 @@
 ---
-layout:     post
-title:      "A Stupid Doll - Magic Item for DnD"
-title_simple:      "A Stupid Doll"
-date:       2023-11-14 10:00:00 -0400
-categories: magic-item
-tags:       dnd dnd-5e magic-item multi-use tier-1 tier-2 tier-3 tier-4 sentient npc
-magicItemType: wondrous item
-rarity:     common
+layout:         post
+title:          "A Stupid Doll - Magic Item for DnD"
+title_simple:   "A Stupid Doll"
+date:           2023-11-14 10:00:00 -0400
+categories:     magic-item
+tags:           dnd dnd-5e tier-1 tier-2 tier-3 tier-4 sentient npc
+itemType:       doll
+magicItemType:  wondrous item
+rarity:         common
 requires_attunement: false
 image_base_path: /assets/images/stupid-doll/
 image_suffix: png
-image:      stupid-doll-01
+image:     stupid-doll-01
 images:
     - src: stupid-doll-01
       alt: The Stupid Doll

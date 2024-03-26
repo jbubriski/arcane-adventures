@@ -1,12 +1,13 @@
 ---
-layout:     post
-title:      "Rurski's Bone of Standing Stealth - Magic Item for DnD"
-title_simple:      "Rurski's Bone of Standing Stealth"
-date:       2024-03-05 10:00:00 -0400
-categories: magic-item
-tags:       dnd dnd-5e magic-item multi-use tier-1 tier-2 tier-3 tier-4
-magicItemType: wondrous item
-rarity:     rare
+layout:         post
+title:          "Rurski's Bone of Standing Stealth - Magic Item for DnD"
+title_simple:   "Rurski's Bone of Standing Stealth"
+date:           2024-03-05 10:00:00 -0400
+categories:     magic-item
+tags:           dnd dnd-5e tier-1 tier-2 tier-3 tier-4
+itemType:       bone
+magicItemType:  wondrous item
+rarity:         rare
 requires_attunement: false
 image_base_path: /assets/images/rurskis-bone-of-still-stealth/
 image:      rurskis-bone-of-still-stealth-01

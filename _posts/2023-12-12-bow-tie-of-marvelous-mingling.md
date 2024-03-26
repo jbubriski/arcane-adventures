@@ -1,12 +1,13 @@
 ---
-layout:     post
-title:      "Bow Tie of Marvelous Mingling - Magic Item for DnD"
-title_simple:      "Bow Tie of Marvelous Mingling"
-date:       2023-12-12 10:00:00 -0400
-categories: magic-item
-tags:       dnd dnd-5e magic-item multi-use tier-1 tier-2 tier-3 tier-4 non-combat
-magicItemType: wondrous item
-rarity:     very-rare
+layout:         post
+title:          "Bow Tie of Marvelous Mingling - Magic Item for DnD"
+title_simple:   "Bow Tie of Marvelous Mingling"
+date:           2023-12-12 10:00:00 -0400
+categories:     magic-item
+tags:           dnd dnd-5e tier-1 tier-2 tier-3 tier-4 non-combat
+itemType:       bow tie
+magicItemType:  wondrous item
+rarity:         very-rare
 requires_attunement: false
 image_base_path: /assets/images/bow-tie-of-marvelous-mingling/
 image_suffix: png

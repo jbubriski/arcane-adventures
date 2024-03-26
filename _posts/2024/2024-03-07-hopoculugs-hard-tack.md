@@ -1,12 +1,13 @@
 ---
-layout:     post
-title:      "Hopoculug's Hard Tack - Magic Item for DnD"
-title_simple:      "Hopoculug's Hard Tack"
-date:       2024-03-07 10:00:00 -0400
-categories: magic-item
-tags:       dnd dnd-5e magic-item multi-use tier-1 tier-2 tier-3 tier-4 food
-magicItemType: wondrous item
-rarity:     common
+layout:         post
+title:          "Hopoculug's Hard Tack - Magic Item for DnD"
+title_simple:   "Hopoculug's Hard Tack"
+date:           2024-03-07 10:00:00 -0400
+categories:     magic-item
+tags:           dnd dnd-5e tier-1 tier-2 tier-3 tier-4 consumable food
+itemType:       food
+magicItemType:  wondrous item
+rarity:         common
 requires_attunement: false
 image_base_path: /assets/images/hopoculugs-hard-tack/
 image:      hopoculugs-hard-tack-01

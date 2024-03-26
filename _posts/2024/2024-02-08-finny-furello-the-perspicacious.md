@@ -1,13 +1,12 @@
 ---
-layout:     post
-title:      "Finny Furello the Perspicacious - NPC for DnD"
-title_simple:      "Finny Furello the Perspicacious"
-date:       2024-02-08 10:00:00 -0400
-categories: npc
-tags:       dnd dnd-5e npc tier-1 tier-2 tier-3 tier-4
-image_suffix: webp
+layout:         post
+title:          "Finny Furello the Perspicacious - NPC for DnD"
+title_simple:   "Finny Furello the Perspicacious"
+date:           2024-02-08 10:00:00 -0400
+categories:     npc
+tags:           dnd dnd-5e tier-1 tier-2 tier-3 tier-4
 image_base_path: /assets/images/finny-furello-the-perspicacious/
-image:      finny-furello-the-perspicacious-01
+image:     finny-furello-the-perspicacious-01
 images:
     - src: finny-furello-the-perspicacious-01
       alt: Finny the Perspicacious

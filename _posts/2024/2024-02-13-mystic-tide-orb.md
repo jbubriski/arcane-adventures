@@ -1,12 +1,13 @@
 ---
-layout:     post
-title:      "Mystic Tide Orb - Magic Item for DnD"
-title_simple:      "Mystic Tide Orb"
-date:       2024-02-13 10:00:00 -0400
-categories: magic-item
-tags:       dnd dnd-5e magic-item single-use tier-1 tier-2 tier-3 tier-4
-magicItemType: wondrous item
-rarity:     very-rare
+layout:         post
+title:          "Mystic Tide Orb - Magic Item for DnD"
+title_simple:   "Mystic Tide Orb"
+date:           2024-02-13 10:00:00 -0400
+categories:     magic-item
+tags:           dnd dnd-5e tier-1 tier-2 tier-3 tier-4 consumable
+magicItemType:  orb
+magicItemType:  wondrous item
+rarity:         very-rare
 requires_attunement: false
 image_base_path: /assets/images/mystic-tide-orb/
 image:      mystic-tide-orb-01

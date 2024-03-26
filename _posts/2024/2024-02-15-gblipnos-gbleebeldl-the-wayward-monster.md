@@ -1,13 +1,12 @@
 ---
-layout:     post
-title:      "Gblipnos Gbleebeldl the Ambitious Monster - NPC for DnD"
-title_simple:      "Gblipnos Gbleebeldl the Ambitious Monster"
-date:       2024-02-15 10:00:00 -0400
-categories: npc
-tags:       dnd dnd-5e npc tier-1 tier-2 tier-3 tier-4
-image_suffix: webp
+layout:         post
+title:          "Gblipnos Gbleebeldl the Ambitious Monster - NPC for DnD"
+title_simple:   "Gblipnos Gbleebeldl the Ambitious Monster"
+date:           2024-02-15 10:00:00 -0400
+categories:     npc
+tags:           dnd dnd-5e tier-1 tier-2 tier-3 tier-4
 image_base_path: /assets/images/npcs/gblipnos-gbleebeldl-the-ambitious-monster/
-image:      gblipnos-gbleebeldl-the-ambitious-monster-01
+image:     gblipnos-gbleebeldl-the-ambitious-monster-01
 images:
     - src: gblipnos-gbleebeldl-the-ambitious-monster-01
       alt: Gblipnos Gbleebeldl the Ambitious Monster

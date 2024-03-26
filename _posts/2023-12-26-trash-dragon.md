@@ -1,10 +1,10 @@
 ---
-layout:     monster
-title:      "Trash Dragon - NPC for DnD"
-title_simple:      "Trash Dragon"
-date:       2023-12-26 10:00:00 -0400
-categories: monster
-tags:       dnd dnd-5e tier-3 tier-4 wip untested
+layout:         monster
+title:          "Trash Dragon - NPC for DnD"
+title_simple:   "Trash Dragon"
+date:           2023-12-26 10:00:00 -0400
+categories:     monster
+tags:           dnd dnd-5e tier-3 tier-4 wip untested
 image_base_path: /assets/images/trash-dragon/
 image_suffix: png
 image:      trash-dragon-01

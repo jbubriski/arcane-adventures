@@ -1,12 +1,12 @@
 ---
-layout:     post
-title:      "Trick Crystal Ball - Magic Item for DnD"
-title_simple:      "Trick Crystal Ball"
-date:       2024-01-16 10:00:00 -0400
-categories: magic-item
-tags:       dnd dnd-5e magic-item multi-use tier-1 tier-2 tier-3 tier-4
-magicItemType: wondrous item
-rarity:     rare
+layout:         post
+title:          "Trick Crystal Ball - Magic Item for DnD"
+title_simple:   "Trick Crystal Ball"
+date:           2024-01-16 10:00:00 -0400
+categories:     magic-item
+tags:           dnd dnd-5e tier-1 tier-2 tier-3 tier-4
+magicItemType:  wondrous item
+rarity:         rare
 requires_attunement: false
 image_base_path: /assets/images/trick-crystal-ball/
 image_suffix: png
