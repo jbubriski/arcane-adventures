@@ -29,7 +29,7 @@ images:
     Aarn walked over to the apprentice in charge of the shovels and stopped her. He knelt down and retrieved a domed piece of metal. There was a face, barely visible now, drawn onto the surface with thick white chalk. Explosion had blasted most of the chalk away, and deep scratches further distorted the image.
 </div>
 
-This piece of scrap metal contains some of the lifeforce from a magical golem. Before its untimely demise, it was used by Aarn to guard the grounds of his compound and do some light gardening.
+This piece of scrap metal contains some of the lifeforce from a magical golem. Before its untimely demise it was used by Aarn to guard the grounds of his compound, and do some light gardening.
 
 The scrap metal can be used to enhance a shield to give it a +1 bonus. Below are the crafting requirements for the enhancement:
 
