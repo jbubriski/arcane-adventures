@@ -16,7 +16,7 @@ images:
 ---
 
 <div class="read-aloud">
-    The knight pressed their advantage and raised their long sword in a high stance, ready to bring it down upon Mabel who was scurying backwards along the ground. As the knight got close Mabel raised the shield which let out a forceful blast from the front.
+    The knight pressed their advantage and raised their long sword in a high stance, ready to bring it down upon Mabel who was scurying backwards along the ground. As the knight drew near Mabel raised the shield which let out a forceful blast from the front.
 </div>
 
 <!--more-->
@@ -28,9 +28,11 @@ images:
     The knight, no longer aggressive, raised their gauntleted hand and said "Well done! Now do it again!".
 </div>
 
+
 The Golem Guard Shield has 3 charges that are replenished at dawn each day. As a bonus action, 1 charge can be expended to cause a force blast to emanate from the front of the shield. Any creature in a 10 ft, line is pushed back 5 ft. and must make a strength or dexterity saving throw or be knocked prone.
 
 Every time the shield's ability is used successfully, a sense of pride washes over the wielder and they gain a +1 bonus on the next weapon attack made against the same target, before the end of the wielder's next turn.
+
 
 ## Crafting
 
@@ -41,6 +43,7 @@ Below are the crafting requirements for the shield.
 |Golem Scrap Metal (this item)|
 |Master blacksmith familiar, usually found in large cities|
 |200 GP blacksmith fee|
+
 
 ## DM Note
 

@@ -5,6 +5,7 @@ title_simple:   "Aarn's Storm Bottle"
 date:           2023-12-05 10:00:00 -0400
 categories:     magic-item
 tags:           dnd dnd-5e tier-1 tier-2 tier-3 tier-4
+itemType:       bottle
 magicItemType:  wondrous item
 rarity:         very-rare
 requires_attunement: false
