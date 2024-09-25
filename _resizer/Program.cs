@@ -69,10 +69,6 @@ internal class Program
 
                 foreach (var directoryToIgnore in directoriesToIgnore)
                 {
-                    Console.WriteLine($"Checking {fullOriginalFilePath} for {string.Join(',',directoryNamesToIgnore)}" );
-                    Console.WriteLine($"Last {fullOriginalFilePath.Split(Path.DirectorySeparatorChar).Last()}" );
-                    Console.WriteLine($"Last {fullOriginalFilePath.Split(Path.DirectorySeparatorChar).Last()}" );
-
                     if (fullOriginalFilePath.StartsWith(directoryToIgnore)
                         || directoryNamesToIgnore.Contains(Path.GetDirectoryName(fullOriginalFilePath).Split(Path.DirectorySeparatorChar).Last()))
                     {
