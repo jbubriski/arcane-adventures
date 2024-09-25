@@ -9,7 +9,7 @@ permalink:    /build-guides/
 Here is a collection of character builds I've created for your enjoyment in your DND 5e, Pathfinder, or other tabletop game:
 
 
-## Latest Magic Item
+## Latest Build Guide
 
 {% assign postIndex = 0 %}
 
