@@ -45,6 +45,7 @@ internal class Program
         var config = GetConfig();
 
         var directoriesToIgnore = GetDirectoriesToIgnore();
+        var directoryNamesToIgnore = config.DirectoryNamesToIgnore;
 
         // Start the work
         foreach (var fileSuffixPair in fileSuffixEncoderMap)
@@ -68,7 +69,12 @@ internal class Program
 
                 foreach (var directoryToIgnore in directoriesToIgnore)
                 {
-                    if (fullOriginalFilePath.StartsWith(directoryToIgnore))
+                    Console.WriteLine($"Checking {fullOriginalFilePath} for {string.Join(',',directoryNamesToIgnore)}" );
+                    Console.WriteLine($"Last {fullOriginalFilePath.Split(Path.DirectorySeparatorChar).Last()}" );
+                    Console.WriteLine($"Last {fullOriginalFilePath.Split(Path.DirectorySeparatorChar).Last()}" );
+
+                    if (fullOriginalFilePath.StartsWith(directoryToIgnore)
+                        || directoryNamesToIgnore.Contains(Path.GetDirectoryName(fullOriginalFilePath).Split(Path.DirectorySeparatorChar).Last()))
                     {
                         ignoredPath = directoryToIgnore;
                         break;
@@ -180,6 +186,7 @@ class JsonConfig
 {
     public string PathToResize { get; set; }
     public string[] PathsToIgnore { get; set; }
+    public string[] DirectoryNamesToIgnore { get; set; }
 
     public bool Reresize { get; set; }
 }

@@ -1,5 +1,6 @@
 {
-    PathToResize: '../assets/images',
+    pathToResize: '../assets/images',
     pathsToIgnore: ['../assets/images/site'],
+    directoryNamesToIgnore: ['ignore', 'unused'],
     reresize: false
 }
