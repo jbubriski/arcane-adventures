@@ -11,7 +11,7 @@ internal class Program
     private static void Main(string[] args)
     {
         var mainImageSizes = new[] { 120, 320 };
-        var regularSizes = new[] { 320 };
+        var regularSizes = new[] { 120, 320 };
 
         // See https://aka.ms/new-console-template for more information
         Console.WriteLine("Hello, World!");
@@ -100,7 +100,8 @@ internal class Program
                     Directory.CreateDirectory(newFilePath);
                 }
 
-                var sizes = fileName.EndsWith($"-01.{fileSuffix}") && !fileName.EndsWith($"-extra-01.{fileSuffix}") ? mainImageSizes : regularSizes;
+                var sizes = (fileName.EndsWith($"-01.{fileSuffix}") && !fileName.EndsWith($"-extra-01.{fileSuffix}"))
+                    || fullOriginalFilePath.Contains("samples") ? mainImageSizes : regularSizes;
 
                 foreach (var size in sizes)
                 {
