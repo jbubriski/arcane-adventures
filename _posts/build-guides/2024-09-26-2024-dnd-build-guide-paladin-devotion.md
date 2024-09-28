@@ -8,7 +8,7 @@ tags:           dnd dnd-5e build-guide
 complexity:     easy
 image_base_path: /assets/images/samples/2024-devotion-paladin/
 image_suffix: webp
-image:     devotion-paladins-emblem
+image:     devotion-paladins-cloak
 images:
     - src: devotion-paladins-cloak
       alt: Devotion Paladin's Cloak
