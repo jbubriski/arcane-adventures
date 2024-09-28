@@ -1,7 +1,7 @@
 ---
 layout:         post
-title:          "2024 D&D Build Guide - Paladin Devotion"
-title_simple:   "2024 D&D Build Guide - Paladin Devotion"
+title:          "2024 D&D Build Guide - Oath of Devotion Paladin"
+title_simple:   "2024 D&D Build Guide - Oath of Devotion Paladin"
 date:           2024-09-26 10:00:00 -0400
 categories:     build-guides
 tags:           dnd dnd-5e build-guide
@@ -18,6 +18,8 @@ images:
       alt: Devotion Paladin's Holy Water
     - src: devotion-paladins-saddle
       alt: Devotion Paladin's Saddle
+    - src: devotion-paladins-javalin
+      alt: Devotion Paladin's Javalin
     - src: devotion-paladins-flute
       alt: Devotion Paladin's Flute
 download_base_path: /assets/downloads/samples/
@@ -131,6 +133,9 @@ The Orc Species are Medium size and give us 3 nice abilities that complement our
 For languages I chose Orc and Halfling. I imagine that when I grew up on the farm, it was in a region heavily populated by Halfling and therefore I learned the language early on.
 
 
+{% assign image = page.images[4] %}
+{% include post-image.html side="right" src=image.src alt=image.alt size=320 %}
+
 ## Abilities
 
 For abilities I went with Standard Array, since that seems the most common from what I've seen from others online. That gives us these values to apply how we want to our stats: 15, 14, 13, 12, 10, 8.
@@ -174,6 +179,9 @@ So while we won't be the strongest ~~Avenger~~ knight, Charisma will enhance a l
 
 Dexterity is our dump stat unfortunately, which means we'll be late in initiative order typically, but that will just give us a better chance to assess the battlefield. I generally don't like the idea of playing a low Intelligence character so we'll go with 10 for Intelligence. Wisdom at 12 is a little more our speed, rather than bookish knowledge, and will give a tiny bump when resisting lots of spell affects. 
 
+
+{% assign image = page.images[5] %}
+{% include post-image.html side="right" src=image.src alt=image.alt size=320 %}
 
 ## Equipment
 
