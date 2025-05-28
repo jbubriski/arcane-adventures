@@ -61,16 +61,16 @@ Fairfax strung up the wackos' bodies, but not just at the farmhouse. He dragged 
 
 He continued his quest alone, pushing himself to his limits—and beyond. He drew strength from the land, and channeled it into his strikes. Every time he watched the life fade from his enemies' eyes, he felt a sense of calm. A sense of justice. Or maybe something else. But he kept going, hoping to find Gael. One dark day the wackos slipped up and led Fairfax back to the crumbling keep they used as a hideout. They weren’t expecting a visitor that night—let alone one so intent on revenge, and one so well equipped for it as Fairfax.
 
-Found Gael.
-Worse off than her da before Fairfax put him down.
+Found Gael.  
+Worse off than her da before Fairfax put him down.  
 
-But this was different.
-It was Gael.
+But this was different.  
+It was Gael.  
 
-Sweet Gael. *Must be saved.*
-What could be done? *Made a promise.*
-Is there a cure? *Lock her up.*
-Must be a cure. *Hide the tracks. No one will find her.*
-How long has it been? *Keep hunting. Find a cure.*
+Sweet Gael. *Must be saved.*  
+What could be done? *Made a promise.*  
+Is there a cure? *Lock her up.*  
+Must be a cure. *No one will find her here.*  
+How long has it been? *Keep hunting. Find a cure.*  
 
-*Can't lose her too.*
+*Can't lose her too.*  
