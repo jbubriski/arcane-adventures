@@ -14,10 +14,10 @@ Here is a collection of character builds I've created for your enjoyment in your
 {% assign postIndex = 0 %}
 
 <div class="post-list">
-{% for post in site.categories.build-guides %}
+{% for post in site.categories.lore %}
     <div class="post-list-post">
         {% if postIndex == 1 %}
-            <h2>All Magic Items</h2>
+            <h2>All Build Guides</h2>
         {% endif %}
         {% if post.image %}
             {% include list-image.html side="left" image_base_path=post.image_base_path src=post.image url=post.url image_suffix=post.image_suffix alt=post.title size=120 %}

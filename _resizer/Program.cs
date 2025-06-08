@@ -114,7 +114,7 @@ internal class Program
                         using (var image = Image.Load(fullOriginalFilePath))
                         {
                             image.Mutate(x => x
-                                    .Resize(size, size, KnownResamplers.Bicubic));
+                                    .Resize(size, 0, KnownResamplers.Bicubic));
 
                             Console.WriteLine($"Writing 1x {newFileName}...");
                             image.Save(newFileName, encoder);
@@ -126,7 +126,7 @@ internal class Program
                         using (var image2 = Image.Load(fullOriginalFilePath))
                         {
                             image2.Mutate(x => x
-                                    .Resize(size * 2, size * 2));
+                                    .Resize(size * 2, 0));
 
                             Console.WriteLine($"Writing 2x {newFileName2}...");
                             image2.Save(newFileName2, encoder);
@@ -138,7 +138,7 @@ internal class Program
                         using (var image3 = Image.Load(fullOriginalFilePath))
                         {
                             image3.Mutate(x => x
-                                    .Resize(size * 3, size * 3));
+                                    .Resize(size * 3, 0));
 
                             Console.WriteLine($"Writing 3x {newFileName3}...");
                             image3.Save(newFileName3, encoder);

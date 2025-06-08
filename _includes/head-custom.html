@@ -176,7 +176,11 @@ button {
 
     .page-header .menu a.btn {
         width: 60%;
-        margin: 8px auto;
+        margin: 4px auto;
+    }
+
+    .btn + .btn {
+        margin-left: 0.2rem;
     }
 
     .show-menu {
@@ -587,4 +591,27 @@ table.monster-stats td {
     padding: 0.5rem;
 }
 
+
+
+/****************************/
+/* Calculators */
+/****************************/
+
+.stat-block-calculator {
+    padding: 10px;
+    border: 1px solid black;
+}
+.stat-block-calculator input,
+.stat-block-calculator select {
+    color: black;
+}
+
+.stat-block-calculator-results {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 10px 20px;
+}
 </style>
