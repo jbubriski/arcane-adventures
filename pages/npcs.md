@@ -1,6 +1,7 @@
 ---
 layout:       page
 title:        NPC's for DnD 5e
+title_simple: NPC's
 sub_title:    Cool Tabletop Stuff
 description:  A collection of magic items for your DND 5e or tabletop game
 permalink:    /npcs/

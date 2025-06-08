@@ -1,6 +1,7 @@
 ---
 layout:       page
 title:        Tools for DnD and Tabletop RPG's
+title_simple: Tools
 sub_title:    Cool Tabletop Stuff
 description:  A collection of tools for your DnD 5e or tabletop RPG
 permalink:    /tools/

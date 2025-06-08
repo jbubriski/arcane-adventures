@@ -1,6 +1,7 @@
 ---
 layout:       page
 title:        Dice Roller for DnD
+title_simple: Dice Roller
 sub_title:    Cool Tabletop Stuff
 description:  A collection of magic items for your DnD 5e or tabletop game
 permalink:    /tools/dice-roller/

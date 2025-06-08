@@ -1,6 +1,7 @@
 ---
 layout:       page
 title:        Character Builds for DnD
+title_simple: Builds
 sub_title:    Cool Tabletop Stuff
 description:  A collection of character builds for your DnD 5e or other tabletop game
 permalink:    /build-guides/

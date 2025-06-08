@@ -1,6 +1,7 @@
 ---
 layout:       page
 title:        Monsters for DnD 5e
+title_simple: Monsters
 sub_title:    Cool Tabletop Stuff
 description:  A collection of monsters for your DND 5e or tabletop game
 permalink:    /monsters/

@@ -1,6 +1,7 @@
 ---
 layout:       page
 title:        "Conditions from DnD 5e"
+title_simple: Conditions
 sub_title:    Conditions from DnD 5e
 description:  Conditions from the SRD (System Reference Diagram)
 permalink:    /conditions/

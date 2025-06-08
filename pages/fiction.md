@@ -1,6 +1,7 @@
 ---
 layout:       page
 title:        Fiction for DnD
+title_simple: Fiction
 sub_title:    Cool Tabletop Stuff
 description:  A collection of fiction for your DnD 5e or other tabletop game
 permalink:    /fiction/

@@ -1,6 +1,7 @@
 ---
 layout:       page
 title:        "Elemental Spirit Calculator - D&D Tool"
+title_simple: Elemental Spirit Calculator
 sub_title:    Elemental Spirit Calculator
 description:  Calculates the stats of an Elemental Spirit for the Conjure Elemental spell.
 permalink:    /tools/elemental-spirit-calculator

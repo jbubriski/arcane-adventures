@@ -1,6 +1,7 @@
 ---
 layout:       page
 title:        Magic Items for DnD
+title_simple: Magic Items
 sub_title:    Cool Tabletop Stuff
 description:  A collection of magic items for your DnD 5e or tabletop game
 permalink:    /magic-items/

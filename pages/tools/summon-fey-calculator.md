@@ -1,6 +1,7 @@
 ---
 layout:       page
 title:        "2014 D&D Tools - Summon Fey Calculator"
+title_simple: Summon Fey Calculator
 sub_title:    Summon Fey Calculator
 description:  A collection of character builds for your DnD 5e or other tabletop game
 permalink:    /tools/summon-fey-calculator
