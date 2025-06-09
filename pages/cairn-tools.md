@@ -1,6 +1,7 @@
 ---
 layout:       page
 title:        Tools for Cairn
+title_simple: Tools for Cairn
 sub_title:    Speed up character creation and more
 description:  A collection of magic items for your DnD 5e or tabletop game
 permalink:    /cairn-tools/
