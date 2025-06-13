@@ -4,7 +4,7 @@ title:        "2014 D&D Tools - Summon Fey Calculator"
 title_simple: Summon Fey Calculator
 sub_title:    Summon Fey Calculator
 description:  A collection of character builds for your DnD 5e or other tabletop game
-permalink:    /tools/summon-fey-calculator
+permalink:    /tools/summon-fey-calculator/
 ---
 
 <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
